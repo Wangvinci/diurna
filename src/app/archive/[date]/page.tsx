@@ -1,21 +1,22 @@
-import { getBriefing, getLatestBriefingDate, getAllBriefingDates } from '@/lib/briefings';
+import { getBriefing, getAllBriefingDates } from '@/lib/briefings';
 import { Category, CATEGORY_LABELS } from '@/lib/types';
 import { NewsCard } from '@/components/NewsCard';
 import { CategoryAnalysisCard, ComprehensiveAnalysis } from '@/components/AnalysisSection';
 import { AudioPlayer } from '@/components/AudioPlayer';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
-export default function HomePage() {
-  const latestDate = getLatestBriefingDate();
-  const briefing = getBriefing(latestDate);
+export function generateStaticParams() {
+  return getAllBriefingDates().map(date => ({ date }));
+}
+
+export default async function ArchivePage({ params }: { params: Promise<{ date: string }> }) {
+  const { date } = await params;
+  const briefing = getBriefing(date);
   const allDates = getAllBriefingDates();
 
   if (!briefing) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <p className="text-gray-500">No briefing available yet.</p>
-      </div>
-    );
+    notFound();
   }
 
   const categories: Category[] = ['ai', 'tech', 'finance', 'investing', 'politics', 'current-affairs'];
@@ -28,11 +29,18 @@ export default function HomePage() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-          <div>
-            <h1 className="text-xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-              Daily Pulse / 每日脉搏
-            </h1>
-            <p className="text-xs text-gray-500">{dateFormatted}</p>
+          <div className="flex items-center gap-3">
+            <Link href="/" className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+            </Link>
+            <div>
+              <h1 className="text-xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
+                Daily Pulse / 每日脉搏
+              </h1>
+              <p className="text-xs text-gray-500">{dateFormatted}</p>
+            </div>
           </div>
           <div className="flex items-center gap-3">
             <div className="relative group">
@@ -40,13 +48,13 @@ export default function HomePage() {
                 Archive / 往期
               </button>
               <div className="hidden group-hover:block absolute right-0 top-full mt-1 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-xl min-w-[160px] max-h-60 overflow-auto z-50">
-                {allDates.map(date => (
+                {allDates.map(d => (
                   <Link
-                    key={date}
-                    href={`/archive/${date}`}
-                    className="block px-3 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    key={d}
+                    href={d === allDates[0] ? '/' : `/archive/${d}`}
+                    className={`block px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-700 ${d === date ? 'text-purple-600 font-semibold' : 'text-gray-700 dark:text-gray-300'}`}
                   >
-                    {date}
+                    {d} {d === allDates[0] && '(Latest)'}
                   </Link>
                 ))}
               </div>

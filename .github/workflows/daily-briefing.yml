@@ -1,0 +1,45 @@
+name: Daily Briefing Pipeline
+
+on:
+  schedule:
+    # Run at midnight UK time (GMT/BST)
+    # 00:00 BST = 23:00 UTC (summer) or 00:00 UTC (winter)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-briefing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Install edge-tts for podcast generation
+        run: pip install edge-tts
+
+      - name: Run full daily pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: '587'
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: aiden.vincent.1994@gmail.com
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: npx tsx scripts/daily-run.ts
+
+      - name: Commit and push briefing
+        run: |
+          git config user.name "Daily Pulse Bot"
+          git config user.email "bot@dailypulse.ai"
+          git add src/data/briefings/ public/audio/
+          git diff --staged --quiet || git commit -m "Daily briefing $(date +%Y-%m-%d)"
+          git push
