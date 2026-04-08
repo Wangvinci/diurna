@@ -19,8 +19,8 @@ const RSS_FEEDS = [
   { url: 'https://www.wired.com/feed/category/business/latest/rss', source: 'Wired', category: 'tech' },
 
   // Finance & Investing
-  { url: 'https://feeds.reuters.com/reuters/businessNews', source: 'Reuters', category: 'finance' },
-  { url: 'https://feeds.reuters.com/reuters/technologyNews', source: 'Reuters Tech', category: 'investing' },
+  { url: 'https://feeds.nbcnews.com/nbcnews/public/business', source: 'CNBC', category: 'finance' },
+  { url: 'https://www.theguardian.com/business/rss', source: 'Guardian Business', category: 'investing' },
 
   // Politics & Current Affairs
   { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', source: 'BBC World', category: 'current-affairs' },
