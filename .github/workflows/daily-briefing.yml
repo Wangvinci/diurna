@@ -29,7 +29,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: wangst1994@gmail.com
-          SITE_URL: https://daily-briefing-datvince.vercel.app
+          SITE_URL: https://diurna-datvince.vercel.app
         run: npx tsx scripts/daily-run.ts
 
       - name: Commit and push briefing

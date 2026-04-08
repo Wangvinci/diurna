@@ -77,7 +77,7 @@ export async function sendBriefingEmail(date: string) {
   }
 
   const briefing: DailyBriefing = JSON.parse(fs.readFileSync(briefingPath, 'utf-8'));
-  const siteUrl = process.env.SITE_URL || 'https://daily-briefing-datvince.vercel.app';
+  const siteUrl = process.env.SITE_URL || 'https://diurna-datvince.vercel.app';
 
   const resend = new Resend(process.env.RESEND_API_KEY);
   const html = generateEmailHTML(briefing, siteUrl);
