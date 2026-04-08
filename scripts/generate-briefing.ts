@@ -52,8 +52,24 @@ Each categoryAnalysis needs: category, analysis {cn, en}, keyTakeaways (array of
 
 Output ONLY valid JSON, no markdown fences.`;
 
-  const result = await model.generateContent(prompt);
-  const text = result.response.text();
+  // Retry with backoff for rate limit errors
+  let text = '';
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      const result = await model.generateContent(prompt);
+      text = result.response.text();
+      break;
+    } catch (err: unknown) {
+      const isRateLimit = err instanceof Error && (err.message.includes('429') || err.message.includes('quota') || err.message.includes('retry'));
+      if (isRateLimit && attempt < 4) {
+        const delay = attempt * 75 * 1000; // 75s, 150s, 225s
+        console.log(`Rate limit hit, retrying in ${delay / 1000}s (attempt ${attempt}/4)...`);
+        await new Promise(r => setTimeout(r, delay));
+      } else {
+        throw err;
+      }
+    }
+  }
 
   let briefing;
   try {
