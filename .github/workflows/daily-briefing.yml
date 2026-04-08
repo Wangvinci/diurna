@@ -26,7 +26,7 @@ jobs:
 
       - name: Run full daily pipeline
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: wangst1994@gmail.com
           SITE_URL: https://diurna-datvince.vercel.app

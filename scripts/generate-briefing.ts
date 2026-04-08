@@ -1,9 +1,9 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import Groq from 'groq-sdk';
 import fs from 'fs';
 import path from 'path';
 import { fetchNews } from './fetch-news';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+const client = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 const SYSTEM_PROMPT = `You are an expert financial analyst, technology commentator, and geopolitical strategist. Your job is to create a comprehensive daily intelligence briefing from news articles.
 
@@ -35,11 +35,7 @@ export async function generateBriefing() {
     process.exit(1);
   }
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
-
-  const prompt = `${SYSTEM_PROMPT}
-
-Today is ${today}. Here are the raw news items from the past 24 hours:
+  const userPrompt = `Today is ${today}. Here are the raw news items from the past 24 hours:
 
 ${JSON.stringify(rawNews, null, 2)}
 
@@ -52,24 +48,17 @@ Each categoryAnalysis needs: category, analysis {cn, en}, keyTakeaways (array of
 
 Output ONLY valid JSON, no markdown fences.`;
 
-  // Retry with backoff for rate limit errors
-  let text = '';
-  for (let attempt = 1; attempt <= 4; attempt++) {
-    try {
-      const result = await model.generateContent(prompt);
-      text = result.response.text();
-      break;
-    } catch (err: unknown) {
-      const isRateLimit = err instanceof Error && (err.message.includes('429') || err.message.includes('quota') || err.message.includes('retry'));
-      if (isRateLimit && attempt < 4) {
-        const delay = attempt * 75 * 1000; // 75s, 150s, 225s
-        console.log(`Rate limit hit, retrying in ${delay / 1000}s (attempt ${attempt}/4)...`);
-        await new Promise(r => setTimeout(r, delay));
-      } else {
-        throw err;
-      }
-    }
-  }
+  const response = await client.chat.completions.create({
+    model: 'llama-3.3-70b-versatile',
+    messages: [
+      { role: 'system', content: SYSTEM_PROMPT },
+      { role: 'user', content: userPrompt },
+    ],
+    max_tokens: 8000,
+    temperature: 0.3,
+  });
+
+  const text = response.choices[0]?.message?.content || '';
 
   let briefing;
   try {
@@ -79,7 +68,7 @@ Output ONLY valid JSON, no markdown fences.`;
     if (match) {
       briefing = JSON.parse(match[0]);
     } else {
-      throw new Error('Failed to parse briefing JSON from Gemini response');
+      throw new Error('Failed to parse briefing JSON from Groq response');
     }
   }
 
