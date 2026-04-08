@@ -1,9 +1,9 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 import fs from 'fs';
 import path from 'path';
 import { fetchNews } from './fetch-news';
 
-const client = new Anthropic();
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 
 const SYSTEM_PROMPT = `You are an expert financial analyst, technology commentator, and geopolitical strategist. Your job is to create a comprehensive daily intelligence briefing from news articles.
 
@@ -27,7 +27,6 @@ export async function generateBriefing() {
   const today = new Date().toISOString().split('T')[0];
   console.log(`Generating briefing for ${today}...`);
 
-  // Fetch news
   const rawNews = await fetchNews();
   console.log(`Fetched ${rawNews.length} raw news items`);
 
@@ -36,41 +35,38 @@ export async function generateBriefing() {
     process.exit(1);
   }
 
-  // Generate analysis with Claude
-  const response = await client.messages.create({
-    model: 'claude-sonnet-4-20250514',
-    max_tokens: 8000,
-    system: SYSTEM_PROMPT,
-    messages: [{
-      role: 'user',
-      content: `Today is ${today}. Here are the raw news items from the past 24 hours:\n\n${JSON.stringify(rawNews, null, 2)}\n\nGenerate the complete daily briefing JSON. The output must be valid JSON matching the DailyBriefing type with fields: date, news (array of NewsItem), categoryAnalyses (array), comprehensiveAnalysis ({cn, en}), investmentOutlook ({cn, en}), podcast ({cn, en} file paths).
+  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+
+  const prompt = `${SYSTEM_PROMPT}
+
+Today is ${today}. Here are the raw news items from the past 24 hours:
+
+${JSON.stringify(rawNews, null, 2)}
+
+Generate the complete daily briefing JSON. The output must be valid JSON matching the DailyBriefing type with fields: date, news (array of NewsItem), categoryAnalyses (array), comprehensiveAnalysis ({cn, en}), investmentOutlook ({cn, en}), podcast ({cn, en} file paths).
 
 For the podcast field, use: { "cn": "/audio/${today}-cn.mp3", "en": "/audio/${today}-en.mp3" }
 
 Each news item needs: id, title {cn, en}, summary {cn, en}, source, url, timestamp, category.
 Each categoryAnalysis needs: category, analysis {cn, en}, keyTakeaways (array of {cn, en}).
 
-Output ONLY valid JSON, no markdown fences.`,
-    }],
-  });
+Output ONLY valid JSON, no markdown fences.`;
 
-  const text = response.content[0].type === 'text' ? response.content[0].text : '';
+  const result = await model.generateContent(prompt);
+  const text = result.response.text();
 
-  // Parse the JSON
   let briefing;
   try {
     briefing = JSON.parse(text);
   } catch {
-    // Try to extract JSON from the response
     const match = text.match(/\{[\s\S]*\}/);
     if (match) {
       briefing = JSON.parse(match[0]);
     } else {
-      throw new Error('Failed to parse briefing JSON from Claude response');
+      throw new Error('Failed to parse briefing JSON from Gemini response');
     }
   }
 
-  // Save briefing
   const outputPath = path.join(process.cwd(), 'src/data/briefings', `${today}.json`);
   fs.writeFileSync(outputPath, JSON.stringify(briefing, null, 2));
   console.log(`Briefing saved to ${outputPath}`);

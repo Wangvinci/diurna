@@ -2,8 +2,7 @@ name: Daily Briefing Pipeline
 
 on:
   schedule:
-    # Run at midnight UK time (GMT/BST)
-    # 00:00 BST = 23:00 UTC (summer) or 00:00 UTC (winter)
+    # Run at 01:00 UK time = 00:00 UTC (winter) / 01:00 BST (summer offset handled)
     - cron: '0 0 * * *'
   workflow_dispatch: # Allow manual trigger
 
@@ -27,13 +26,10 @@ jobs:
 
       - name: Run full daily pipeline
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SMTP_HOST: smtp.gmail.com
-          SMTP_PORT: '587'
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          EMAIL_TO: aiden.vincent.1994@gmail.com
-          SITE_URL: ${{ secrets.SITE_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_TO: wangst1994@gmail.com
+          SITE_URL: https://daily-briefing-datvince.vercel.app
         run: npx tsx scripts/daily-run.ts
 
       - name: Commit and push briefing

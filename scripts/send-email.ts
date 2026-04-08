@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 import fs from 'fs';
 import path from 'path';
 import type { DailyBriefing } from '../src/lib/types';
@@ -43,14 +43,14 @@ function generateEmailHTML(briefing: DailyBriefing, siteUrl: string): string {
     </div>
 
     <div style="margin-bottom: 24px; padding: 16px; background: linear-gradient(135deg, rgba(168,85,247,0.15), rgba(59,130,246,0.15)); border: 1px solid rgba(168,85,247,0.3); border-radius: 12px; text-align: center;">
-      <p style="margin: 0 0 8px; font-size: 14px; color: #a78bfa;">🎧 Listen to today's podcast / 收听今日播客</p>
-      <a href="${siteUrl}" style="display: inline-block; padding: 8px 24px; background: #a855f7; color: white; text-decoration: none; border-radius: 20px; font-size: 13px;">Open Daily Pulse / 打开每日脉搏</a>
+      <p style="margin: 0 0 8px; font-size: 14px; color: #a78bfa;">收听今日播客 / Listen to today's podcast</p>
+      <a href="${siteUrl}" style="display: inline-block; padding: 8px 24px; background: #a855f7; color: white; text-decoration: none; border-radius: 20px; font-size: 13px;">打开每日脉搏 / Open Daily Pulse</a>
     </div>
 
-    <h2 style="font-size: 16px; color: #a78bfa; border-bottom: 1px solid #333; padding-bottom: 8px;">Top News / 今日要闻</h2>
+    <h2 style="font-size: 16px; color: #a78bfa; border-bottom: 1px solid #333; padding-bottom: 8px;">今日要闻 / Top News</h2>
     ${newsHtml}
 
-    <h2 style="font-size: 16px; color: #f59e0b; border-bottom: 1px solid #333; padding-bottom: 8px; margin-top: 32px;">Investment Outlook / 投资展望</h2>
+    <h2 style="font-size: 16px; color: #f59e0b; border-bottom: 1px solid #333; padding-bottom: 8px; margin-top: 32px;">投资展望 / Investment Outlook</h2>
     <div style="display: flex; gap: 24px;">
       <div style="flex: 1; padding: 16px; background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.2); border-radius: 8px;">
         <p style="font-size: 13px; color: #ccc; line-height: 1.6; white-space: pre-line;">${briefing.investmentOutlook.cn.replace(/[#*]/g, '').slice(0, 800)}</p>
@@ -61,7 +61,7 @@ function generateEmailHTML(briefing: DailyBriefing, siteUrl: string): string {
     </div>
 
     <div style="text-align: center; margin-top: 32px; padding-top: 16px; border-top: 1px solid #333;">
-      <a href="${siteUrl}" style="color: #a78bfa; text-decoration: none; font-size: 13px;">Read full briefing on Daily Pulse / 在每日脉搏查看完整简报 →</a>
+      <a href="${siteUrl}" style="color: #a78bfa; text-decoration: none; font-size: 13px;">在每日脉搏查看完整简报 / Read full briefing on Daily Pulse →</a>
       <p style="margin-top: 12px; font-size: 11px; color: #555;">Daily Pulse - AI-powered intelligence briefing | Delivered at 01:00 UK time</p>
     </div>
   </div>
@@ -77,28 +77,20 @@ export async function sendBriefingEmail(date: string) {
   }
 
   const briefing: DailyBriefing = JSON.parse(fs.readFileSync(briefingPath, 'utf-8'));
-  const siteUrl = process.env.SITE_URL || 'https://daily-pulse.vercel.app';
+  const siteUrl = process.env.SITE_URL || 'https://daily-briefing-datvince.vercel.app';
 
-  const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST || 'smtp.gmail.com',
-    port: parseInt(process.env.SMTP_PORT || '587'),
-    secure: false,
-    auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
-    },
-  });
-
+  const resend = new Resend(process.env.RESEND_API_KEY);
   const html = generateEmailHTML(briefing, siteUrl);
 
-  await transporter.sendMail({
-    from: `"Daily Pulse 每日脉搏" <${process.env.SMTP_USER}>`,
-    to: process.env.EMAIL_TO,
+  const { error } = await resend.emails.send({
+    from: 'Daily Pulse <onboarding@resend.dev>',
+    to: process.env.EMAIL_TO || 'wangst1994@gmail.com',
     subject: `Daily Pulse ${date} | 每日脉搏 - AI/Tech/Finance/Investing`,
     html,
   });
 
-  console.log(`Email sent to ${process.env.EMAIL_TO}`);
+  if (error) throw new Error(`Resend error: ${JSON.stringify(error)}`);
+  console.log(`Email sent to ${process.env.EMAIL_TO || 'wangst1994@gmail.com'}`);
 }
 
 if (require.main === module) {
