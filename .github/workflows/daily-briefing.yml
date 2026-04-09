@@ -41,6 +41,7 @@ jobs:
           git config user.name "Daily Pulse Bot"
           git config user.email "bot@dailypulse.ai"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Wangvinci/diurna.git
+          git pull --rebase origin main
           git add src/data/briefings/ public/audio/
           git diff --staged --quiet || git commit -m "Daily briefing $(date +%Y-%m-%d)"
           git push
