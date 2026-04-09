@@ -41,8 +41,9 @@ export function AudioPlayer({ title, description, audioSrc, lang = 'en' }: Audio
 
   const toggle = () => {
     if (!audioRef.current) return;
-    if (isPlaying) audioRef.current.pause(); else audioRef.current.play().catch(() => {});
-    setIsPlaying(!isPlaying);
+    if (isPlaying) audioRef.current.pause();
+    else audioRef.current.play().catch(() => {});
+    setIsPlaying(v => !v);
   };
 
   const seek = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -52,15 +53,28 @@ export function AudioPlayer({ title, description, audioSrc, lang = 'en' }: Audio
   };
 
   return (
-    <div className="border border-[var(--border)] p-5 hover:border-[var(--gold-dim)] transition-colors duration-300">
-      {audioSrc && <audio ref={audioRef} src={audioSrc} preload="metadata" controlsList="nodownload" onContextMenu={(e) => e.preventDefault()} />}
+    <div className="border border-[var(--border)] p-5 hover:border-[var(--gold-dim)] transition-colors duration-300 group">
+      {audioSrc && (
+        <audio
+          ref={audioRef}
+          src={audioSrc}
+          preload="metadata"
+          controlsList="nodownload"
+          onContextMenu={(e) => e.preventDefault()}
+        />
+      )}
 
-      <div className="flex items-center gap-5">
-        <button onClick={toggle}
-          className="w-9 h-9 border border-[var(--border)] hover:border-[var(--gold)] flex items-center justify-center transition-colors flex-shrink-0 text-[var(--gold)]">
+      <div className="flex items-center gap-4">
+        {/* Play/Pause button */}
+        <button
+          onClick={toggle}
+          className="w-10 h-10 border border-[var(--border)] group-hover:border-[var(--gold-dim)] hover:!border-[var(--gold)] flex items-center justify-center transition-all flex-shrink-0 text-[var(--gold)] relative"
+          aria-label={isPlaying ? 'Pause' : 'Play'}
+        >
           {isPlaying ? (
             <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 16 16">
-              <rect x="3" y="2" width="4" height="12" /><rect x="9" y="2" width="4" height="12" />
+              <rect x="3" y="2" width="4" height="12" />
+              <rect x="9" y="2" width="4" height="12" />
             </svg>
           ) : (
             <svg className="w-3 h-3 ml-0.5" fill="currentColor" viewBox="0 0 16 16">
@@ -70,16 +84,54 @@ export function AudioPlayer({ title, description, audioSrc, lang = 'en' }: Audio
         </button>
 
         <div className="flex-1 min-w-0">
-          <div className="flex items-baseline gap-2 mb-1">
-            <span className="text-[9px] tracking-[0.18em] text-[var(--gold)] uppercase">{lang === 'cn' ? '中文' : 'EN'}</span>
-            <span className="text-[11px] text-[var(--text-2)] truncate">{title}</span>
+          {/* Title row */}
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-[9px] tracking-[0.2em] text-[var(--gold)] uppercase font-medium">
+              {lang === 'cn' ? '中文' : 'EN'}
+            </span>
+            <span className="text-[var(--text-3)] text-[8px]">·</span>
+            <span className="text-[10px] text-[var(--text-2)] truncate tracking-wide">{title}</span>
+            {/* Waveform indicator while playing */}
+            {isPlaying && (
+              <div className="ml-auto flex items-end gap-[2px] h-3 flex-shrink-0">
+                {[12, 18, 10, 20, 14].map((h, i) => (
+                  <span
+                    key={i}
+                    className="waveform-bar opacity-70"
+                    style={{ height: `${h}px` }}
+                  />
+                ))}
+              </div>
+            )}
           </div>
-          <div className="h-[2px] bg-[var(--surface-2)] cursor-pointer relative mt-1" onClick={seek}>
-            <div className="absolute inset-y-0 left-0 bg-[var(--gold)] opacity-80 transition-all" style={{ width: `${progress}%` }} />
+
+          {/* Progress bar */}
+          <div
+            className="h-[2px] bg-[var(--surface-2)] cursor-pointer relative"
+            onClick={seek}
+            role="slider"
+            aria-valuenow={progress}
+          >
+            <div
+              className="absolute inset-y-0 left-0 bg-[var(--gold)] opacity-75 transition-none"
+              style={{ width: `${progress}%` }}
+            />
+            {/* Scrubber dot */}
+            {hasAudio && progress > 0 && (
+              <div
+                className="absolute top-1/2 -translate-y-1/2 w-2 h-2 bg-[var(--gold)] rounded-full -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity"
+                style={{ left: `${progress}%` }}
+              />
+            )}
           </div>
-          <div className="flex justify-between mt-1 text-[9px] text-[var(--text-3)] tabular-nums">
+
+          {/* Time row */}
+          <div className="flex justify-between mt-1.5 text-[9px] text-[var(--text-3)] tabular-nums">
             <span>{fmt(currentTime)}</span>
-            {hasAudio ? <span>{fmt(duration)}</span> : <span className="italic">{lang === 'cn' ? '生成中…' : 'Generating…'}</span>}
+            {hasAudio
+              ? <span>{fmt(duration)}</span>
+              : <span className="italic opacity-60">{lang === 'cn' ? '生成中…' : 'Generating…'}</span>
+            }
           </div>
         </div>
       </div>

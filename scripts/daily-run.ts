@@ -11,6 +11,7 @@
  */
 
 import { generateBriefing } from './generate-briefing';
+import { generateBriefingVertex } from './generate-briefing-vertex';
 import { generatePodcast } from './generate-podcast';
 import { sendBriefingEmail } from './send-email';
 
@@ -19,10 +20,12 @@ async function main() {
   const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
   console.log(`=== Daily Pulse Pipeline - ${today} ===`);
 
-  // Step 1: Generate briefing (fetches news + AI analysis)
-  console.log('\n[1/3] Generating briefing...');
+  // Step 1: Generate briefing — prefer Vertex/Gemini if key available, fallback to Groq
+  const useVertex = !!process.env.GOOGLE_API_KEY;
+  console.log(`\n[1/3] Generating briefing (${useVertex ? 'Gemini/Vertex' : 'Groq'})...`);
   try {
-    await generateBriefing();
+    if (useVertex) await generateBriefingVertex();
+    else await generateBriefing();
     console.log('Briefing generated successfully.');
   } catch (err) {
     console.error('Failed to generate briefing:', err);

@@ -33,6 +33,7 @@ jobs:
       - name: Run full daily pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           EMAIL_TO: wangst1994@gmail.com
           SITE_URL: https://diurna-datvince.vercel.app
@@ -48,7 +49,7 @@ jobs:
           git config user.email "bot@dailypulse.ai"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Wangvinci/diurna.git
           git fetch --depth=1 origin main
-          git merge origin/main --no-edit --strategy-option=theirs
+          git merge origin/main --no-edit --allow-unrelated-histories --strategy-option=theirs
           git add src/data/briefings/
           git diff --staged --quiet || git commit -m "briefing: $(date +%Y-%m-%d)"
           git push
