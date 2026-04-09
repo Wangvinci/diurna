@@ -15,7 +15,8 @@ import { generatePodcast } from './generate-podcast';
 import { sendBriefingEmail } from './send-email';
 
 async function main() {
-  const today = new Date().toISOString().split('T')[0];
+  // Use UK time (GMT/BST) for the date
+  const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
   console.log(`=== Daily Pulse Pipeline - ${today} ===`);
 
   // Step 1: Generate briefing (fetches news + AI analysis)

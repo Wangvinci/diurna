@@ -26,7 +26,11 @@ export function NewsCard({ item }: { item: NewsItem }) {
     <div className="bg-white dark:bg-gray-800/50 rounded-xl border border-gray-200 dark:border-gray-700/50 p-5 hover:border-purple-500/30 transition-colors">
       <div className="flex items-center gap-2 mb-3">
         <CategoryBadge category={item.category} />
-        <span className="text-xs text-gray-400">{item.source}</span>
+        {item.url ? (
+          <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-xs text-gray-400 hover:text-purple-400 transition-colors underline underline-offset-2">{item.source}</a>
+        ) : (
+          <span className="text-xs text-gray-400">{item.source}</span>
+        )}
         <span className="text-xs text-gray-500">{new Date(item.timestamp).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' })}</span>
       </div>
 

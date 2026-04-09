@@ -18,25 +18,24 @@ function generatePodcastScript(briefing: DailyBriefing, lang: 'cn' | 'en'): stri
     lines.push("Here are today's most important news and analysis.");
   }
 
-  // Top news
   for (const item of briefing.news.slice(0, 6)) {
     lines.push(item.title[lang] + '. ' + item.summary[lang]);
   }
 
-  // Comprehensive analysis
   const analysis = briefing.comprehensiveAnalysis[lang]
     .replace(/##\s*/g, '')
     .replace(/\*\*/g, '')
-    .replace(/\n+/g, ' ');
+    .replace(/\n+/g, ' ')
+    .slice(0, 800);
   lines.push(analysis);
 
-  // Investment outlook
   const outlook = briefing.investmentOutlook[lang]
     .replace(/##\s*/g, '')
     .replace(/###\s*/g, '')
     .replace(/\*\*/g, '')
     .replace(/- /g, '')
-    .replace(/\n+/g, ' ');
+    .replace(/\n+/g, ' ')
+    .slice(0, 600);
   lines.push(outlook);
 
   if (isCn) {
@@ -48,38 +47,58 @@ function generatePodcastScript(briefing: DailyBriefing, lang: 'cn' | 'en'): stri
   return lines.join('\n\n');
 }
 
+async function generateAudio(scriptPath: string, audioPath: string, voice: string): Promise<void> {
+  // Try python3 -m edge_tts first (most reliable in CI), then edge-tts CLI
+  const commands = [
+    `python3 -m edge_tts --voice ${voice} --file "${scriptPath}" --write-media "${audioPath}"`,
+    `edge-tts --voice ${voice} --file "${scriptPath}" --write-media "${audioPath}"`,
+  ];
+
+  for (const cmd of commands) {
+    try {
+      await execAsync(cmd, { timeout: 120000 });
+      if (fs.existsSync(audioPath) && fs.statSync(audioPath).size > 0) {
+        return;
+      }
+    } catch {
+      // try next command
+    }
+  }
+  throw new Error(`All edge-tts commands failed for ${audioPath}`);
+}
+
 export async function generatePodcast(date: string) {
   const briefingPath = path.join(process.cwd(), 'src/data/briefings', `${date}.json`);
   if (!fs.existsSync(briefingPath)) {
     console.error(`Briefing not found: ${briefingPath}`);
-    process.exit(1);
+    return;
   }
 
   const briefing: DailyBriefing = JSON.parse(fs.readFileSync(briefingPath, 'utf-8'));
   const audioDir = path.join(process.cwd(), 'public/audio');
   fs.mkdirSync(audioDir, { recursive: true });
 
-  // Generate Chinese podcast
+  // Chinese podcast
   const cnScript = generatePodcastScript(briefing, 'cn');
   const cnScriptPath = path.join(audioDir, `${date}-cn.txt`);
   const cnAudioPath = path.join(audioDir, `${date}-cn.mp3`);
-  fs.writeFileSync(cnScriptPath, cnScript);
+  fs.writeFileSync(cnScriptPath, cnScript, 'utf-8');
 
   try {
-    await execAsync(`edge-tts --voice zh-CN-XiaoxiaoNeural --text "${cnScript.replace(/"/g, '\\"').slice(0, 3000)}" --write-media "${cnAudioPath}"`);
+    await generateAudio(cnScriptPath, cnAudioPath, 'zh-CN-XiaoxiaoNeural');
     console.log(`Chinese podcast saved: ${cnAudioPath}`);
   } catch (err) {
     console.error('Failed to generate Chinese podcast:', err);
   }
 
-  // Generate English podcast
+  // English podcast
   const enScript = generatePodcastScript(briefing, 'en');
   const enScriptPath = path.join(audioDir, `${date}-en.txt`);
   const enAudioPath = path.join(audioDir, `${date}-en.mp3`);
-  fs.writeFileSync(enScriptPath, enScript);
+  fs.writeFileSync(enScriptPath, enScript, 'utf-8');
 
   try {
-    await execAsync(`edge-tts --voice en-GB-SoniaNeural --text "${enScript.replace(/"/g, '\\"').slice(0, 3000)}" --write-media "${enAudioPath}"`);
+    await generateAudio(enScriptPath, enAudioPath, 'en-GB-SoniaNeural');
     console.log(`English podcast saved: ${enAudioPath}`);
   } catch (err) {
     console.error('Failed to generate English podcast:', err);

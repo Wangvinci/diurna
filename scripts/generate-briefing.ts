@@ -24,7 +24,7 @@ The investment analysis should be the most detailed section. Be specific about:
 - Key monitoring indicators`;
 
 export async function generateBriefing() {
-  const today = new Date().toISOString().split('T')[0];
+  const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Europe/London' });
   console.log(`Generating briefing for ${today}...`);
 
   const rawNews = await fetchNews();
