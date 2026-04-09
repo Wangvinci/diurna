@@ -84,14 +84,16 @@ ${outlook}`;
   return response.choices[0]?.message?.content || '';
 }
 
-// Parse script into [{speaker, text}] lines
+// Parse script into [{speaker, text}] lines — handles multiple label formats
 function parseDialogue(script: string): Array<{ speaker: 'A' | 'B'; text: string }> {
   const lines: Array<{ speaker: 'A' | 'B'; text: string }> = [];
   for (const line of script.split('\n')) {
-    const m = line.match(/^(A|B)[：:]\s*(.+)/);
-    if (m && m[2].trim()) {
-      lines.push({ speaker: m[1] as 'A' | 'B', text: m[2].trim() });
-    }
+    const m = line.match(/^(?:(A|Host\s*1|主持人?A|主持1)[：:\s]+|(B|Host\s*2|主持人?B|主持2)[：:\s]+)(.+)/i);
+    if (!m) continue;
+    const text = (m[3] || '').trim();
+    if (!text) continue;
+    const speaker: 'A' | 'B' = m[1] ? 'A' : 'B';
+    lines.push({ speaker, text });
   }
   return lines;
 }
