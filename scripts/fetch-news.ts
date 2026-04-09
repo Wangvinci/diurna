@@ -28,19 +28,11 @@ const RSS_FEEDS = [
   { url: 'https://rss.nytimes.com/services/xml/rss/nyt/World.xml', source: 'NYT World', category: 'politics' },
   { url: 'https://feeds.bbci.co.uk/news/politics/rss.xml', source: 'BBC Politics', category: 'politics' },
 
-  // Podcast summaries (episode titles + descriptions as news items)
-  // AI
+  // Podcasts (episode summaries)
   { url: 'https://lexfridman.com/feed/podcast/', source: 'Lex Fridman Podcast', category: 'ai' },
-  { url: 'https://feed.podbean.com/twimlai/feed.xml', source: 'TWIML AI Podcast', category: 'ai' },
-  // Tech
-  { url: 'https://feeds.megaphone.fm/acquisitions', source: 'Acquired Podcast', category: 'tech' },
   { url: 'https://feeds.simplecast.com/54nAGcIl', source: 'All-In Podcast', category: 'tech' },
-  // Finance & Investing
   { url: 'https://feeds.megaphone.fm/investlikethebest', source: 'Invest Like the Best', category: 'investing' },
   { url: 'https://feeds.npr.org/510289/podcast.xml', source: 'Planet Money', category: 'finance' },
-  { url: 'https://feeds.megaphone.fm/WWO3519750925', source: 'We Study Billionaires', category: 'investing' },
-  // Politics
-  { url: 'https://feeds.simplecast.com/54nAGcIl', source: 'The Daily (NYT)', category: 'politics' },
   { url: 'https://podcasts.files.bbci.co.uk/p02nq0gn.rss', source: 'BBC Global News Podcast', category: 'current-affairs' },
 ];
 
@@ -63,7 +55,7 @@ export async function fetchNews(): Promise<RawNewsItem[]> {
           title: item.title || '',
           link: item.link || '',
           pubDate: item.pubDate || new Date().toISOString(),
-          contentSnippet: item.contentSnippet?.slice(0, 150) || item.itunes?.summary?.slice(0, 150) || '',
+          contentSnippet: item.contentSnippet?.slice(0, 300) || item.itunes?.summary?.slice(0, 300) || '',
           source: feed.source,
           category: feed.category,
         }));

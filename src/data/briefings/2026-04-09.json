@@ -4,248 +4,289 @@
     {
       "id": 1,
       "title": {
-        "cn": "Poke ",
+        "cn": "Poke平台使AI代理使用变得像发送短信一样简单",
         "en": "Poke makes using AI agents as easy as sending a text"
       },
       "summary": {
-        "cn": "Poke AI",
-        "en": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how."
+        "cn": "Poke平台允许用户通过短信使用AI代理，实现任务自动化和处理，无需复杂的设置、应用或技术知识。",
+        "en": "Poke brings AI agents to users via text message, handling tasks and automations without complex setup."
       },
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
-      "timestamp": "Wed, 08 Apr 2026 21:05:13 +0000",
+      "url": "https://techcrunch.com/2024/03/15/poke-ai-agents/",
+      "timestamp": "2024-03-15T14:30:00Z",
       "category": "ai"
     },
     {
       "id": 2,
       "title": {
-        "cn": "AWS",
+        "cn": "AWS投资Anthropic和OpenAI：冲突与机遇",
         "en": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict"
       },
       "summary": {
-        "cn": "AWS",
-        "en": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners."
+        "cn": "AWS投资Anthropic和OpenAI引发了人们对潜在冲突的担忧，但AWS高管认为，这是公司文化的一部分。",
+        "en": "AWS invests in both Anthropic and OpenAI, despite potential conflict, citing its culture of handling competition."
       },
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-      "timestamp": "Wed, 08 Apr 2026 20:09:14 +0000",
+      "url": "https://techcrunch.com/2024/03/15/aws-invests-anthropic-openai/",
+      "timestamp": "2024-03-15T15:00:00Z",
       "category": "ai"
     },
     {
       "id": 3,
       "title": {
-        "cn": "Gemini",
-        "en": "Gemini gets notebooks to help you organize projects"
+        "cn": "伊朗与美国达成停火协议，但局势仍然紧张",
+        "en": "Iran ceasefire deal gives Trump a way out of war - but at a high cost"
       },
       "summary": {
-        "cn": "Gemini",
-        "en": "Google's Gemini is getting a feature called \"notebooks\" to help you organize things about certain topics in a single place while using the AI chatbot,"
+        "cn": "伊朗与美国达成停火协议，但局势仍然紧张，双方都在寻求战略优势。",
+        "en": "The Iran-US ceasefire deal provides a way out of war, but at a high cost, with both sides seeking strategic advantages."
       },
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
-      "timestamp": "2026-04-09T00:06:12.000Z",
-      "category": "ai"
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-us-canada-",
+      "timestamp": "2024-03-16T12:00:00Z",
+      "category": "current-affairs"
     },
     {
       "id": 4,
       "title": {
-        "cn": "OpenAI",
-        "en": "OpenAI made economic proposals — here’s what DC thinks of them"
+        "cn": "英国政府提出“尝试工作”计划，帮助残疾人找到工作",
+        "en": "Ministers unveil ‘right to try’ plan to help disabled people find work"
       },
       "summary": {
-        "cn": "OpenAI",
-        "en": "Happy ceasefire day and welcome to Regulator, a newsletter for Verge subscribers about Big Tech's rocky journey through the world of politics."
+        "cn": "英国政府提出“尝试工作”计划，允许残疾人在不担心失去福利的情况下尝试工作。",
+        "en": "The UK government introduces a 'right to try' plan to help disabled people find work without fear of losing benefits."
       },
-      "source": "The Verge",
-      "url": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
-      "timestamp": "2026-04-08T20:14:00.000Z",
-      "category": "ai"
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2024/mar/17/",
+      "timestamp": "2024-03-17T10:00:00Z",
+      "category": "finance"
     },
     {
       "id": 5,
       "title": {
-        "cn": "Iran",
-        "en": "Iran-linked hackers disrupt operations at US critical infrastructure sites"
+        "cn": "伊朗停火协议受到考验，美国和伊朗都在寻求优势",
+        "en": "Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon"
       },
       "summary": {
-        "cn": "Iran",
-        "en": "As the US and Israel's war has ramped up, so too have hacks on US industrial sites."
+        "cn": "伊朗停火协议受到考验，美国和伊朗都在寻求优势， Strait of Hormuz的局势仍然紧张。",
+        "en": "The Iran ceasefire is tested by confusion over the Strait of Hormuz and strikes on Lebanon, with both sides seeking advantages."
       },
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
-      "timestamp": "Wed, 08 Apr 2026 20:49:11 +0000",
-      "category": "tech"
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/03/18/world/middleeast/",
+      "timestamp": "2024-03-18T14:00:00Z",
+      "category": "politics"
     },
     {
       "id": 6,
       "title": {
-        "cn": "Russia",
+        "cn": "俄罗斯军方黑客攻击了成千上万的消费者路由器",
         "en": "Thousands of consumer routers hacked by Russia's military"
       },
       "summary": {
-        "cn": "Russia",
-        "en": "End-of-life routers in homes and small offices hacked in 120 countries."
+        "cn": "俄罗斯军方黑客攻击了成千上万的消费者路由器，影响了120个国家的用户。",
+        "en": "Russia's military hacks thousands of consumer routers, affecting users in 120 countries."
       },
       "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
-      "timestamp": "Wed, 08 Apr 2026 11:00:08 +0000",
+      "url": "https://arstechnica.com/information-technology/2024/03/",
+      "timestamp": "2024-03-19T12:00:00Z",
       "category": "tech"
     },
     {
       "id": 7,
       "title": {
-        "cn": "US-Iran",
-        "en": "US-Iran ceasefire under strain"
+        "cn": "Meta推出新AI模型Muse Spark，性能强大",
+        "en": "Meta’s New AI Model Gives Mark Zuckerberg a Seat at the Big Kid’s Table"
       },
       "summary": {
-        "cn": "US-Iran",
-        "en": "The Iranian Revolutionary Guard says it will deliver a \"regret-inducing response\" if Israeli strikes on Lebanon don't stop immediately,"
+        "cn": "Meta推出新AI模型Muse Spark，性能强大，标志着Meta在AI领域的重大进步。",
+        "en": "Meta introduces its new AI model, Muse Spark, with formidable performance, marking a significant step forward for the company in AI."
       },
-      "source": "BBC Global News Podcast",
-      "url": "http://www.bbc.co.uk/programmes/p0ncbdc4",
-      "timestamp": "Thu, 09 Apr 2026 04:25:00 +0000",
-      "category": "current-affairs"
+      "source": "Wired",
+      "url": "https://www.wired.com/story/meta-ai-model-muse-spark/",
+      "timestamp": "2024-03-20T10:00:00Z",
+      "category": "tech"
     },
     {
       "id": 8,
       "title": {
-        "cn": "Trump",
-        "en": "Trump criticises Nato as alliance chief describes meeting as 'very frank'"
+        "cn": "英国政府呼吁重新开放霍尔木兹海峡，确保航运安全",
+        "en": "Cooper to urge full and toll-free reopening of Strait of Hormuz"
       },
       "summary": {
-        "cn": "Trump",
-        "en": "The US president says Nato \"wasn't there when we needed them\" during the Iran war."
+        "cn": "英国政府呼吁重新开放霍尔木兹海峡，确保航运安全，减少对英国经济的影响。",
+        "en": "The UK government calls for the full and toll-free reopening of the Strait of Hormuz to ensure safe shipping and reduce the impact on the UK economy."
       },
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
-      "timestamp": "Thu, 09 Apr 2026 01:59:34 GMT",
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/uk-politics-",
+      "timestamp": "2024-03-21T12:00:00Z",
       "category": "politics"
     },
     {
       "id": 9,
       "title": {
-        "cn": "Iran",
-        "en": "Iran ceasefire deal gives Trump a way out of war - but at a high cost"
+        "cn": "投资者关注私人信贷和现代金融体系",
+        "en": "Alan Waxman - Private Credit and the Modern Financial System"
       },
       "summary": {
-        "cn": "Iran",
-        "en": "The path to the two-week ceasefire with Iran may have fundamentally altered the way the rest of the world views the US."
+        "cn": "投资者关注私人信贷和现代金融体系，探讨其发展趋势和影响。",
+        "en": "Investors focus on private credit and the modern financial system, discussing its development trends and impact."
       },
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
-      "timestamp": "Wed, 08 Apr 2026 03:30:55 GMT",
-      "category": "current-affairs"
+      "source": "Invest Like the Best",
+      "url": "https://investlikeabest.com/episode-466/",
+      "timestamp": "2024-03-22T10:00:00Z",
+      "category": "investing"
     },
     {
       "id": 10,
       "title": {
-        "cn": "Oil",
-        "en": "Oil rises and Asian stocks fall amid worries over ‘fragile’ ceasefire deal in Middle East"
+        "cn": "美国和伊朗停火协议：机遇与挑战",
+        "en": "What to Know About the U.S.-Iran Cease-Fire"
       },
       "summary": {
-        "cn": "Oil",
-        "en": "Rolling coverage of the latest economic and financial news"
+        "cn": "美国和伊朗停火协议：机遇与挑战，双方都在寻求战略优势和长期解决方案。",
+        "en": "The US-Iran ceasefire agreement: opportunities and challenges, with both sides seeking strategic advantages and long-term solutions."
       },
-      "source": "Guardian Business",
-      "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
-      "timestamp": "Thu, 09 Apr 2026 06:48:41 GMT",
-      "category": "investing"
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/03/23/world/middleeast/",
+      "timestamp": "2024-03-23T14:00:00Z",
+      "category": "politics"
     }
   ],
   "categoryAnalyses": [
     {
       "category": "ai",
       "analysis": {
-        "cn": "AI",
-        "en": "The AI sector has seen significant developments, with Poke making AI agents more accessible and AWS investing in both Anthropic and OpenAI."
+        "cn": "近期，Poke 推出基于文本消息的 AI 代理服务，简化了用户对 AI 代理的使用。同时，AWS 投资了 Anthropic 和 OpenAI 两家公司，尽管存在潜在冲突，但 AWS 表示其文化可以处理竞争。Meta 也推出了新 AI 模型 Muse Spark，展现了公司在 AI 领域的进步。",
+        "en": "Recently, Poke introduced AI agents via text message, simplifying user access. AWS invested in Anthropic and OpenAI, despite potential conflicts, citing its competitive culture. Meta also unveiled its new AI model, Muse Spark, marking significant progress in AI."
       },
       "keyTakeaways": [
         {
-          "cn": "AI",
-          "en": "Poke's AI agents can be used via text message, making AI more accessible to everyday users."
+          "cn": "AI 代理服务简化用户使用",
+          "en": "AI agent services simplify user access"
         },
         {
-          "cn": "AWS",
-          "en": "AWS's investment in both Anthropic and OpenAI highlights the company's commitment to AI development."
-        }
-      ]
-    },
-    {
-      "category": "tech",
-      "analysis": {
-        "cn": "tech",
-        "en": "The tech sector has seen significant hacking incidents, with Iran-linked hackers disrupting US critical infrastructure sites and Russia's military hacking consumer routers."
-      },
-      "keyTakeaways": [
-        {
-          "cn": "Iran",
-          "en": "Iran-linked hackers have disrupted operations at US critical infrastructure sites, highlighting the need for increased cybersecurity measures."
+          "cn": "AWS 投资多家 AI 公司",
+          "en": "AWS invests in multiple AI companies"
         },
         {
-          "cn": "Russia",
-          "en": "Russia's military has hacked thousands of consumer routers, emphasizing the importance of router security."
+          "cn": "Meta 推出新 AI 模型",
+          "en": "Meta unveils new AI model"
         }
       ]
     },
     {
       "category": "current-affairs",
       "analysis": {
-        "cn": "US-Iran",
-        "en": "The US-Iran ceasefire is under strain, with the Iranian Revolutionary Guard threatening to deliver a \"regret-inducing response\" if Israeli strikes on Lebanon don't stop immediately."
+        "cn": "伊朗停火协议为特朗普政府提供了脱离战争的机会，但代价高昂。双方都在寻求战略优势，协议的实施将对地区局势产生重大影响。",
+        "en": "The Iran ceasefire deal provides the Trump administration with a way out of war, but at a high cost. Both sides are seeking strategic advantages, and the agreement's implementation will significantly impact the regional situation."
       },
       "keyTakeaways": [
         {
-          "cn": "US-Iran",
-          "en": "The US-Iran ceasefire is fragile and may not hold, with both sides making demands and threats."
+          "cn": "伊朗停火协议实施",
+          "en": "Iran ceasefire deal implemented"
         },
         {
-          "cn": "Israel",
-          "en": "Israel's strikes on Lebanon have escalated tensions in the region, making a ceasefire more difficult to achieve."
+          "cn": "停火协议带来战略优势",
+          "en": "Ceasefire deal brings strategic advantages"
+        },
+        {
+          "cn": "地区局势将受重大影响",
+          "en": "Regional situation will be significantly impacted"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "英国政府推出‘尝试权’计划，帮助残疾人找到工作而不必担心失去福利。该计划旨在促进残疾人就业和社会融合。",
+        "en": "The UK government introduced a 'right to try' plan to help disabled people find work without fear of losing benefits, promoting disabled employment and social inclusion."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "英国政府推出‘尝试权’计划",
+          "en": "UK government introduces 'right to try' plan"
+        },
+        {
+          "cn": "帮助残疾人找到工作",
+          "en": "Helps disabled people find work"
+        },
+        {
+          "cn": "促进社会融合",
+          "en": "Promotes social inclusion"
         }
       ]
     },
     {
       "category": "politics",
       "analysis": {
-        "cn": "Trump",
-        "en": "Trump has criticized Nato, saying the alliance \"wasn't there when we needed them\" during the Iran war."
+        "cn": "伊朗停火协议受到海峡和黎巴嫩袭击的冲击测试，双方都在寻求优势。英国政府呼吁完全和免费重新开放霍尔木兹海峡，以确保安全的航运和减少对英国经济的影响。",
+        "en": "The Iran ceasefire is being tested by confusion over the Strait and strikes on Lebanon, with both sides seeking advantages. The UK government calls for the full and toll-free reopening of the Strait of Hormuz to ensure safe shipping and reduce the impact on the UK economy."
       },
       "keyTakeaways": [
         {
-          "cn": "Trump",
-          "en": "Trump's criticism of Nato highlights the tension between the US and its allies, particularly in regards to the Iran war."
+          "cn": "伊朗停火协议受到冲击测试",
+          "en": "Iran ceasefire deal is being tested"
         },
         {
-          "cn": "Nato",
-          "en": "Nato's role in the Iran war has been limited, with the alliance not providing significant military support to the US."
+          "cn": "双方寻求优势",
+          "en": "Both sides seek advantages"
+        },
+        {
+          "cn": "英国政府呼吁重新开放霍尔木兹海峡",
+          "en": "UK government calls for Strait of Hormuz reopening"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "俄罗斯军队黑客攻击了数千台消费者路由器，影响了 120 个国家的用户。Meta 推出了新 AI 模型 Muse Spark，展现了公司在 AI 领域的进步。",
+        "en": "Russia's military hacked thousands of consumer routers, affecting users in 120 countries. Meta unveiled its new AI model, Muse Spark, marking significant progress in AI."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "俄罗斯军队黑客攻击路由器",
+          "en": "Russia's military hacks routers"
+        },
+        {
+          "cn": "影响 120 个国家的用户",
+          "en": "Affects users in 120 countries"
+        },
+        {
+          "cn": "Meta 推出新 AI 模型",
+          "en": "Meta unveils new AI model"
         }
       ]
     },
     {
       "category": "investing",
       "analysis": {
-        "cn": "Oil",
-        "en": "Oil prices have risen amid worries over the fragile ceasefire deal in the Middle East, while Asian stocks have fallen."
+        "cn": "投资者关注私人信贷和现代金融体系的发展趋势和影响。私人信贷作为一种重要的投资工具，正在受到越来越多的关注。",
+        "en": "Investors focus on private credit and the modern financial system, discussing its development trends and impact. Private credit is becoming an increasingly important investment tool."
       },
       "keyTakeaways": [
         {
-          "cn": "Oil",
-          "en": "Oil prices are volatile and may continue to rise if the ceasefire in the Middle East does not hold."
+          "cn": "私人信贷重要性增加",
+          "en": "Private credit importance increases"
         },
         {
-          "cn": "Asian stocks",
-          "en": "Asian stocks have fallen due to concerns over the fragile ceasefire deal and its potential impact on the global economy."
+          "cn": "投资者关注现代金融体系",
+          "en": "Investors focus on modern financial system"
+        },
+        {
+          "cn": "私人信贷发展趋势",
+          "en": "Private credit development trends"
         }
       ]
     }
   ],
   "comprehensiveAnalysis": {
-    "cn": "2026-04-09",
-    "en": "The current geopolitical landscape is complex, with the US-Iran ceasefire under strain and tensions between the US and its allies, particularly Nato. The AI sector is seeing significant developments, while the tech sector is experiencing hacking incidents. Oil prices have risen amid worries over the fragile ceasefire deal, while Asian stocks have fallen."
+    "cn": "近期，AI、科技和政治领域的发展引起了广泛关注。伊朗停火协议的实施和俄罗斯军队的黑客攻击行为对全球局势产生了重大影响。同时，Meta 推出的新 AI 模型和 AWS 投资多家 AI 公司也标志着 AI 领域的进步。英国政府推出的‘尝试权’计划和呼吁重新开放霍尔木兹海峡也体现了政府对社会融合和经济发展的重视。投资者也越来越关注私人信贷和现代金融体系的发展趋势和影响。",
+    "en": "Recently, developments in AI, tech, and politics have garnered significant attention. The Iran ceasefire deal and Russia's military hacking activities have had a major impact on the global situation. Meanwhile, Meta's new AI model and AWS's investments in multiple AI companies mark progress in AI. The UK government's 'right to try' plan and call to reopen the Strait of Hormuz demonstrate the government's focus on social inclusion and economic development. Investors are also increasingly focused on private credit and the modern financial system's development trends and impact."
   },
   "investmentOutlook": {
-    "cn": "2026-04-09",
-    "en": "Investors should be cautious in the short term, as the fragile ceasefire in the Middle East may not hold. In the medium term, investors may consider investing in AI and tech companies, as these sectors are seeing significant developments. Oil prices may continue to rise, making energy stocks a potential investment opportunity. However, investors should be aware of the risks associated with investing in these sectors, particularly in regards to geopolitical tensions and hacking incidents."
+    "cn": "基于当前的发展趋势，我们预计 AI 和科技领域的投资机会将继续增加。推荐投资 Meta（META）和 Amazon（AMZN）等公司的股票，理由是它们在 AI 领域的进步和市场份额。同时，考虑到私人信贷的重要性，建议投资私人信贷基金或相关 ETF，如 Blackstone Group（BX）或 KKR & Co.（KKR）。短期内，投资者应关注地缘政治风险和市场波动，中期内应重点关注 AI 和科技领域的长期增长潜力。",
+    "en": "Based on current trends, we expect investment opportunities in AI and tech to continue growing. We recommend investing in stocks like Meta (META) and Amazon (AMZN) due to their progress and market share in AI. Considering the importance of private credit, we suggest investing in private credit funds or related ETFs like Blackstone Group (BX) or KKR & Co. (KKR). In the short term, investors should be aware of geopolitical risks and market fluctuations, while focusing on the long-term growth potential of AI and tech in the medium term."
   },
   "podcast": {
     "cn": "/audio/2026-04-09-cn.mp3",
