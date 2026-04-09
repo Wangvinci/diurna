@@ -74,8 +74,8 @@ export function AudioPlayer({ title, description, audioSrc, lang = 'en' }: Audio
             <span className="text-[9px] tracking-[0.18em] text-[var(--gold)] uppercase">{lang === 'cn' ? '中文' : 'EN'}</span>
             <span className="text-[11px] text-[var(--text-2)] truncate">{title}</span>
           </div>
-          <div className="h-px bg-[var(--surface)] cursor-pointer relative" onClick={seek}>
-            <div className="absolute inset-y-0 left-0 bg-[var(--gold)]" style={{ width: `${progress}%` }} />
+          <div className="h-[2px] bg-[var(--surface-2)] cursor-pointer relative mt-1" onClick={seek}>
+            <div className="absolute inset-y-0 left-0 bg-[var(--gold)] opacity-80 transition-all" style={{ width: `${progress}%` }} />
           </div>
           <div className="flex justify-between mt-1 text-[9px] text-[var(--text-3)] tabular-nums">
             <span>{fmt(currentTime)}</span>

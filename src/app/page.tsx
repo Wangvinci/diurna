@@ -32,28 +32,34 @@ export default function HomePage() {
 
         {/* Masthead */}
         <section className="border-b border-[var(--border)] pb-10">
-          <div className="text-[9px] tracking-[0.3em] text-[var(--text-3)] uppercase mb-4">
-            Daily Intelligence Briefing · {briefing.date}
+          <div className="flex items-center gap-4 mb-6">
+            <div className="text-[9px] tracking-[0.3em] text-[var(--text-3)] uppercase">
+              Daily Intelligence Briefing
+            </div>
+            <div className="flex-1 h-px bg-[var(--border)]" />
+            <div className="text-[9px] tracking-[0.2em] text-[var(--text-3)]">{briefing.date}</div>
           </div>
-          <h1 className="font-display text-5xl sm:text-7xl font-light text-[var(--text-1)] leading-none tracking-tight mb-4">
+          <h1 className="font-display text-5xl sm:text-7xl font-light text-[var(--text-1)] leading-none tracking-tight mb-3">
             {new Date(briefing.date + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long' })}
           </h1>
-          <div className="font-display text-lg sm:text-xl text-[var(--text-3)] font-light">
+          <div className="font-display text-lg sm:text-xl text-[var(--text-3)] font-light mb-8">
             {new Date(briefing.date + 'T12:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
           </div>
 
-          <div className="flex gap-8 mt-6 pt-6 border-t border-[var(--border)]">
+          <div className="flex gap-10 pt-6 border-t border-[var(--border)]">
             <div>
               <div className="font-display text-3xl font-light text-[var(--gold)]">{briefing.news.length}</div>
-              <div className="text-[9px] tracking-widest text-[var(--text-3)] uppercase mt-0.5">Stories</div>
+              <div className="text-[9px] tracking-widest text-[var(--text-3)] uppercase mt-1">Stories</div>
             </div>
+            <div className="w-px bg-[var(--border)]" />
             <div>
               <div className="font-display text-3xl font-light text-[var(--gold)]">{briefing.categoryAnalyses.length}</div>
-              <div className="text-[9px] tracking-widest text-[var(--text-3)] uppercase mt-0.5">Sectors</div>
+              <div className="text-[9px] tracking-widest text-[var(--text-3)] uppercase mt-1">Sectors</div>
             </div>
+            <div className="w-px bg-[var(--border)]" />
             <div>
               <div className="font-display text-3xl font-light text-[var(--gold)]">2</div>
-              <div className="text-[9px] tracking-widest text-[var(--text-3)] uppercase mt-0.5">Languages</div>
+              <div className="text-[9px] tracking-widest text-[var(--text-3)] uppercase mt-1">Languages</div>
             </div>
           </div>
         </section>

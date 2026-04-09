@@ -9,7 +9,7 @@ interface HeaderProps {
 
 export function Header({ dateFormatted, allDates, currentDate, showBack }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-[#07070a]/95 backdrop-blur-sm border-b border-[var(--border)]">
+    <header className="sticky top-0 z-50 backdrop-blur-sm border-b border-[var(--border)]" style={{ background: 'color-mix(in srgb, var(--bg) 92%, transparent)' }}>
       <div className="max-w-6xl mx-auto px-6 h-12 flex items-center justify-between">
         <div className="flex items-center gap-4">
           {showBack && (
