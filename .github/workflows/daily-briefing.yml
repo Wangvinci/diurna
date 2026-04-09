@@ -10,6 +10,8 @@ jobs:
   generate-briefing:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -33,9 +35,12 @@ jobs:
         run: npx tsx scripts/daily-run.ts
 
       - name: Commit and push briefing
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "Daily Pulse Bot"
           git config user.email "bot@dailypulse.ai"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Wangvinci/diurna.git
           git add src/data/briefings/ public/audio/
           git diff --staged --quiet || git commit -m "Daily briefing $(date +%Y-%m-%d)"
           git push

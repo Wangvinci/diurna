@@ -66,7 +66,7 @@ export async function generatePodcast(date: string) {
   fs.writeFileSync(cnScriptPath, cnScript);
 
   try {
-    await execAsync(`npx edge-tts --voice zh-CN-XiaoxiaoNeural --text "${cnScript.replace(/"/g, '\\"').slice(0, 3000)}" --write-media "${cnAudioPath}"`);
+    await execAsync(`edge-tts --voice zh-CN-XiaoxiaoNeural --text "${cnScript.replace(/"/g, '\\"').slice(0, 3000)}" --write-media "${cnAudioPath}"`);
     console.log(`Chinese podcast saved: ${cnAudioPath}`);
   } catch (err) {
     console.error('Failed to generate Chinese podcast:', err);
@@ -79,7 +79,7 @@ export async function generatePodcast(date: string) {
   fs.writeFileSync(enScriptPath, enScript);
 
   try {
-    await execAsync(`npx edge-tts --voice en-GB-SoniaNeural --text "${enScript.replace(/"/g, '\\"').slice(0, 3000)}" --write-media "${enAudioPath}"`);
+    await execAsync(`edge-tts --voice en-GB-SoniaNeural --text "${enScript.replace(/"/g, '\\"').slice(0, 3000)}" --write-media "${enAudioPath}"`);
     console.log(`English podcast saved: ${enAudioPath}`);
   } catch (err) {
     console.error('Failed to generate English podcast:', err);
