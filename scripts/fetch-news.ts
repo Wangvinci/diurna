@@ -41,12 +41,12 @@ export async function fetchNews(): Promise<RawNewsItem[]> {
           if (!item.pubDate) return true;
           return new Date(item.pubDate) >= yesterday;
         })
-        .slice(0, 5)
+        .slice(0, 3)
         .map(item => ({
           title: item.title || '',
           link: item.link || '',
           pubDate: item.pubDate || new Date().toISOString(),
-          contentSnippet: item.contentSnippet?.slice(0, 500) || '',
+          contentSnippet: item.contentSnippet?.slice(0, 200) || '',
           source: feed.source,
           category: feed.category,
         }));
