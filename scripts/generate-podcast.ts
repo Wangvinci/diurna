@@ -140,6 +140,31 @@ async function generateDialogueAudio(
   await execAsync(`ffmpeg -y -f concat -safe 0 -i "${listFile}" -c copy "${outputPath}"`, { timeout: 120000 });
 }
 
+// Simple fallback: single-voice reading (no Groq, no ffmpeg needed)
+async function generateSimpleAudio(briefing: DailyBriefing, audioPath: string, lang: 'cn' | 'en'): Promise<void> {
+  const lines: string[] = [];
+  if (lang === 'cn') {
+    lines.push(`您好，欢迎收听Diurna每日简报。今天是${briefing.date}。`);
+    for (const item of briefing.news.slice(0, 6)) {
+      lines.push(item.title.cn + '。' + item.summary.cn.replace(/[#*]/g, ''));
+    }
+    lines.push(briefing.comprehensiveAnalysis.cn.replace(/[#*\[\]]/g, '').slice(0, 400));
+    lines.push('感谢收听，明天见。');
+  } else {
+    lines.push(`Welcome to Diurna, your daily intelligence briefing. Today is ${briefing.date}.`);
+    for (const item of briefing.news.slice(0, 6)) {
+      lines.push(item.title.en + '. ' + item.summary.en.replace(/[#*]/g, ''));
+    }
+    lines.push(briefing.comprehensiveAnalysis.en.replace(/[#*\[\]]/g, '').slice(0, 400));
+    lines.push("That's your Diurna briefing. Stay informed, and we'll see you tomorrow.");
+  }
+
+  const scriptPath = audioPath.replace('.mp3', '-fallback.txt');
+  fs.writeFileSync(scriptPath, lines.join('\n'), 'utf-8');
+  const voice = lang === 'cn' ? VOICES.cn.host1 : VOICES.en.host1;
+  await ttsLine(lines.join('\n'), voice, audioPath);
+}
+
 export async function generatePodcast(date: string) {
   const briefingPath = path.join(process.cwd(), 'src/data/briefings', `${date}.json`);
   if (!fs.existsSync(briefingPath)) {
@@ -151,32 +176,32 @@ export async function generatePodcast(date: string) {
   const audioDir = path.join(process.cwd(), 'public/audio');
   fs.mkdirSync(audioDir, { recursive: true });
 
-  // --- Chinese ---
-  try {
-    const cnScript = await generateDialogueScript(briefing, 'cn');
-    const cnTmpDir = path.join(audioDir, `tmp-cn-${date}`);
-    fs.mkdirSync(cnTmpDir, { recursive: true });
-    // Save script for debugging
-    fs.writeFileSync(path.join(audioDir, `${date}-cn.txt`), cnScript, 'utf-8');
-    await generateDialogueAudio(cnScript, path.join(audioDir, `${date}-cn.mp3`), VOICES.cn, cnTmpDir);
-    // Cleanup tmp
-    fs.rmSync(cnTmpDir, { recursive: true, force: true });
-    console.log(`Chinese podcast saved: public/audio/${date}-cn.mp3`);
-  } catch (err) {
-    console.error('Failed to generate Chinese podcast:', err);
-  }
+  for (const lang of ['cn', 'en'] as const) {
+    const audioPath = path.join(audioDir, `${date}-${lang}.mp3`);
+    const tmpDir = path.join(audioDir, `tmp-${lang}-${date}`);
 
-  // --- English ---
-  try {
-    const enScript = await generateDialogueScript(briefing, 'en');
-    const enTmpDir = path.join(audioDir, `tmp-en-${date}`);
-    fs.mkdirSync(enTmpDir, { recursive: true });
-    fs.writeFileSync(path.join(audioDir, `${date}-en.txt`), enScript, 'utf-8');
-    await generateDialogueAudio(enScript, path.join(audioDir, `${date}-en.mp3`), VOICES.en, enTmpDir);
-    fs.rmSync(enTmpDir, { recursive: true, force: true });
-    console.log(`English podcast saved: public/audio/${date}-en.mp3`);
-  } catch (err) {
-    console.error('Failed to generate English podcast:', err);
+    try {
+      // Try dialogue first
+      console.log(`Generating ${lang.toUpperCase()} dialogue script...`);
+      const script = await generateDialogueScript(briefing, lang);
+      fs.mkdirSync(tmpDir, { recursive: true });
+      fs.writeFileSync(audioPath.replace('.mp3', '.txt'), script, 'utf-8');
+      await generateDialogueAudio(script, audioPath, VOICES[lang], tmpDir);
+      fs.rmSync(tmpDir, { recursive: true, force: true });
+      console.log(`${lang.toUpperCase()} dialogue podcast saved.`);
+    } catch (err) {
+      console.error(`Dialogue failed for ${lang}, falling back to simple mode:`, err);
+      fs.rmSync(tmpDir, { recursive: true, force: true });
+      try {
+        await generateSimpleAudio(briefing, audioPath, lang);
+        console.log(`${lang.toUpperCase()} simple podcast saved (fallback).`);
+      } catch (e2) {
+        console.error(`Simple mode also failed for ${lang}:`, e2);
+      }
+    }
+
+    // Small delay between CN and EN to respect rate limits
+    if (lang === 'cn') await new Promise(r => setTimeout(r, 5000));
   }
 }
 

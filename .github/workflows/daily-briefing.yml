@@ -2,9 +2,8 @@ name: Daily Briefing Pipeline
 
 on:
   schedule:
-    # Run at 01:00 UK time = 00:00 UTC (winter) / 01:00 BST (summer offset handled)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Allow manual trigger
+    - cron: '0 0 * * *'   # 00:00 UTC daily
+  workflow_dispatch:
 
 jobs:
   generate-briefing:
@@ -16,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # Shallow clone — much faster
+          fetch-depth: 0   # Full history so git merge always works
 
       - uses: actions/setup-node@v4
         with:
@@ -30,6 +29,7 @@ jobs:
           pip install edge-tts
           sudo apt-get install -y ffmpeg 2>/dev/null || true
 
+      # ── Step 1: Generate briefing + podcast + email ──────────────────────────
       - name: Run full daily pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -39,23 +39,35 @@ jobs:
           SITE_URL: https://diurna-datvince.vercel.app
         run: npx tsx scripts/daily-run.ts
 
+      # ── Step 2: Commit briefing JSON ─────────────────────────────────────────
       - name: Commit briefing JSON
         timeout-minutes: 5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_TERMINAL_PROMPT: 0
         run: |
+          DATE=$(date +%Y-%m-%d)
+          JSON_FILE="src/data/briefings/${DATE}.json"
+
+          if [ ! -f "${JSON_FILE}" ]; then
+            echo "No briefing file found for ${DATE}, skipping commit."
+            exit 0
+          fi
+
           git config user.name "Daily Pulse Bot"
           git config user.email "bot@dailypulse.ai"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Wangvinci/diurna.git
-          git fetch --depth=1 origin main
-          git merge origin/main --no-edit --allow-unrelated-histories --strategy-option=theirs
-          git add src/data/briefings/
-          git diff --staged --quiet || git commit -m "briefing: $(date +%Y-%m-%d)"
-          git push
 
+          git pull --rebase=false --no-edit origin main
+          git add "${JSON_FILE}"
+          git diff --staged --quiet && echo "Nothing to commit." && exit 0
+          git commit -m "briefing: ${DATE}"
+          git push origin main
+
+      # ── Step 3: Upload audio to GitHub Release (always runs) ─────────────────
       - name: Upload audio to GitHub Release
-        timeout-minutes: 5
+        if: always()
+        timeout-minutes: 8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -63,8 +75,17 @@ jobs:
           CN_FILE="public/audio/${DATE}-cn.mp3"
           EN_FILE="public/audio/${DATE}-en.mp3"
           TAG="audio-${DATE}"
-          # Create release (ignore error if exists) then upload files
-          gh release create "${TAG}" --title "Audio ${DATE}" --notes "Daily briefing audio for ${DATE}" 2>/dev/null || true
-          [ -f "${CN_FILE}" ] && gh release upload "${TAG}" "${CN_FILE}" --clobber || true
-          [ -f "${EN_FILE}" ] && gh release upload "${TAG}" "${EN_FILE}" --clobber || true
-          echo "Audio uploaded to release ${TAG}"
+
+          if [ ! -f "${CN_FILE}" ] && [ ! -f "${EN_FILE}" ]; then
+            echo "No audio files found, skipping upload."
+            exit 0
+          fi
+
+          gh release create "${TAG}" \
+            --title "Audio ${DATE}" \
+            --notes "Daily briefing audio for ${DATE}" \
+            2>/dev/null || true
+
+          [ -f "${CN_FILE}" ] && gh release upload "${TAG}" "${CN_FILE}" --clobber
+          [ -f "${EN_FILE}" ] && gh release upload "${TAG}" "${EN_FILE}" --clobber
+          echo "✓ Audio uploaded to release ${TAG}"
