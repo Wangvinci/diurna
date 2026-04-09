@@ -53,7 +53,7 @@ export function AudioPlayer({ title, description, audioSrc, lang = 'en' }: Audio
 
   return (
     <div className="border border-[var(--border)] p-5 hover:border-[var(--gold-dim)] transition-colors duration-300">
-      {audioSrc && <audio ref={audioRef} src={audioSrc} preload="metadata" />}
+      {audioSrc && <audio ref={audioRef} src={audioSrc} preload="metadata" controlsList="nodownload" onContextMenu={(e) => e.preventDefault()} />}
 
       <div className="flex items-center gap-5">
         <button onClick={toggle}

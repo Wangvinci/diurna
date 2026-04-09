@@ -54,8 +54,8 @@ export default async function ArchivePage({ params }: { params: Promise<{ date: 
         <section>
           <Label cn="每日播客" en="Audio Briefing" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-5">
-            <AudioPlayer title="每日简报 · 中文版" description={briefing.date} audioSrc={`/audio/${briefing.date}-cn.mp3`} lang="cn" />
-            <AudioPlayer title="Daily Briefing · English" description={briefing.date} audioSrc={`/audio/${briefing.date}-en.mp3`} lang="en" />
+            <AudioPlayer title="每日简报 · 中文版" description={briefing.date} audioSrc={`https://github.com/Wangvinci/diurna/releases/download/audio-${briefing.date}/${briefing.date}-cn.mp3`} lang="cn" />
+            <AudioPlayer title="Daily Briefing · English" description={briefing.date} audioSrc={`https://github.com/Wangvinci/diurna/releases/download/audio-${briefing.date}/${briefing.date}-en.mp3`} lang="en" />
           </div>
         </section>
 

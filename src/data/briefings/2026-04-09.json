@@ -1,0 +1,254 @@
+{
+  "date": "2026-04-09",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "Poke ",
+        "en": "Poke makes using AI agents as easy as sending a text"
+      },
+      "summary": {
+        "cn": "Poke AI",
+        "en": "Poke brings AI agents to everyday users via text message by handling tasks and automations without complex setup, apps, or technical know-how."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+      "timestamp": "Wed, 08 Apr 2026 21:05:13 +0000",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "AWS",
+        "en": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict"
+      },
+      "summary": {
+        "cn": "AWS",
+        "en": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+      "timestamp": "Wed, 08 Apr 2026 20:09:14 +0000",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "Gemini",
+        "en": "Gemini gets notebooks to help you organize projects"
+      },
+      "summary": {
+        "cn": "Gemini",
+        "en": "Google's Gemini is getting a feature called \"notebooks\" to help you organize things about certain topics in a single place while using the AI chatbot,"
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/909031/google-gemini-notebooks-notebooklm",
+      "timestamp": "2026-04-09T00:06:12.000Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "OpenAI",
+        "en": "OpenAI made economic proposals — here’s what DC thinks of them"
+      },
+      "summary": {
+        "cn": "OpenAI",
+        "en": "Happy ceasefire day and welcome to Regulator, a newsletter for Verge subscribers about Big Tech's rocky journey through the world of politics."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
+      "timestamp": "2026-04-08T20:14:00.000Z",
+      "category": "ai"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "Iran",
+        "en": "Iran-linked hackers disrupt operations at US critical infrastructure sites"
+      },
+      "summary": {
+        "cn": "Iran",
+        "en": "As the US and Israel's war has ramped up, so too have hacks on US industrial sites."
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
+      "timestamp": "Wed, 08 Apr 2026 20:49:11 +0000",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "Russia",
+        "en": "Thousands of consumer routers hacked by Russia's military"
+      },
+      "summary": {
+        "cn": "Russia",
+        "en": "End-of-life routers in homes and small offices hacked in 120 countries."
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
+      "timestamp": "Wed, 08 Apr 2026 11:00:08 +0000",
+      "category": "tech"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "US-Iran",
+        "en": "US-Iran ceasefire under strain"
+      },
+      "summary": {
+        "cn": "US-Iran",
+        "en": "The Iranian Revolutionary Guard says it will deliver a \"regret-inducing response\" if Israeli strikes on Lebanon don't stop immediately,"
+      },
+      "source": "BBC Global News Podcast",
+      "url": "http://www.bbc.co.uk/programmes/p0ncbdc4",
+      "timestamp": "Thu, 09 Apr 2026 04:25:00 +0000",
+      "category": "current-affairs"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "Trump",
+        "en": "Trump criticises Nato as alliance chief describes meeting as 'very frank'"
+      },
+      "summary": {
+        "cn": "Trump",
+        "en": "The US president says Nato \"wasn't there when we needed them\" during the Iran war."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
+      "timestamp": "Thu, 09 Apr 2026 01:59:34 GMT",
+      "category": "politics"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "Iran",
+        "en": "Iran ceasefire deal gives Trump a way out of war - but at a high cost"
+      },
+      "summary": {
+        "cn": "Iran",
+        "en": "The path to the two-week ceasefire with Iran may have fundamentally altered the way the rest of the world views the US."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss",
+      "timestamp": "Wed, 08 Apr 2026 03:30:55 GMT",
+      "category": "current-affairs"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "Oil",
+        "en": "Oil rises and Asian stocks fall amid worries over ‘fragile’ ceasefire deal in Middle East"
+      },
+      "summary": {
+        "cn": "Oil",
+        "en": "Rolling coverage of the latest economic and financial news"
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/live/2026/apr/09/oil-stocks-fall-fragile-ceasefire-middle-east-business-news",
+      "timestamp": "Thu, 09 Apr 2026 06:48:41 GMT",
+      "category": "investing"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "AI",
+        "en": "The AI sector has seen significant developments, with Poke making AI agents more accessible and AWS investing in both Anthropic and OpenAI."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "AI",
+          "en": "Poke's AI agents can be used via text message, making AI more accessible to everyday users."
+        },
+        {
+          "cn": "AWS",
+          "en": "AWS's investment in both Anthropic and OpenAI highlights the company's commitment to AI development."
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "tech",
+        "en": "The tech sector has seen significant hacking incidents, with Iran-linked hackers disrupting US critical infrastructure sites and Russia's military hacking consumer routers."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Iran",
+          "en": "Iran-linked hackers have disrupted operations at US critical infrastructure sites, highlighting the need for increased cybersecurity measures."
+        },
+        {
+          "cn": "Russia",
+          "en": "Russia's military has hacked thousands of consumer routers, emphasizing the importance of router security."
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "US-Iran",
+        "en": "The US-Iran ceasefire is under strain, with the Iranian Revolutionary Guard threatening to deliver a \"regret-inducing response\" if Israeli strikes on Lebanon don't stop immediately."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "US-Iran",
+          "en": "The US-Iran ceasefire is fragile and may not hold, with both sides making demands and threats."
+        },
+        {
+          "cn": "Israel",
+          "en": "Israel's strikes on Lebanon have escalated tensions in the region, making a ceasefire more difficult to achieve."
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "Trump",
+        "en": "Trump has criticized Nato, saying the alliance \"wasn't there when we needed them\" during the Iran war."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Trump",
+          "en": "Trump's criticism of Nato highlights the tension between the US and its allies, particularly in regards to the Iran war."
+        },
+        {
+          "cn": "Nato",
+          "en": "Nato's role in the Iran war has been limited, with the alliance not providing significant military support to the US."
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "Oil",
+        "en": "Oil prices have risen amid worries over the fragile ceasefire deal in the Middle East, while Asian stocks have fallen."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Oil",
+          "en": "Oil prices are volatile and may continue to rise if the ceasefire in the Middle East does not hold."
+        },
+        {
+          "cn": "Asian stocks",
+          "en": "Asian stocks have fallen due to concerns over the fragile ceasefire deal and its potential impact on the global economy."
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "2026-04-09",
+    "en": "The current geopolitical landscape is complex, with the US-Iran ceasefire under strain and tensions between the US and its allies, particularly Nato. The AI sector is seeing significant developments, while the tech sector is experiencing hacking incidents. Oil prices have risen amid worries over the fragile ceasefire deal, while Asian stocks have fallen."
+  },
+  "investmentOutlook": {
+    "cn": "2026-04-09",
+    "en": "Investors should be cautious in the short term, as the fragile ceasefire in the Middle East may not hold. In the medium term, investors may consider investing in AI and tech companies, as these sectors are seeing significant developments. Oil prices may continue to rise, making energy stocks a potential investment opportunity. However, investors should be aware of the risks associated with investing in these sectors, particularly in regards to geopolitical tensions and hacking incidents."
+  },
+  "podcast": {
+    "cn": "/audio/2026-04-09-cn.mp3",
+    "en": "/audio/2026-04-09-en.mp3"
+  }
+}

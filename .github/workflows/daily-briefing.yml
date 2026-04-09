@@ -9,12 +9,14 @@ on:
 jobs:
   generate-briefing:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     permissions:
       contents: write
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1  # Shallow clone — much faster
 
       - uses: actions/setup-node@v4
         with:
@@ -34,14 +36,32 @@ jobs:
           SITE_URL: https://diurna-datvince.vercel.app
         run: npx tsx scripts/daily-run.ts
 
-      - name: Commit and push briefing
+      - name: Commit briefing JSON
+        timeout-minutes: 5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_TERMINAL_PROMPT: 0
         run: |
           git config user.name "Daily Pulse Bot"
           git config user.email "bot@dailypulse.ai"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Wangvinci/diurna.git
-          git pull --rebase origin main
-          git add src/data/briefings/ public/audio/
-          git diff --staged --quiet || git commit -m "Daily briefing $(date +%Y-%m-%d)"
+          git fetch --depth=1 origin main
+          git merge origin/main --no-edit --strategy-option=theirs
+          git add src/data/briefings/
+          git diff --staged --quiet || git commit -m "briefing: $(date +%Y-%m-%d)"
           git push
+
+      - name: Upload audio to GitHub Release
+        timeout-minutes: 5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          CN_FILE="public/audio/${DATE}-cn.mp3"
+          EN_FILE="public/audio/${DATE}-en.mp3"
+          TAG="audio-${DATE}"
+          # Create release (ignore error if exists) then upload files
+          gh release create "${TAG}" --title "Audio ${DATE}" --notes "Daily briefing audio for ${DATE}" 2>/dev/null || true
+          [ -f "${CN_FILE}" ] && gh release upload "${TAG}" "${CN_FILE}" --clobber || true
+          [ -f "${EN_FILE}" ] && gh release upload "${TAG}" "${EN_FILE}" --clobber || true
+          echo "Audio uploaded to release ${TAG}"
