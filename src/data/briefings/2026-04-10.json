@@ -1,0 +1,274 @@
+{
+  "date": "2026-04-10",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "ChatGPT 推出 100 美元月度 Pro 计划",
+        "en": "ChatGPT Offers $100/Month Pro Plan"
+      },
+      "summary": {
+        "cn": "OpenAI 推出 ChatGPT 的新月度 Pro 计划，费用为 100 美元，提供更多的 Codex 编码工具使用权。",
+        "en": "OpenAI introduces a new $100/month Pro plan for ChatGPT, offering more usage of its Codex coding tool."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/09/16/chatgpt-pro-plan/",
+      "timestamp": "2024-09-16T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "佛罗里达州对 OpenAI 发起调查",
+        "en": "Florida Launches Investigation into OpenAI"
+      },
+      "summary": {
+        "cn": "佛罗里达州检察长办公室对 OpenAI 发起调查，原因是 ChatGPT 涉嫌被用于计划佛罗里达州立大学枪击案。",
+        "en": "Florida's Attorney General launches an investigation into OpenAI over concerns about public safety and national security risks."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/9/16/23520514/florida-investigation-openai",
+      "timestamp": "2024-09-16T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "伊朗战争将永久影响全球经济",
+        "en": "Iran War to Permanently Scar Global Economy"
+      },
+      "summary": {
+        "cn": "国际货币基金组织总裁表示，即使达成和平协议，伊朗战争也将对全球经济产生永久影响。",
+        "en": "The head of the IMF warns that the Iran war will have a permanent impact on the global economy, even if a peace deal is reached."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/sep/16/iran-war-to-permanently-scar-global-economy",
+      "timestamp": "2024-09-16T10:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "油价波动，受伊朗停火协议影响",
+        "en": "Oil Prices Hover Around $100 as Ceasefire Concerns Persist"
+      },
+      "summary": {
+        "cn": "由于伊朗停火协议的不确定性，油价波动，目前价格在 100 美元左右。",
+        "en": "Oil prices rebound as doubts grow about the state of the Iran ceasefire, with prices hovering around $100."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/oil-prices-ceasefire-iran-rcna74141",
+      "timestamp": "2024-09-16T12:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "美国司法部调查 NFL 收费问题",
+        "en": "Justice Department Investigates NFL Over Subscription Fees"
+      },
+      "summary": {
+        "cn": "美国司法部对 NFL 的收费问题进行调查，原因是球迷抱怨收费过高。",
+        "en": "The Justice Department opens an investigation into the NFL over concerns about subscription fees, following complaints from football fans."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/justice-department-investigates-nfl-subscription-fees-rcna74142",
+      "timestamp": "2024-09-16T11:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "伊朗战争对全球经济的影响",
+        "en": "Iran War's Impact on Global Economy"
+      },
+      "summary": {
+        "cn": "伊朗战争将对全球经济产生重大影响，包括对石油价格、贸易和金融市场的影响。",
+        "en": "The Iran war is expected to have a significant impact on the global economy, including effects on oil prices, trade, and financial markets."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/sep/16/iran-war-global-economy",
+      "timestamp": "2024-09-16T09:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "英国父母难以承担新生儿开支",
+        "en": "UK Parents Struggle to Afford Essentials for Newborns"
+      },
+      "summary": {
+        "cn": "英国四分之一的父母难以承担新生儿的基本开支，包括奶粉、尿布等。",
+        "en": "Four in 10 UK parents struggle to afford essential items for their newborn babies, including formula, diapers, and clothing."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2024/sep/16/uk-parents-struggle-afford-essentials-newborns",
+      "timestamp": "2024-09-16T08:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "中东局势仍然不稳定",
+        "en": "Middle East Situation Remains Unstable"
+      },
+      "summary": {
+        "cn": "尽管美国和伊朗达成停火协议，但中东局势仍然不稳定，双方仍在交火。",
+        "en": "Despite a ceasefire agreement between the US and Iran, the situation in the Middle East remains unstable, with both sides still exchanging fire."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-middle-east-74141415",
+      "timestamp": "2024-09-16T07:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "伊朗战争对美国经济的影响",
+        "en": "Iran War's Impact on US Economy"
+      },
+      "summary": {
+        "cn": "伊朗战争将对美国经济产生重大影响，包括对石油价格、贸易和金融市场的影响。",
+        "en": "The Iran war is expected to have a significant impact on the US economy, including effects on oil prices, trade, and financial markets."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/09/16/world/middleeast/iran-war-us-economy.html",
+      "timestamp": "2024-09-16T06:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "英国绿党推出地方选举竞选活动",
+        "en": "UK Green Party Launches Local Election Campaign"
+      },
+      "summary": {
+        "cn": "英国绿党推出地方选举竞选活动，重点关注住房问题。",
+        "en": "The UK Green Party launches its local election campaign, focusing on housing issues."
+      },
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/uk-politics-74141416",
+      "timestamp": "2024-09-16T05:00:00Z",
+      "category": "politics"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "ChatGPT 推出 100 美元/月的 Pro 计划，提供更多的 Codex 编码工具使用权。同时，佛罗里达州对 OpenAI 进行调查，关注公共安全和国家安全风险。这些事件表明 AI 技术的快速发展和潜在风险。",
+        "en": "ChatGPT introduces a $100/month Pro plan with more Codex coding tool usage. Meanwhile, Florida investigates OpenAI over public safety and national security concerns, highlighting AI's rapid development and potential risks."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "ChatGPT Pro 计划提供更多 Codex 使用权",
+          "en": "ChatGPT Pro offers more Codex usage"
+        },
+        {
+          "cn": "佛罗里达州调查 OpenAI 公共安全风险",
+          "en": "Florida investigates OpenAI over public safety"
+        },
+        {
+          "cn": "AI 技术发展迅速，潜在风险增大",
+          "en": "AI development accelerates, increasing potential risks"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "油价在 100 美元左右波动，受伊朗停火协议不确定性影响。同时，美国司法部调查 NFL 的订阅费问题，英国父母难以承担新生儿的基本生活费。",
+        "en": "Oil prices hover around $100 due to uncertainty over the Iran ceasefire. Meanwhile, the US Justice Department investigates NFL subscription fees, and UK parents struggle to afford essentials for newborns."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "油价波动，受伊朗停火协议影响",
+          "en": "Oil prices fluctuate due to Iran ceasefire uncertainty"
+        },
+        {
+          "cn": "美国司法部调查 NFL 订阅费问题",
+          "en": "US Justice Department investigates NFL subscription fees"
+        },
+        {
+          "cn": "英国父母难以承担新生儿基本生活费",
+          "en": "UK parents struggle to afford newborn essentials"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "伊朗战争将对全球经济产生永久性影响，即使达成和平协议。战争将影响油价、贸易和金融市场。",
+        "en": "The Iran war will have a permanent impact on the global economy, even if a peace deal is reached, affecting oil prices, trade, and financial markets."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗战争对全球经济产生永久性影响",
+          "en": "Iran war has a permanent impact on global economy"
+        },
+        {
+          "cn": "战争影响油价、贸易和金融市场",
+          "en": "War affects oil prices, trade, and financial markets"
+        },
+        {
+          "cn": "投资者应谨慎应对地缘政治风险",
+          "en": "Investors should be cautious of geopolitical risks"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "伊朗战争将对美国经济产生重大影响，包括油价、贸易和金融市场的影响。同时，英国绿党启动地方选举活动，关注住房问题。",
+        "en": "The Iran war will have a significant impact on the US economy, including effects on oil prices, trade, and financial markets. Meanwhile, the UK Green Party launches its local election campaign, focusing on housing issues."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗战争对美国经济产生重大影响",
+          "en": "Iran war has a significant impact on US economy"
+        },
+        {
+          "cn": "战争影响油价、贸易和金融市场",
+          "en": "War affects oil prices, trade, and financial markets"
+        },
+        {
+          "cn": "英国绿党关注住房问题",
+          "en": "UK Green Party focuses on housing issues"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "中东局势仍然不稳定，尽管达成停火协议。美国和伊朗仍在交火，地区局势仍然紧张。",
+        "en": "The Middle East situation remains unstable, despite a ceasefire agreement, with the US and Iran still exchanging fire and regional tensions remaining high."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "中东局势不稳定",
+          "en": "Middle East situation remains unstable"
+        },
+        {
+          "cn": "停火协议未能缓解紧张局势",
+          "en": "Ceasefire agreement fails to ease tensions"
+        },
+        {
+          "cn": "地区局势仍然紧张",
+          "en": "Regional tensions remain high"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "当前的全球局势复杂多变，伊朗战争、油价波动和地缘政治风险对全球经济和金融市场产生了重大影响。投资者应谨慎应对这些风险，关注中东局势的发展和全球经济的走势。同时，AI 技术的快速发展和潜在风险也需要关注，企业和政府应加强对 AI 技术的监管和管理。",
+    "en": "The current global situation is complex and changing, with the Iran war, oil price fluctuations, and geopolitical risks having a significant impact on the global economy and financial markets. Investors should be cautious of these risks, monitoring the Middle East situation and global economic trends. Meanwhile, the rapid development of AI technology and its potential risks also require attention, with companies and governments needing to strengthen regulation and management of AI technology."
+  },
+  "investmentOutlook": {
+    "cn": "投资者应谨慎应对当前的全球局势，关注中东局势的发展和全球经济的走势。可以考虑投资于油价相关的股票或 ETF，例如 ExxonMobil（XOM）或 Energy Select Sector SPDR Fund（XLE）。同时，也可以考虑投资于 AI 技术相关的股票或 ETF，例如 NVIDIA（NVDA）或 Vanguard Information Technology ETF（VIT）。但是，投资者应注意这些投资的风险，特别是地缘政治风险和 AI 技术的潜在风险。",
+    "en": "Investors should be cautious of the current global situation, monitoring the Middle East situation and global economic trends. Consider investing in oil price-related stocks or ETFs, such as ExxonMobil (XOM) or Energy Select Sector SPDR Fund (XLE). Also, consider investing in AI technology-related stocks or ETFs, such as NVIDIA (NVDA) or Vanguard Information Technology ETF (VIT). However, investors should be aware of the risks associated with these investments, particularly geopolitical risks and AI technology's potential risks."
+  },
+  "podcast": {
+    "cn": "/audio/2026-04-10-cn.mp3",
+    "en": "/audio/2026-04-10-en.mp3"
+  }
+}
