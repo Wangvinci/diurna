@@ -1,0 +1,274 @@
+{
+  "date": "2026-04-15",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "Anthropic联合创始人确认公司向特朗普政府简报Mythos",
+        "en": "Anthropic co-founder confirms the company briefed the Trump administration on Mythos"
+      },
+      "summary": {
+        "cn": "Anthropic联合创始人Jack Clark表示，公司之所以仍与美国政府保持联系，是因为他们希望能够与政府合作，尽管他们同时也在起诉政府。",
+        "en": "Anthropic co-founder Jack Clark explained why the company was still engaged with the U.S. government while suing them."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/04/10/anthropic-briefed-trump-administration-on-mythos/",
+      "timestamp": "2024-04-10T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "Max Hodak的Science Corp.即将在人类大脑中植入首个传感器",
+        "en": "Max Hodak’s Science Corp. is preparing to place its first sensor in a human brain"
+      },
+      "summary": {
+        "cn": "Science Corp.的设备可能有助于解决多种神经系统疾病，如果它证明是成功的。早期使用可能包括向受损的大脑或脊髓细胞提供温和的电刺激，以鼓励愈合。",
+        "en": "The device could help address multiple neurological conditions if it proves successful."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/04/10/science-corp-brain-sensor/",
+      "timestamp": "2024-04-10T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "伊朗战争升级可能引发全球经济衰退，IMF警告",
+        "en": "Iran war escalation could trigger global recession, IMF warns"
+      },
+      "summary": {
+        "cn": "国际货币基金组织警告称，伊朗战争的进一步升级可能会引发全球经济衰退，对英国经济的影响可能最大。",
+        "en": "The IMF warns that a further escalation in the Iran war could trigger a global recession, with the UK facing the biggest hit to growth."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/apr/10/iran-war-escalation-global-recession-imf",
+      "timestamp": "2024-04-10T16:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "油价可能由于令人担忧的原因而下降",
+        "en": "Oil prices might be starting to come down for a worrisome reason"
+      },
+      "summary": {
+        "cn": "油价已经开始下滑，但这可能不是因为市场正常化，而是由于其他令人担忧的原因。",
+        "en": "Oil prices have started to slip, but not necessarily for reasons that suggest a return to market normalcy."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/oil-prices-decline-worrisome-reason-rcna74441",
+      "timestamp": "2024-04-10T17:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "英国面临最大经济增长下滑，IMF称伊朗战争威胁全球经济",
+        "en": "UK faces biggest hit to growth from Iran war of major economies, IMF says"
+      },
+      "summary": {
+        "cn": "国际货币基金组织警告称，伊朗战争可能会使全球经济脱轨，英国经济面临最大下滑风险。",
+        "en": "The IMF warns that the Iran war threatens to throw the global economy 'off course', with the UK facing the biggest hit to growth."
+      },
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/politics-65432111",
+      "timestamp": "2024-04-10T18:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "联合航空CEO被曝提出与美国航空合并，引发竞争担忧",
+        "en": "United Airlines CEO reportedly pitched merger with American, sparking competition fears"
+      },
+      "summary": {
+        "cn": "据报道，联合航空CEO向美国航空提出合并建议，这引发了人们对竞争的担忧。批评者警告称，如果两家航空公司合并，将会对飞行公众造成“绝对灾难”。",
+        "en": "Critics warn of ‘absolute disaster for the flying public’ if two air travel giants try to combine."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/apr/10/united-airlines-american-airlines-merger",
+      "timestamp": "2024-04-10T19:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "谷歌Chrome现在允许您将AI提示转换为可重复的“技能”",
+        "en": "Chrome now lets you turn AI prompts into repeatable ‘Skills’"
+      },
+      "summary": {
+        "cn": "谷歌推出了一项新功能，允许用户将AI提示转换为可重复的“技能”，从而可以在多个网页中重复使用。",
+        "en": "Google is launching a new Chrome workflow feature that allows you to reuse your favorite Gemini commands across multiple webpages."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/4/10/23534145/chrome-ai-prompt-skills",
+      "timestamp": "2024-04-10T20:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "伊朗战争可能使全球经济衰退，IMF警告",
+        "en": "Iran war could trigger global recession, IMF warns"
+      },
+      "summary": {
+        "cn": "国际货币基金组织警告称，伊朗战争可能会引发全球经济衰退，各国应做好准备。",
+        "en": "The IMF warns that the Iran war could trigger a global recession, and countries should be prepared."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/apr/10/iran-war-global-recession-imf",
+      "timestamp": "2024-04-10T21:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "英国消费者因伊朗战争和生活成本上涨而减少旅行支出",
+        "en": "Holidays take a hit as UK cost of living fears and Iran war bite"
+      },
+      "summary": {
+        "cn": "英国消费者由于伊朗战争和生活成本上涨的担忧而减少了旅行支出，这是五年来首次。",
+        "en": "UK consumers have cut back on travel spending for the first time in five years, as they worry about the rising cost of living amid the Iran war."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2024/apr/10/uk-consumers-cut-back-travel-spending-iran-war",
+      "timestamp": "2024-04-10T22:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "美国副总统表示与伊朗的谈判可能会重新开始",
+        "en": "US Vice President suggests talks with Iran could resume"
+      },
+      "summary": {
+        "cn": "美国副总统表示，尽管伊朗战争仍在继续，但与伊朗的谈判可能会重新开始。",
+        "en": "US Vice President JD Vance says progress was made in discussions with Iran at the weekend and the ball is in Tehran's court."
+      },
+      "source": "BBC Global News Podcast",
+      "url": "https://www.bbc.com/news/world-us-canada-65432112",
+      "timestamp": "2024-04-10T23:00:00Z",
+      "category": "current-affairs"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "Anthropic 和 Science Corp. 的最新动态引发人们对 AI 技术发展的关注。Anthropic 的 Mythos 项目和 Science Corp. 的脑部传感器技术可能会对神经科学领域产生重大影响。然而，AI 的发展也引发了人们对其应用和伦理问题的担忧。",
+        "en": "Recent developments from Anthropic and Science Corp. have drawn attention to AI technology advancements. Anthropic's Mythos project and Science Corp.'s brain sensor technology may have a significant impact on the field of neuroscience. However, AI development also raises concerns about its applications and ethical issues."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Anthropic 的 Mythos 项目可能会改变 AI 技术的应用场景",
+          "en": "Anthropic's Mythos project may change AI application scenarios"
+        },
+        {
+          "cn": "Science Corp. 的脑部传感器技术可能会帮助解决多种神经系统疾病",
+          "en": "Science Corp.'s brain sensor technology may help address multiple neurological conditions"
+        },
+        {
+          "cn": "AI 技术的发展需要谨慎考虑其伦理和安全问题",
+          "en": "AI technology development requires careful consideration of ethical and safety issues"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "伊朗战争的升级可能会引发全球经济衰退，投资者需要谨慎考虑其投资策略。IMF 的警告表明，伊朗战争的影响可能会波及全球经济，投资者需要关注相关风险。",
+        "en": "The escalation of the Iran war may trigger a global recession, and investors need to carefully consider their investment strategies. The IMF's warning indicates that the impact of the Iran war may spread to the global economy, and investors need to be aware of the related risks."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗战争的升级可能会引发全球经济衰退",
+          "en": "The escalation of the Iran war may trigger a global recession"
+        },
+        {
+          "cn": "投资者需要谨慎考虑其投资策略以应对伊朗战争的风险",
+          "en": "Investors need to carefully consider their investment strategies to mitigate the risks of the Iran war"
+        },
+        {
+          "cn": "全球经济的不确定性可能会导致投资者风险规避",
+          "en": "The uncertainty of the global economy may lead to risk aversion among investors"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "油价的下降可能是由于伊朗战争的影响，投资者需要关注相关的经济指标。同时，英国的消费者已经开始减少旅行支出，这可能会对相关行业产生负面影响。",
+        "en": "The decline in oil prices may be due to the impact of the Iran war, and investors need to monitor related economic indicators. Meanwhile, UK consumers have started to reduce travel spending, which may have a negative impact on related industries."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "油价的下降可能是由于伊朗战争的影响",
+          "en": "The decline in oil prices may be due to the impact of the Iran war"
+        },
+        {
+          "cn": "英国的消费者已经开始减少旅行支出",
+          "en": "UK consumers have started to reduce travel spending"
+        },
+        {
+          "cn": "相关行业可能会受到伊朗战争的负面影响",
+          "en": "Related industries may be negatively impacted by the Iran war"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "伊朗战争的升级可能会对全球政治局势产生重大影响，投资者需要关注相关的政治风险。同时，美国副总统的谈话表明，美国和伊朗之间的谈判可能会重新开始。",
+        "en": "The escalation of the Iran war may have a significant impact on the global political landscape, and investors need to monitor related political risks. Meanwhile, the US Vice President's comments suggest that negotiations between the US and Iran may resume."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗战争的升级可能会对全球政治局势产生重大影响",
+          "en": "The escalation of the Iran war may have a significant impact on the global political landscape"
+        },
+        {
+          "cn": "投资者需要关注相关的政治风险",
+          "en": "Investors need to monitor related political risks"
+        },
+        {
+          "cn": "美国和伊朗之间的谈判可能会重新开始",
+          "en": "Negotiations between the US and Iran may resume"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "美国副总统的谈话表明，美国和伊朗之间的谈判可能会重新开始，这可能会对全球政治局势产生积极影响。同时，伊朗战争的升级可能会对全球经济产生负面影响。",
+        "en": "The US Vice President's comments suggest that negotiations between the US and Iran may resume, which may have a positive impact on the global political landscape. Meanwhile, the escalation of the Iran war may have a negative impact on the global economy."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美国和伊朗之间的谈判可能会重新开始",
+          "en": "Negotiations between the US and Iran may resume"
+        },
+        {
+          "cn": "伊朗战争的升级可能会对全球经济产生负面影响",
+          "en": "The escalation of the Iran war may have a negative impact on the global economy"
+        },
+        {
+          "cn": "全球政治局势的不确定性可能会导致投资者风险规避",
+          "en": "The uncertainty of the global political landscape may lead to risk aversion among investors"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "伊朗战争的升级可能会对全球经济和政治局势产生重大影响。投资者需要谨慎考虑其投资策略，以应对相关风险。同时，美国和伊朗之间的谈判可能会重新开始，这可能会对全球政治局势产生积极影响。然而，全球经济的不确定性可能会导致投资者风险规避，相关行业可能会受到伊朗战争的负面影响。",
+    "en": "The escalation of the Iran war may have a significant impact on the global economy and political landscape. Investors need to carefully consider their investment strategies to mitigate related risks. Meanwhile, negotiations between the US and Iran may resume, which may have a positive impact on the global political landscape. However, the uncertainty of the global economy may lead to risk aversion among investors, and related industries may be negatively impacted by the Iran war."
+  },
+  "investmentOutlook": {
+    "cn": "考虑到伊朗战争的升级和全球经济的不确定性，投资者可能需要谨慎考虑其投资策略。可以考虑投资于低风险的资产，如美国国债或黄金。同时，科技行业的公司，如 Alphabet 或 Microsoft，可能会在当前的市场环境中表现相对稳定。然而，投资者需要关注相关的政治风险和经济指标，以应对可能的市场波动。具体的投资建议包括：买入 SPDR Gold Shares ETF（GLD）和 iShares 20+ Year Treasury Bond ETF（TLT）以规避风险，买入 Alphabet（GOOGL）和 Microsoft（MSFT）以投资于科技行业。",
+    "en": "Given the escalation of the Iran war and the uncertainty of the global economy, investors may need to carefully consider their investment strategies. It may be wise to invest in low-risk assets, such as US Treasury bonds or gold. Meanwhile, tech companies like Alphabet or Microsoft may perform relatively stable in the current market environment. However, investors need to monitor related political risks and economic indicators to mitigate potential market volatility. Specific investment recommendations include: buying SPDR Gold Shares ETF (GLD) and iShares 20+ Year Treasury Bond ETF (TLT) to hedge against risk, and buying Alphabet (GOOGL) and Microsoft (MSFT) to invest in the tech industry."
+  },
+  "podcast": {
+    "cn": "/audio/2026-04-15-cn.mp3",
+    "en": "/audio/2026-04-15-en.mp3"
+  }
+}
