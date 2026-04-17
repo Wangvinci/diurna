@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-17",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "Factory 获 1.5 亿美元估值，开发企业 AI 编码",
+        "en": "Factory hits $1.5B valuation to build AI coding for enterprises"
+      },
+      "summary": {
+        "cn": "Factory 是一家三年的初创公司，最近获得了 1.5 亿美元的估值，用于开发企业 AI 编码。",
+        "en": "Factory, a 3-year-old startup, has raised $150 million to build AI coding for enterprises."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/03/15/factory-ai-coding/",
+      "timestamp": "2024-03-15T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "Luma 推出 AI 驱动的制作工作室，首个项目是关于摩西的",
+        "en": "Luma launches AI-powered production studio with faith-focused Wonder Project"
+      },
+      "summary": {
+        "cn": "Luma 推出了一家 AI 驱动的制作工作室，首个项目是关于摩西的，主演是本·金斯利。",
+        "en": "Luma has launched an AI-powered production studio, with its first project being about Moses, starring Ben Kingsley."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/03/15/luma-ai-studio/",
+      "timestamp": "2024-03-15T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "OpenAI 的 Codex 更新直接针对 Claude Code",
+        "en": "OpenAI’s big Codex update is a direct shot at Claude Code"
+      },
+      "summary": {
+        "cn": "OpenAI 的 Codex 更新增加了许多新功能，包括控制桌面应用和生成图像。",
+        "en": "OpenAI's Codex update includes new features such as controlling desktop apps and generating images."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/3/15/23233345/openai-codex-update",
+      "timestamp": "2024-03-15T16:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "谷歌的 AI 模式更新允许在不离开页面的情况下打开链接",
+        "en": "Google’s AI Mode update lets you open links without leaving the page"
+      },
+      "summary": {
+        "cn": "谷歌的 AI 模式更新增加了一个新功能，允许用户在不离开页面的情况下打开链接。",
+        "en": "Google's AI Mode update includes a new feature that allows users to open links without leaving the page."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/3/15/23233346/google-ai-mode-update",
+      "timestamp": "2024-03-15T17:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "欧洲的在线年龄验证应用程序问世",
+        "en": "Europe’s Online Age Verification App Is Here"
+      },
+      "summary": {
+        "cn": "欧洲的在线年龄验证应用程序已经推出，任何公司都可以免费使用。",
+        "en": "Europe's online age verification app has launched, and is available for free to any company that wants to use it."
+      },
+      "source": "Wired",
+      "url": "https://www.wired.com/story/europe-online-age-verification-app/",
+      "timestamp": "2024-03-15T18:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "在线小说热潮重新想象中国的历史",
+        "en": "The Online Fiction Boom Reimagining China’s History"
+      },
+      "summary": {
+        "cn": "中国的在线小说热潮重新想象了中国的历史，加入了现代科技和意识形态。",
+        "en": "China's online fiction boom is reimagining the country's history, with modern tech and ideology."
+      },
+      "source": "Wired",
+      "url": "https://www.wired.com/story/china-online-fiction-history/",
+      "timestamp": "2024-03-15T19:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "大卫·埃利森：派拉蒙-华纳兄弟发现合并不会减少电影产量",
+        "en": "David Ellison vows Paramount–Warner Bros. Discovery merger won't cut film output"
+      },
+      "summary": {
+        "cn": "大卫·埃利森保证派拉蒙-华纳兄弟发现合并不会减少电影产量。",
+        "en": "David Ellison has vowed that the Paramount-Warner Bros. Discovery merger will not cut film output."
+      },
+      "source": "NBC Business",
+      "url": "https://www.cnbc.com/2024/03/15/david-ellison-paramount-warner-bros-discovery-merger.html",
+      "timestamp": "2024-03-15T20:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "Live Nation 被判非法垄断票务市场",
+        "en": "Live Nation illegally monopolized ticketing market, jury in antitrust trial finds"
+      },
+      "summary": {
+        "cn": "Live Nation 被判非法垄断票务市场，违反反垄断法。",
+        "en": "Live Nation has been found to have illegally monopolized the ticketing market, in violation of antitrust law."
+      },
+      "source": "NBC Business",
+      "url": "https://www.cnbc.com/2024/03/15/live-nation-ticketmaster-antitrust-trial.html",
+      "timestamp": "2024-03-15T21:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "以色列和黎巴嫩同意 10 天停火",
+        "en": "Israel and Lebanon agree 10-day ceasefire"
+      },
+      "summary": {
+        "cn": "以色列和黎巴嫩同意 10 天停火，暂时结束冲突。",
+        "en": "Israel and Lebanon have agreed to a 10-day ceasefire, temporarily ending the conflict."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-middle-east-64933315",
+      "timestamp": "2024-03-15T22:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "教皇批评‘暴君’在战争上花费数十亿美元",
+        "en": "Pope criticises 'tyrants' who spend billions on wars"
+      },
+      "summary": {
+        "cn": "教皇批评‘暴君’在战争上花费数十亿美元，呼吁结束冲突。",
+        "en": "The Pope has criticised 'tyrants' who spend billions on wars, calling for an end to conflict."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-64933316",
+      "timestamp": "2024-03-15T23:00:00Z",
+      "category": "current-affairs"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期AI领域的发展迅速，Factory获得15亿美元估值，Luma推出AI驱动的生产工作室，OpenAI的Codex更新直接针对Claude Code。这些发展表明AI技术在企业和创意领域的应用前景广阔。",
+        "en": "The AI sector has seen rapid development, with Factory reaching a $1.5B valuation, Luma launching an AI-powered production studio, and OpenAI's Codex update targeting Claude Code. These developments indicate vast potential for AI applications in enterprise and creative fields."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "AI技术在企业中的应用前景广阔",
+          "en": "AI has vast potential in enterprise applications"
+        },
+        {
+          "cn": "Luma的AI驱动生产工作室推出",
+          "en": "Luma launches AI-powered production studio"
+        },
+        {
+          "cn": "OpenAI的Codex更新针对Claude Code",
+          "en": "OpenAI's Codex update targets Claude Code"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "科技领域的发展也在不断推进，Google的AI Mode更新允许用户在不离开页面的情况下打开链接，欧洲的在线年龄验证应用也已推出。这些发展表明科技在改善用户体验和增强网络安全方面的重要性。",
+        "en": "The tech sector has seen ongoing advancements, with Google's AI Mode update enabling link opening without leaving the page, and Europe's online age verification app launching. These developments highlight tech's importance in enhancing user experience and bolstering online security."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Google的AI Mode更新改善用户体验",
+          "en": "Google's AI Mode update enhances user experience"
+        },
+        {
+          "cn": "欧洲的在线年龄验证应用推出",
+          "en": "Europe launches online age verification app"
+        },
+        {
+          "cn": "科技在增强网络安全方面的重要性",
+          "en": "Tech's importance in bolstering online security"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "金融领域的新闻包括David Ellison关于派拉蒙-华纳兄弟发现合并不会减少电影产出的承诺，Live Nation被判违反反垄断法。这些发展表明金融领域的竞争和监管仍在不断演变。",
+        "en": "Finance news includes David Ellison's pledge that the Paramount-Warner Bros. Discovery merger won't cut film output, and Live Nation's antitrust law violation. These developments indicate ongoing evolution in finance sector competition and regulation."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "派拉蒙-华纳兄弟发现合并不会减少电影产出",
+          "en": "Paramount-Warner Bros. Discovery merger won't cut film output"
+        },
+        {
+          "cn": "Live Nation违反反垄断法",
+          "en": "Live Nation violates antitrust law"
+        },
+        {
+          "cn": "金融领域的竞争和监管在不断演变",
+          "en": "Finance sector competition and regulation continue to evolve"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "近期的国际新闻包括以色列和黎巴嫩达成10天停火协议，教皇批评那些花费数十亿美元用于战争的暴君。这些发展表明国际关系和冲突解决仍在不断变化。",
+        "en": "Recent international news includes the Israel-Lebanon 10-day ceasefire agreement, and the Pope's criticism of tyrants spending billions on wars. These developments indicate ongoing shifts in international relations and conflict resolution."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "以色列和黎巴嫩达成10天停火协议",
+          "en": "Israel and Lebanon agree to 10-day ceasefire"
+        },
+        {
+          "cn": "教皇批评那些花费数十亿美元用于战争的暴君",
+          "en": "Pope criticizes tyrants spending billions on wars"
+        },
+        {
+          "cn": "国际关系和冲突解决在不断变化",
+          "en": "International relations and conflict resolution continue to shift"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期的新闻发展表明，AI技术、科技创新和金融监管在不断演变。同时，国际关系和冲突解决也在经历着重大变化。这些发展对全球经济和社会结构都有着深远的影响。因此，投资者和政策制定者需要密切关注这些领域的发展，并做出相应的调整以应对不断变化的环境。",
+    "en": "Recent news developments indicate ongoing evolution in AI technology, tech innovation, and financial regulation. Meanwhile, international relations and conflict resolution are also undergoing significant shifts. These developments have profound implications for the global economy and social structure. As such, investors and policymakers must closely monitor these areas and make adjustments to adapt to the changing environment."
+  },
+  "investmentOutlook": {
+    "cn": "基于近期的新闻发展，我们建议投资者关注AI技术和科技创新领域的机会，特别是那些具有强大研发能力和创新精神的公司。同时，金融监管的变化也需要投资者密切关注，以避免潜在的风险。具体来说，我们推荐投资者考虑投资于谷歌（GOOGL）和微软（MSFT）等科技巨头，以及 NVIDIA（NVDA）等AI芯片领导者。中期建议投资者谨慎对待金融监管的变化，并关注Live Nation（LYV）等公司的反垄断法违规风险。",
+    "en": "Based on recent news developments, we recommend that investors focus on opportunities in AI technology and tech innovation, particularly companies with strong R&D capabilities and innovative spirit. Meanwhile, changes in financial regulation also require investor attention to avoid potential risks. Specifically, we suggest investors consider investing in tech giants like Google (GOOGL) and Microsoft (MSFT), as well as AI chip leaders like NVIDIA (NVDA). In the short term, we advise investors to be cautious about changes in financial regulation and monitor antitrust law violation risks for companies like Live Nation (LYV)."
+  },
+  "podcast": {
+    "cn": "/audio/2026-04-17-cn.mp3",
+    "en": "/audio/2026-04-17-en.mp3"
+  }
+}
