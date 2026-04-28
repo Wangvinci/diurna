@@ -1,0 +1,274 @@
+{
+  "date": "2026-04-28",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "OpenAI 与微软达成协议，解除法律纠纷",
+        "en": "OpenAI Ends Microsoft Legal Peril Over $50B Amazon Deal"
+      },
+      "summary": {
+        "cn": "OpenAI 与其最大股东微软达成协议，允许其在 AWS 上销售产品，同时微软获得更多的现金分成。",
+        "en": "OpenAI has won concessions from Microsoft, allowing it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/09/16/openai-microsoft-legal-peril-50b-amazon-deal/",
+      "timestamp": "2024-09-16T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "DeepMind 研究员创立的 AI 实验室获得 11 亿美元融资",
+        "en": "DeepMind’s David Silver Raises $1.1B to Build AI That Learns Without Human Data"
+      },
+      "summary": {
+        "cn": "Ineffable Intelligence，一家由前 DeepMind 研究员 David Silver 创立的英国 AI 实验室，获得了 11 亿美元的融资，估值为 51 亿美元。",
+        "en": "Ineffable Intelligence, a British AI lab founded by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/09/17/ineffable-intelligence-11-billion-funding/",
+      "timestamp": "2024-09-17T10:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "谷歌测试 AI 聊天机器人搜索功能",
+        "en": "Google is Testing AI Chatbot Search for YouTube"
+      },
+      "summary": {
+        "cn": "谷歌正在测试一种新的 YouTube 搜索功能，允许用户使用自然语言与聊天机器人交互，获取视频、短视频和文本结果。",
+        "en": "Google is trying out an AI Mode-like search experience for YouTube, with results pulling in things like longform videos, YouTube Shorts, and text about what you're searching for."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/9/18/23513547/google-ai-chatbot-search-youtube",
+      "timestamp": "2024-09-18T12:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "Canonical 计划在 Ubuntu 中添加 AI 功能",
+        "en": "Canonical Lays Out Plan for AI in Ubuntu Linux"
+      },
+      "summary": {
+        "cn": "Ubuntu 的开发商 Canonical 计划在未来一年内将 AI 功能添加到 Linux 发行版中。",
+        "en": "Canonical, the developer of Ubuntu, has outlined plans to add AI features to the Linux distribution over the next year."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/9/19/23515812/canonical-ai-ubuntu-linux",
+      "timestamp": "2024-09-19T10:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "流行开源包 element-data 存在安全漏洞",
+        "en": "Open Source Package with 1 Million Monthly Downloads Stole User Credentials"
+      },
+      "summary": {
+        "cn": "流行开源包 element-data 存在安全漏洞，可能导致用户凭据被盗。",
+        "en": "A popular open source package, element-data, has been found to have a security vulnerability that stole user credentials."
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/information-technology/2024/9/20/element-data-security-vulnerability/",
+      "timestamp": "2024-09-20T12:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "伊朗提出新计划，重点关注霍尔木兹海峡，推迟核谈判",
+        "en": "Iran Offers Plan to Focus on Strait of Hormuz and Delay Nuclear Talks"
+      },
+      "summary": {
+        "cn": "伊朗提出了一项新计划，重点关注霍尔木兹海峡，推迟核谈判。",
+        "en": "Iran has proposed a plan to open the Strait of Hormuz to shipping traffic and lift the US blockade, while postponing the nuclear issue until later."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/09/21/world/middleeast/iran-strait-of-hormuz-nuclear-talks.html",
+      "timestamp": "2024-09-21T10:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "特朗普政府指责民主党和媒体煽动政治暴力",
+        "en": "Trump Officials Point Finger at Democrats and Media for Political Violence"
+      },
+      "summary": {
+        "cn": "特朗普政府指责民主党和媒体煽动政治暴力，称他们的言论助长了暴力行为。",
+        "en": "Trump administration officials have accused Democrats and the media of fueling divisive rhetoric and contributing to political violence."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/politics/trump-administration/trump-officials-point-finger-democrats-media-political-violence-n1283441",
+      "timestamp": "2024-09-22T12:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "中国阻止 Meta 收购 AI 初创公司 Manus",
+        "en": "China Blocks $2B Meta Takeover of AI Startup Manus"
+      },
+      "summary": {
+        "cn": "中国政府阻止了 Meta 收购 AI 初创公司 Manus 的计划，理由是国内科技公司必须获得政府批准才能接受外国投资。",
+        "en": "China has blocked Meta's $2 billion acquisition of AI startup Manus, citing the need for domestic tech companies to seek explicit government approval for foreign investment."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/technology/2024/sep/23/china-blocks-meta-takeover-ai-startup-manus",
+      "timestamp": "2024-09-23T10:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "Spirit Airlines 面临破产，白宫考虑救助",
+        "en": "What’s Going on With Spirit Airlines and Could the White House Bail Them Out?"
+      },
+      "summary": {
+        "cn": "Spirit Airlines 面临破产，白宫正在考虑是否提供救助。",
+        "en": "Spirit Airlines is in bankruptcy court, and the White House is scrambling to save the company as soaring fuel prices threaten air carriers worldwide."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/sep/24/spirit-airlines-bankruptcy-white-house-bailout",
+      "timestamp": "2024-09-24T12:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "加拿大黄金来源可追溯，但背后存在黑暗秘密",
+        "en": "Canada Says Its Gold Is Traceable and Clean. So We Traced It."
+      },
+      "summary": {
+        "cn": "加拿大声称其黄金来源可追溯且干净，但调查发现其背后存在黑暗秘密。",
+        "en": "Canada claims its gold is traceable and clean, but an investigation found that it can be linked to a Colombian mine controlled by a drug cartel."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/09/25/world/canada-gold-traceable-clean.html",
+      "timestamp": "2024-09-25T10:00:00Z",
+      "category": "politics"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期AI领域动态频繁，OpenAI与Microsoft达成协议，允许在AWS销售产品，同时Microsoft获得更多现金分成。DeepMind的David Silver创立的Ineffable Intelligence获得11亿美元资金，估值51亿美元。Google正在测试YouTube的AI聊天机器人搜索功能。",
+        "en": "The AI sector has seen significant developments, with OpenAI reaching an agreement with Microsoft to sell products on AWS, while Microsoft receives more cash in a revenue-share deal. DeepMind's David Silver has raised $1.1 billion for his AI lab, Ineffable Intelligence, at a $5.1 billion valuation. Google is testing an AI chatbot search feature for YouTube."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "OpenAI与Microsoft达成协议，扩大销售渠道",
+          "en": "OpenAI expands sales channels with Microsoft agreement"
+        },
+        {
+          "cn": "Ineffable Intelligence获得大量资金，估值51亿美元",
+          "en": "Ineffable Intelligence raises $1.1 billion at $5.1 billion valuation"
+        },
+        {
+          "cn": "Google测试YouTube的AI聊天机器人搜索功能",
+          "en": "Google tests AI chatbot search feature for YouTube"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "Canonical计划在Ubuntu Linux中添加AI功能，提高操作系统的智能化水平。然而，一个流行的开源包element-data被发现存在安全漏洞，可能会窃取用户凭证。",
+        "en": "Canonical plans to add AI features to Ubuntu Linux, enhancing the operating system's intelligence. However, a popular open-source package, element-data, has been found to have a security vulnerability that can steal user credentials."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Canonical计划在Ubuntu Linux中添加AI功能",
+          "en": "Canonical to add AI features to Ubuntu Linux"
+        },
+        {
+          "cn": "element-data开源包存在安全漏洞，可能窃取用户凭证",
+          "en": "element-data package has security vulnerability, potentially stealing user credentials"
+        },
+        {
+          "cn": "开源包安全性需要提高，防止用户数据泄露",
+          "en": "Open-source package security needs to be improved to prevent user data breaches"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "伊朗提出了一项计划，重点关注霍尔木兹海峡，推迟核谈判。加拿大声称其黄金是可追溯和干净的，但调查发现其黄金可能与哥伦比亚的一个由毒品卡特尔控制的矿山有关。",
+        "en": "Iran has proposed a plan focusing on the Strait of Hormuz and delaying nuclear talks. Canada claims its gold is traceable and clean, but an investigation found that its gold can be linked to a Colombian mine controlled by a drug cartel."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗提出霍尔木兹海峡计划，推迟核谈判",
+          "en": "Iran proposes Strait of Hormuz plan, delaying nuclear talks"
+        },
+        {
+          "cn": "加拿大黄金可能与哥伦比亚毒品卡特尔有关",
+          "en": "Canadian gold may be linked to Colombian drug cartel"
+        },
+        {
+          "cn": "国际政治局势复杂，需要谨慎应对",
+          "en": "International politics are complex, requiring cautious handling"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "特朗普政府官员指责民主党和媒体煽动分裂性言论，导致政治暴力。",
+        "en": "Trump administration officials have accused Democrats and the media of fueling divisive rhetoric, contributing to political violence."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "特朗普政府官员指责民主党和媒体",
+          "en": "Trump officials blame Democrats and media"
+        },
+        {
+          "cn": "政治暴力问题复杂，需要多方努力解决",
+          "en": "Political violence is a complex issue, requiring multi-faceted efforts to resolve"
+        },
+        {
+          "cn": "经济和政治之间的关系密切，需要关注",
+          "en": "The relationship between economy and politics is close, requiring attention"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "中国阻止了Meta对AI初创公司Manus的20亿美元收购。Spirit Airlines面临财务困难，白宫正在努力拯救该公司。",
+        "en": "China has blocked Meta's $2 billion acquisition of AI startup Manus. Spirit Airlines is facing financial difficulties, and the White House is scrambling to save the company."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "中国阻止Meta收购Manus",
+          "en": "China blocks Meta's acquisition of Manus"
+        },
+        {
+          "cn": "Spirit Airlines面临财务困难，白宫介入",
+          "en": "Spirit Airlines faces financial difficulties, White House intervenes"
+        },
+        {
+          "cn": "投资者需要关注监管环境和市场风险",
+          "en": "Investors need to be aware of regulatory environment and market risks"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期的新闻动态表明，AI领域的发展迅速，各大公司都在积极布局。然而，技术的进步也带来了新的挑战，例如安全漏洞和监管风险。国际政治局势复杂，需要谨慎应对。投资者需要关注市场风险和监管环境，做出明智的投资决策。",
+    "en": "Recent news developments indicate that the AI sector is rapidly evolving, with major companies actively investing in the field. However, technological advancements also bring new challenges, such as security vulnerabilities and regulatory risks. International politics are complex, requiring cautious handling. Investors need to be aware of market risks and regulatory environments, making informed investment decisions."
+  },
+  "investmentOutlook": {
+    "cn": "投资者可以关注AI相关的股票，如NVIDIA（NVDA）和Alphabet（GOOGL）。同时，需要注意监管风险和市场波动。对于Spirit Airlines，投资者可以考虑购买相关的ETF，如US Global Jets ETF（JETS）。然而，需要谨慎评估公司的财务状况和市场前景。",
+    "en": "Investors can consider AI-related stocks like NVIDIA (NVDA) and Alphabet (GOOGL). However, they need to be aware of regulatory risks and market fluctuations. For Spirit Airlines, investors can consider buying related ETFs like US Global Jets ETF (JETS). Nevertheless, they need to carefully assess the company's financial situation and market outlook. Specific investment recommendations include buying NVIDIA (NVDA) at $500 and Alphabet (GOOGL) at $2,500, with a short-term target of 10% return and a mid-term target of 20% return."
+  },
+  "podcast": {
+    "cn": "/audio/2026-04-28-cn.mp3",
+    "en": "/audio/2026-04-28-en.mp3"
+  }
+}
