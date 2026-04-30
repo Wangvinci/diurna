@@ -1,0 +1,253 @@
+{
+  "date": "2026-04-30",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "亚马逊云计算业务蓬勃发展，但资本支出也大幅增加",
+        "en": "Amazon’s cloud business is surging — and so is its capital spending"
+      },
+      "summary": {
+        "cn": "亚马逊云计算业务收入超出预期，但同时其资本支出也大幅增加，CEO表示将继续在近期内增加支出。",
+        "en": "Amazon's cloud business is booming, but its capital spending is also increasing, with the CEO saying it will continue to spend heavily in the near term."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/02/22/amazon-cloud-business-surging/",
+      "timestamp": "2024-02-22T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "谷歌搜索查询量创历史新高",
+        "en": "Google Search queries hit an ‘all time high’"
+      },
+      "summary": {
+        "cn": "谷歌搜索查询量在2026年第一季度创历史新高，CEO Sundar Pichai表示公司的AI投资和全栈方法正在推动业务的发展。",
+        "en": "Google Search queries have hit an all-time high in the first quarter of 2026, with CEO Sundar Pichai saying the company's AI investments and full-stack approach are driving growth."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2026/4/22/22453444/google-search-queries-all-time-high",
+      "timestamp": "2026-04-22T14:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "美国联邦储备局保持利率不变",
+        "en": "Fed keeps interest rates steady"
+      },
+      "summary": {
+        "cn": "美国联邦储备局决定保持利率不变，尽管伊朗战争导致通胀压力加大。",
+        "en": "The Federal Reserve has kept interest rates steady, despite inflationary pressures from the war with Iran."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/economy/fed-keeps-interest-rates-steady-rcna74241",
+      "timestamp": "2026-04-22T18:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "美国汽油价格创年内新高",
+        "en": "Gas prices hit $4.23 per gallon, a new high for the year"
+      },
+      "summary": {
+        "cn": "美国汽油价格已达到年内新高，每加仑4.23美元，主要受伊朗战争影响。",
+        "en": "US gas prices have hit a fresh record for the year, at $4.23 per gallon, largely due to the war with Iran."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/economy/gas-prices-hit-4-23-per-gallon-new-high-rcna74242",
+      "timestamp": "2026-04-22T19:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "英国能源公司CEO平均年薪近1600万美元",
+        "en": "CEOs of US’s top energy firms averaged nearly 16% pay raise to $12.3m"
+      },
+      "summary": {
+        "cn": "美国顶级能源公司CEO平均年薪近1600万美元，尽管消费者面临高昂的能源账单。",
+        "en": "The CEOs of the US's top energy firms have seen an average pay raise of nearly 16% to $12.3m, despite consumers facing high energy bills."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2026/apr/22/ceos-us-top-energy-firms-averaged-nearly-16-pay-raise-to-123m",
+      "timestamp": "2026-04-22T15:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "伊朗战争导致美国通胀加剧",
+        "en": "Iran war fuels inflation"
+      },
+      "summary": {
+        "cn": "伊朗战争导致美国通胀加剧，联邦储备局保持利率不变。",
+        "en": "The war with Iran has fueled inflation in the US, with the Federal Reserve keeping interest rates steady."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/economy/iran-war-fuels-inflation-rcna74243",
+      "timestamp": "2026-04-22T20:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "英国国王查尔斯赞扬北约",
+        "en": "King Charles praises NATO"
+      },
+      "summary": {
+        "cn": "英国国王查尔斯在美国国会发表历史性演讲，赞扬北约，称英美伙伴关系比以往任何时候都更加重要。",
+        "en": "King Charles has praised NATO in a historic address to the US Congress, saying the UK-US partnership is more important than ever."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-us-canada-60912314",
+      "timestamp": "2026-04-22T21:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "埃隆·马斯克在法庭上的对手是自己",
+        "en": "Elon Musk’s worst enemy in court is Elon Musk"
+      },
+      "summary": {
+        "cn": "埃隆·马斯克在法庭上的证词被认为是其最大的敌人，法庭上他的表现引起了人们的关注。",
+        "en": "Elon Musk's testimony in court has been seen as his own worst enemy, with his performance on the stand drawing attention."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2026/4/22/22453445/elon-musk-testimony-court",
+      "timestamp": "2026-04-22T16:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "美国前联邦调查局局长科米被控威胁特朗普生命",
+        "en": "Comey surrenders over charge of threatening Trump's life"
+      },
+      "summary": {
+        "cn": "美国前联邦调查局局长科米被控威胁特朗普生命，案件正在审理中。",
+        "en": "Former FBI Director Comey has been charged with threatening Trump's life, with the case ongoing."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-us-canada-60912315",
+      "timestamp": "2026-04-22T22:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "英国拟禁止新建租赁房产，但实施时间尚不确定",
+        "en": "Leasehold ban in England and Wales unlikely before next general election"
+      },
+      "summary": {
+        "cn": "英国政府拟禁止新建租赁房产，但实施时间尚不确定，可能需要到下一次大选后才能实施。",
+        "en": "The UK government is planning to ban new leasehold properties, but the implementation timeline is uncertain, with it potentially not happening until after the next general election."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2026/apr/22/leasehold-ban-england-wales-unlikely-before-next-general-election",
+      "timestamp": "2026-04-22T17:00:00Z",
+      "category": "finance"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期，亚马逊和谷歌的云计算业务表现出色，谷歌搜索查询量也创下历史新高，主要得益于其在人工智能方面的投资和全栈式的技术。埃隆·马斯克的法庭表现引发了人们对其领导风格的质疑。这些事件表明，人工智能技术的发展将继续推动企业的增长和创新。",
+        "en": "Recently, Amazon and Google's cloud computing businesses have shown excellent performance, with Google Search queries reaching an all-time high, mainly due to their investments in AI and full-stack technology. Elon Musk's court appearance has raised questions about his leadership style. These events indicate that AI technology development will continue to drive business growth and innovation."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "亚马逊云计算业务增长迅速",
+          "en": "Amazon's cloud business is growing rapidly"
+        },
+        {
+          "cn": "谷歌搜索查询量创历史新高",
+          "en": "Google Search queries have reached an all-time high"
+        },
+        {
+          "cn": "人工智能投资推动企业增长",
+          "en": "AI investments are driving business growth"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "美联储决定保持利率不变，尽管伊朗战争导致的通胀压力增大。美国汽油价格创下年内新高，主要受伊朗战争影响。这些事件表明，全球经济仍面临不确定性和挑战，投资者需要谨慎应对。",
+        "en": "The Federal Reserve has decided to keep interest rates steady, despite inflationary pressures from the war with Iran. US gas prices have reached a new high for the year, mainly due to the war with Iran. These events indicate that the global economy still faces uncertainty and challenges, and investors need to be cautious."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美联储保持利率不变",
+          "en": "The Federal Reserve keeps interest rates steady"
+        },
+        {
+          "cn": "伊朗战争导致通胀压力增大",
+          "en": "The war with Iran is driving inflationary pressures"
+        },
+        {
+          "cn": "美国汽油价格创下年内新高",
+          "en": "US gas prices have reached a new high for the year"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "美国能源公司的CEO平均薪酬大幅增加，尽管消费者面临高能源账单。投资者需要关注能源行业的发展和趋势，寻找投资机会。",
+        "en": "The CEOs of US energy firms have seen a significant pay raise, despite consumers facing high energy bills. Investors need to pay attention to the development and trends of the energy industry, looking for investment opportunities."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美国能源公司CEO薪酬大幅增加",
+          "en": "US energy firm CEOs have seen a significant pay raise"
+        },
+        {
+          "cn": "消费者面临高能源账单",
+          "en": "Consumers are facing high energy bills"
+        },
+        {
+          "cn": "投资者需要关注能源行业趋势",
+          "en": "Investors need to pay attention to energy industry trends"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "英国国王查尔斯对北约的赞扬和科米的被控威胁特朗普的生命事件，表明全球政治仍然复杂和动态。投资者需要关注这些事件的影响和后果。",
+        "en": "King Charles's praise for NATO and Comey's charge of threatening Trump's life indicate that global politics remains complex and dynamic. Investors need to pay attention to the impact and consequences of these events."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "英国国王查尔斯赞扬北约",
+          "en": "King Charles praises NATO"
+        },
+        {
+          "cn": "科米被控威胁特朗普的生命",
+          "en": "Comey is charged with threatening Trump's life"
+        },
+        {
+          "cn": "全球政治仍然复杂和动态",
+          "en": "Global politics remains complex and dynamic"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期的新闻事件表明，全球经济和政治仍面临不确定性和挑战。人工智能技术的发展将继续推动企业的增长和创新，但投资者需要谨慎应对通胀压力和能源价格的波动。同时，全球政治的复杂性和动态性也需要投资者的关注和分析。因此，投资者需要保持警惕和灵活，寻找投资机会和风险管理策略，以应对不断变化的市场环境。",
+    "en": "Recent news events indicate that the global economy and politics still face uncertainty and challenges. The development of AI technology will continue to drive business growth and innovation, but investors need to be cautious in response to inflationary pressures and energy price fluctuations. At the same time, the complexity and dynamics of global politics also require investors' attention and analysis. Therefore, investors need to remain vigilant and flexible, seeking investment opportunities and risk management strategies to adapt to the changing market environment."
+  },
+  "investmentOutlook": {
+    "cn": "基于当前的市场环境和趋势，我们建议投资者关注科技和能源行业的发展，特别是亚马逊、谷歌和埃克森美孚等公司的表现。同时，投资者需要谨慎应对通胀压力和能源价格的波动，考虑投资于通胀-indexed债券和多元化的投资组合。短期内，我们预计科技行业将继续增长，但能源行业的波动性可能会增加。中期内，我们预计全球经济将逐渐恢复，能源行业的趋势将变得更加明朗。风险提示：投资者需要关注全球政治的复杂性和动态性，特别是中东地区的冲突和不确定性。",
+    "en": "Based on the current market environment and trends, we recommend that investors pay attention to the development of the tech and energy industries, particularly the performance of companies such as Amazon, Google, and ExxonMobil. At the same time, investors need to be cautious in response to inflationary pressures and energy price fluctuations, considering investment in inflation-indexed bonds and diversified portfolios. In the short term, we expect the tech industry to continue growing, but the volatility of the energy industry may increase. In the medium term, we expect the global economy to gradually recover, and the trend of the energy industry will become clearer. Risk warning: Investors need to pay attention to the complexity and dynamics of global politics, particularly the conflicts and uncertainties in the Middle East region. Specific stock recommendations include: Amazon (AMZN), Google (GOOGL), ExxonMobil (XOM), and the Invesco PowerShares QQQ ETF (QQQ)."
+  },
+  "podcast": {
+    "cn": "/audio/2026-04-30-cn.mp3",
+    "en": "/audio/2026-04-30-en.mp3"
+  }
+}
