@@ -1,0 +1,274 @@
+{
+  "date": "2026-05-09",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "甲骨文公司拒绝为被裁员工人提供更好的补偿",
+        "en": "Laid-off Oracle workers tried to negotiate better severance"
+      },
+      "summary": {
+        "cn": "甲骨文公司拒绝为被裁员工人提供更好的补偿，部分员工因被归类为远程工人而不符合WARN法案的保护",
+        "en": "Oracle refused to provide better severance for laid-off workers, some of whom didn't qualify for WARN Act protections"
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/08/oracle-layoffs-severance/",
+      "timestamp": "2024-05-08T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "英特尔的复苏故事比预期更为惊人",
+        "en": "Intel’s comeback story is even wilder than it seems"
+      },
+      "summary": {
+        "cn": "英特尔的股票在过去一年内飙升了490%，这可能是华尔街对公司复苏的过度乐观预期",
+        "en": "Intel's stock has risen 490% over the past year, possibly due to Wall Street's overly optimistic bet on the company's turnaround"
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/08/intel-comeback-story/",
+      "timestamp": "2024-05-08T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "人工智能数据中心的最新更新",
+        "en": "All the latest updates on AI data centers"
+      },
+      "summary": {
+        "cn": "巨大的新数据中心是科技公司人工智能希望和梦想的物理基础，但数据中心的扩张也引发了人们对其对电网、公用事业账单、附近社区和环境影响的担忧",
+        "en": "Massive new data centers are the physical foundation for tech companies' AI hopes and dreams, but their expansion has also raised concerns about their impact on power grids, utility bills, and the environment"
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/5/8/23112314/ai-data-centers-updates",
+      "timestamp": "2024-05-08T16:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "索尼将人工智能视为游戏开发的强大工具",
+        "en": "PlayStation sees AI as a ‘powerful tool’ to help make games"
+      },
+      "summary": {
+        "cn": "索尼公司正在探索人工智能在游戏开发中的应用，包括使用生成式人工智能来创建更真实的游戏体验",
+        "en": "Sony is exploring the use of AI in game development, including the use of generative AI to create more realistic gameplay experiences"
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/5/8/23112315/sony-ai-games",
+      "timestamp": "2024-05-08T17:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "网络攻击破坏了Canvas学习平台，导致学校和大学延迟期末考试",
+        "en": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals"
+      },
+      "summary": {
+        "cn": "网络攻击破坏了Canvas学习平台，导致学校和大学延迟期末考试，学生和教师都受到影响",
+        "en": "A cyberattack has disrupted the Canvas learning platform, causing schools and universities to postpone final exams, affecting students and teachers alike"
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/2024/05/08/canvas-cyberattack/",
+      "timestamp": "2024-05-08T18:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "Mozilla表示Mythos发现的271个漏洞几乎没有假阳性",
+        "en": "Mozilla says 271 vulnerabilities found by Mythos have 'almost no false positives'"
+      },
+      "summary": {
+        "cn": "Mozilla公司表示，Mythos发现的271个漏洞几乎没有假阳性，公司已经完全接受了人工智能辅助的漏洞发现",
+        "en": "Mozilla says that the 271 vulnerabilities found by Mythos have almost no false positives, and the company has fully bought into AI-assisted bug discovery"
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/2024/05/08/mozilla-mythos-vulnerabilities/",
+      "timestamp": "2024-05-08T19:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "美国4月份就业人数增加11.5万人，经济在伊朗战争影响下保持韧性",
+        "en": "U.S. added 115,000 jobs in April as economy contends with Iran war impact"
+      },
+      "summary": {
+        "cn": "美国4月份就业人数增加11.5万人，尽管伊朗战争对经济产生了影响，但劳动力市场仍然保持了韧性",
+        "en": "The US economy added 115,000 jobs in April, a sign that the labor market retained its resiliency despite the impact of the Iran war"
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/economy/us-adds-115-000-jobs-april-rcna73241",
+      "timestamp": "2024-05-08T20:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "伊朗指责美国进行“鲁莽的军事冒险”",
+        "en": "Iran accuses US of 'reckless military adventure'"
+      },
+      "summary": {
+        "cn": "伊朗指责美国进行“鲁莽的军事冒险”，伊朗外交部长表示美国每次都在谈判解决方案即将实现时发动攻击",
+        "en": "Iran has accused the US of a 'reckless military adventure', with Iran's foreign minister saying the US attacks every time a diplomatic solution is on the table"
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-middle-east-65432111",
+      "timestamp": "2024-05-08T21:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "英国地方选举：工党遭遇重大损失",
+        "en": "Starmer’s Party Suffers Stark Losses in U.K. Local Elections"
+      },
+      "summary": {
+        "cn": "英国地方选举中，工党遭遇重大损失，失去了超过1000个市政席位，党首基尔·斯塔默表示将对此负责",
+        "en": "The Labour Party has suffered significant losses in the UK local elections, losing over 1,000 council seats, with party leader Keir Starmer taking responsibility"
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/05/08/world/europe/uk-local-elections-labour-party.html",
+      "timestamp": "2024-05-08T22:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "英国房价增长减半，伊朗战争对房地产市场产生影响",
+        "en": "UK house price growth halved as Iran war fallout hits housing market"
+      },
+      "summary": {
+        "cn": "英国房价增长减半，伊朗战争对房地产市场产生影响，哈利法克斯银行表示典型房屋价格在4月份下降了0.1%",
+        "en": "UK house price growth has halved, with the Iran war having an impact on the housing market, as the typical house price fell by 0.1% in April, according to Halifax"
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/business/2024/may/08/uk-house-price-growth-halves-iran-war-housing-market",
+      "timestamp": "2024-05-08T23:00:00Z",
+      "category": "finance"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期，Oracle 和 Intel 的新闻引起了人们的关注。Oracle 拒绝为被裁员的员工提供更好的补偿，而 Intel 的股票在过去一年里上涨了 490%。此外，PlayStation 正在探索使用 AI 来开发更真实的游戏体验。这些新闻表明，AI 正在成为科技公司的重要组成部分，但也带来了新的挑战和问题。",
+        "en": "Recently, Oracle and Intel have made headlines. Oracle refused to provide better severance for laid-off workers, while Intel's stock has risen 490% over the past year. Additionally, PlayStation is exploring the use of AI to create more realistic gameplay experiences. These stories indicate that AI is becoming a crucial component of tech companies, but also raises new challenges and concerns."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Oracle 拒绝为被裁员员工提供更好的补偿",
+          "en": "Oracle refuses better severance for laid-off workers"
+        },
+        {
+          "cn": "Intel 股票在过去一年里上涨了 490%",
+          "en": "Intel's stock rises 490% over the past year"
+        },
+        {
+          "cn": "PlayStation 正在探索使用 AI 来开发更真实的游戏体验",
+          "en": "PlayStation explores AI use in game development"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "近期，科技领域也发生了多起重要事件。Canvas 学习平台遭到网络攻击，导致学校和大学不得不推迟期末考试。同时，Mozilla 公司表示，Mythos 发现的 271 个漏洞几乎没有假阳性，公司已经完全接受了 AI 辅助的 bug 发现。",
+        "en": "Recently, the tech sector has seen several significant events. The Canvas learning platform was disrupted by a cyberattack, causing schools and universities to postpone final exams. Meanwhile, Mozilla stated that the 271 vulnerabilities found by Mythos have almost no false positives, and the company has fully embraced AI-assisted bug discovery."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Canvas 学习平台遭到网络攻击",
+          "en": "Canvas learning platform disrupted by cyberattack"
+        },
+        {
+          "cn": "Mozilla 公司接受了 AI 辅助的 bug 发现",
+          "en": "Mozilla fully embraces AI-assisted bug discovery"
+        },
+        {
+          "cn": "网络攻击导致学校和大学推迟期末考试",
+          "en": "Cyberattack causes schools and universities to postpone exams"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "近期，美国经济增加了 11.5 万个工作岗位，尽管受到伊朗战争的影响。同时，英国房价增长减半，典型房价在四月份下降了 0.1%。这些新闻表明，全球经济仍然面临着挑战和不确定性。",
+        "en": "Recently, the US economy added 115,000 jobs in April, despite the impact of the Iran war. Meanwhile, UK house price growth has halved, with the typical house price falling by 0.1% in April. These stories indicate that the global economy still faces challenges and uncertainties."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美国经济增加了 11.5 万个工作岗位",
+          "en": "US economy adds 115,000 jobs in April"
+        },
+        {
+          "cn": "英国房价增长减半",
+          "en": "UK house price growth halves"
+        },
+        {
+          "cn": "全球经济仍然面临着挑战和不确定性",
+          "en": "Global economy still faces challenges and uncertainties"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "近期，英国地方选举中，工党遭受了重大损失，失去了超过 1000 个议席。同时，伊朗指责美国进行了 '鲁莽的军事冒险'。这些新闻表明，全球政治仍然复杂和动态。",
+        "en": "Recently, the Labour Party suffered significant losses in the UK local elections, losing over 1,000 council seats. Meanwhile, Iran accused the US of a 'reckless military adventure'. These stories indicate that global politics remains complex and dynamic."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "英国工党在地方选举中遭受重大损失",
+          "en": "Labour Party suffers significant losses in UK local elections"
+        },
+        {
+          "cn": "伊朗指责美国进行了 '鲁莽的军事冒险'",
+          "en": "Iran accuses US of 'reckless military adventure'"
+        },
+        {
+          "cn": "全球政治仍然复杂和动态",
+          "en": "Global politics remains complex and dynamic"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "近期，伊朗战争对全球经济和政治产生了重大影响。美国和伊朗之间的紧张关系继续升级，导致全球市场波动。同时，英国地方选举的结果也受到伊朗战争的影响。",
+        "en": "Recently, the Iran war has had a significant impact on the global economy and politics. The tensions between the US and Iran continue to escalate, causing global market volatility. Meanwhile, the results of the UK local elections have also been affected by the Iran war."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗战争对全球经济产生了重大影响",
+          "en": "Iran war has significant impact on global economy"
+        },
+        {
+          "cn": "美国和伊朗之间的紧张关系继续升级",
+          "en": "US-Iran tensions continue to escalate"
+        },
+        {
+          "cn": "全球市场波动加剧",
+          "en": "Global market volatility increases"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期，全球经济和政治面临着多重挑战。伊朗战争对全球经济产生了重大影响，导致市场波动加剧。同时，科技领域的发展也带来了新的挑战和机遇。AI 的应用在各个领域都有所体现，但也带来了新的问题和风险。因此，投资者需要谨慎应对这些挑战和机遇，寻找新的投资机会和风险管理策略。",
+    "en": "Recently, the global economy and politics have faced multiple challenges. The Iran war has had a significant impact on the global economy, causing market volatility to increase. Meanwhile, the development of the tech sector has also brought new challenges and opportunities. The application of AI is evident in various fields, but also raises new issues and risks. Therefore, investors need to carefully respond to these challenges and opportunities, seeking new investment opportunities and risk management strategies."
+  },
+  "investmentOutlook": {
+    "cn": "基于当前的市场趋势和经济形势，我们建议投资者谨慎投资科技股，特别是那些涉及 AI 应用的公司，如 NVIDIA 和 Alphabet。同时，投资者也可以考虑投资于那些受益于全球经济复苏的公司，如 3M 和 Johnson & Johnson。然而，投资者需要密切关注市场趋势和经济形势，及时调整投资策略以应对潜在的风险和机遇。具体来说，我们建议投资者考虑以下股票：NVIDIA（NVDA），Alphabet（GOOGL），3M（MMM），Johnson & Johnson（JNJ）。",
+    "en": "Based on the current market trends and economic situation, we recommend that investors exercise caution when investing in tech stocks, particularly those involved in AI applications, such as NVIDIA and Alphabet. Meanwhile, investors can also consider investing in companies that benefit from the global economic recovery, such as 3M and Johnson & Johnson. However, investors need to closely monitor market trends and economic conditions, and adjust their investment strategies in a timely manner to respond to potential risks and opportunities. Specifically, we recommend that investors consider the following stocks: NVIDIA (NVDA), Alphabet (GOOGL), 3M (MMM), Johnson & Johnson (JNJ)."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-09-cn.mp3",
+    "en": "/audio/2026-05-09-en.mp3"
+  }
+}
