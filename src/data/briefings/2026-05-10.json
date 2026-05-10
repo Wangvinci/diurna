@@ -1,0 +1,295 @@
+{
+  "date": "2026-05-10",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "人工智能术语解释",
+        "en": "So you’ve heard these AI terms and nodded along; let’s fix that"
+      },
+      "summary": {
+        "cn": "人工智能的崛起带来了大量新术语和俚语，了解这些术语对于深入理解人工智能至关重要。",
+        "en": "The rise of AI has brought an avalanche of new terms and slang, a glossary is provided to define some of the most important words and phrases."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "timestamp": "2024-09-16T10:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "Nvidia 投资人工智能生态系统",
+        "en": "Nvidia has already committed $40B to equity AI deals this year"
+      },
+      "summary": {
+        "cn": "Nvidia 是人工智能生态系统的重要投资者，今年已经投资了 400 亿美元。",
+        "en": "Nvidia continues to be a big investor in the AI ecosystem, committing $40B to equity AI deals this year."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "timestamp": "2024-09-16T11:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "人工智能数据中心更新",
+        "en": "All the latest updates on AI data centers"
+      },
+      "summary": {
+        "cn": "人工智能数据中心是技术公司人工智能希望和梦想的物理基础，但其扩张也引发了关于对电网、公用事业账单、附近社区和环境影响的争论。",
+        "en": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI, but the rush to expand has kicked up fights over power grids, utility bills, and the environment."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/",
+      "timestamp": "2024-09-16T12:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "索尼将人工智能应用于游戏开发",
+        "en": "PlayStation sees AI as a ‘powerful tool’ to help make games"
+      },
+      "summary": {
+        "cn": "索尼公司正在探索人工智能在游戏开发中的应用，认为其可以成为游戏开发的有力工具。",
+        "en": "Sony shared how it's thinking about AI at the company, including many details about how it's evaluating AI as part of making PlayStation games."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/",
+      "timestamp": "2024-09-16T13:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "网络攻击影响学习平台",
+        "en": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals"
+      },
+      "summary": {
+        "cn": "网络攻击导致学习平台 Canvas 中断，影响了许多学校和大学的期末考试。",
+        "en": "A cyberattack has disrupted the learning platform Canvas, causing chaos for schools and colleges as they administer finals."
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/",
+      "timestamp": "2024-09-16T14:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "美国经济显示出韧性",
+        "en": "US Adds 115,000 Jobs in April Despite Concerns Over Iran War"
+      },
+      "summary": {
+        "cn": "尽管伊朗战争引发了人们的担忧，但美国经济仍显示出韧性，4 月份增加了 11.5 万个工作岗位。",
+        "en": "The United States economy is showing surprising signs of resilience despite the continuing war in Iran, adding 115,000 jobs in April."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business",
+      "timestamp": "2024-09-16T15:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "通用汽车公司支付 1275 万美元和解费",
+        "en": "General Motors to pay $12.75m settlement for selling drivers’ location and data"
+      },
+      "summary": {
+        "cn": "通用汽车公司同意支付 1275 万美元和解费，以解决其非法出售加州数十万名驾驶员的位置和驾驶数据的争议。",
+        "en": "General Motors agreed to pay $12.75m to resolve claims that it illegally sold hundreds of thousands of Californians’ location and driving data to two data brokers."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business",
+      "timestamp": "2024-09-16T16:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "俄罗斯领导人普京认为乌克兰冲突即将结束",
+        "en": "Putin says he thinks Ukraine conflict 'coming to an end'"
+      },
+      "summary": {
+        "cn": "俄罗斯领导人普京认为乌克兰冲突即将结束，但他同时谴责西方对乌克兰总统泽连斯基的支持。",
+        "en": "The Russian leader sees potential for Ukraine negotiations, but condemns the West's backing for President Zelensky."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world",
+      "timestamp": "2024-09-16T17:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "中国领导人习近平对军队将领失去信任",
+        "en": "How China’s Leader Lost Faith in His Generals"
+      },
+      "summary": {
+        "cn": "中国领导人习近平在 13 年内建立了一个强大的军队，但他对自己任命的将领们失去了信任。",
+        "en": "Xi Jinping spent 13 years building a military to rival that of the United States, but the stronger the Chinese forces grew, the less he trusted the generals he had handpicked to run them."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/section/world",
+      "timestamp": "2024-09-16T18:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "以色列和黎巴嫩交火，39 人死亡",
+        "en": "Lebanon says Israeli strikes killed 39"
+      },
+      "summary": {
+        "cn": "以色列和黎巴嫩交火，导致 39 人死亡，尽管此前宣布了停火协议。",
+        "en": "Israel and Hezbollah have continued to trade fire despite a ceasefire deal being announced last month, with 39 people killed in Israeli strikes."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world",
+      "timestamp": "2024-09-16T19:00:00Z",
+      "category": "current-affairs"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期AI领域发展迅速，相关术语和技术日益复杂。Nvidia已承诺投资400亿美元用于AI股权交易，数据中心建设也在如火如荼地进行中。这些发展为AI技术的应用和创新提供了坚实的基础。",
+        "en": "The AI sector has seen rapid growth, with increasingly complex terminology and technology. Nvidia has committed $40B to AI equity deals, and data center construction is underway. These developments provide a solid foundation for AI application and innovation."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Nvidia投资400亿美元用于AI股权交易",
+          "en": "Nvidia commits $40B to AI equity deals"
+        },
+        {
+          "cn": "数据中心建设对AI发展至关重要",
+          "en": "Data center construction is crucial for AI growth"
+        },
+        {
+          "cn": "AI技术的应用和创新前景广阔",
+          "en": "AI technology has vast application and innovation potential"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "科技公司正在积极探索AI技术的应用，索尼公司将AI视为游戏开发的有力工具。然而，网络攻击也对科技公司构成了威胁，Canvas学习平台的网络攻击就是一个例子。",
+        "en": "Tech companies are actively exploring AI applications, with Sony seeing AI as a powerful tool for game development. However, cyberattacks also pose a threat to tech companies, as seen in the Canvas learning platform attack."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "索尼公司将AI应用于游戏开发",
+          "en": "Sony applies AI to game development"
+        },
+        {
+          "cn": "网络攻击对科技公司构成威胁",
+          "en": "Cyberattacks pose a threat to tech companies"
+        },
+        {
+          "cn": "科技公司需要加强网络安全措施",
+          "en": "Tech companies need to strengthen cybersecurity measures"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "尽管伊朗战争带来不确定性，美国经济仍然表现出韧性，4月份增加了11.5万个工作岗位。",
+        "en": "Despite uncertainty from the Iran war, the US economy has shown resilience, adding 115,000 jobs in April."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美国经济表现出韧性",
+          "en": "US economy shows resilience"
+        },
+        {
+          "cn": "4月份增加11.5万个工作岗位",
+          "en": "115,000 jobs added in April"
+        },
+        {
+          "cn": "伊朗战争带来经济不确定性",
+          "en": "Iran war brings economic uncertainty"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "通用汽车公司同意支付1275万美元和解费用，原因是该公司非法出售加州驾驶员的位置和驾驶数据。",
+        "en": "General Motors has agreed to pay a $12.75M settlement for illegally selling Californians' location and driving data."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "通用汽车公司支付和解费用",
+          "en": "General Motors pays settlement fee"
+        },
+        {
+          "cn": "非法出售驾驶员数据",
+          "en": "Illegally sold driver data"
+        },
+        {
+          "cn": "公司需要加强数据保护措施",
+          "en": "Companies need to strengthen data protection measures"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "中国领导人习近平对其手下将领的信任度逐渐降低，尽管中国军队实力日益增强。",
+        "en": "Chinese leader Xi Jinping's trust in his generals has decreased, despite the growing strength of the Chinese military."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "习近平对将领的信任度降低",
+          "en": "Xi Jinping's trust in generals decreases"
+        },
+        {
+          "cn": "中国军队实力增强",
+          "en": "Chinese military strength increases"
+        },
+        {
+          "cn": "领导人需要加强军队管理",
+          "en": "Leaders need to strengthen military management"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "俄罗斯领导人普京认为乌克兰冲突即将结束，同时也谴责西方国家支持乌克兰总统泽连斯基。",
+        "en": "Russian leader Putin believes the Ukraine conflict is coming to an end, while also condemning Western support for Ukrainian President Zelensky."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "普京认为乌克兰冲突即将结束",
+          "en": "Putin believes Ukraine conflict is ending"
+        },
+        {
+          "cn": "谴责西方国家支持泽连斯基",
+          "en": "Condemns Western support for Zelensky"
+        },
+        {
+          "cn": "冲突解决需要各方努力",
+          "en": "Conflict resolution requires effort from all parties"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期全球局势复杂多变，AI技术的发展为各个领域带来了新的机遇和挑战。美国经济表现出韧性，尽管伊朗战争带来不确定性。科技公司正在积极探索AI应用，然而网络攻击也对其构成了威胁。投资者需要关注这些变化，做出明智的投资决策。同时，全球政治局势也在不断演变，领导人需要加强军队管理和数据保护措施。",
+    "en": "The current global situation is complex and changing, with AI technology bringing new opportunities and challenges to various fields. The US economy has shown resilience despite uncertainty from the Iran war. Tech companies are actively exploring AI applications, but cyberattacks also pose a threat. Investors need to be aware of these changes and make informed investment decisions. Meanwhile, the global political situation is also evolving, with leaders needing to strengthen military management and data protection measures."
+  },
+  "investmentOutlook": {
+    "cn": "投资者可以关注AI相关的股票，如Nvidia和 Alphabet，同時也需要注意科技公司的网络安全风险。美国经济的韧性也为投资者带来了机会，特别是在金融和科技领域。同时，投资者也需要关注全球政治局势的变化，特别是中美关系和乌克兰冲突的发展。建议投资者在短期内关注Nvidia和Alphabet的表现，在中期内关注科技公司的网络安全措施，在长期内关注全球政治局势的变化。",
+    "en": "Investors can look into AI-related stocks such as Nvidia and Alphabet, while also being mindful of tech companies' cybersecurity risks. The resilience of the US economy also brings opportunities for investors, particularly in the finance and tech sectors. Meanwhile, investors need to be aware of changes in the global political situation, especially the development of US-China relations and the Ukraine conflict. It is recommended that investors focus on Nvidia and Alphabet's performance in the short term, tech companies' cybersecurity measures in the medium term, and changes in the global political situation in the long term. Specific stocks to consider include NVDA, GOOGL, and QQQ, with a timeframe of 3-6 months for short-term investments and 1-2 years for medium-term investments."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-10-cn.mp3",
+    "en": "/audio/2026-05-10-en.mp3"
+  }
+}
