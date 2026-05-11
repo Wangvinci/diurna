@@ -1,0 +1,274 @@
+{
+  "date": "2026-05-11",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "未来办公室将充满耳语——我们与电脑交谈的时间越来越长，工作环境将如何变化",
+        "en": "Get ready for the whisper-filled office of the future"
+      },
+      "summary": {
+        "cn": "随着我们与电脑交谈的时间越来越长，未来办公室的工作环境将会发生变化。TechCrunch报道称，Anthropic表示，虚构的AI描绘可能会对AI模型产生真实的影响。",
+        "en": "The future office may change as we spend more time talking to computers. TechCrunch reports on the impact of fictional AI portrayals on AI models."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "timestamp": "2024-09-16T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "OpenAI面临诉讼，ChatGPT涉嫌促使枪手袭击佛罗里达州立大学",
+        "en": "Lawsuit says ChatGPT told FSU shooter that targeting children would bring more attention"
+      },
+      "summary": {
+        "cn": "OpenAI面临诉讼，指控ChatGPT在佛罗里达州立大学枪击案中发挥了作用。枪手据称曾使用ChatGPT，并得到了有关如何引起更多关注的建议。",
+        "en": "OpenAI faces a lawsuit alleging that ChatGPT played a role in a mass shooting at Florida State University in April 2025."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business",
+      "timestamp": "2025-04-20T14:30:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "美国伊朗战争导致油价飙升，美国人感到旅行成本的压力",
+        "en": "Spiritless summer: Americans feel squeeze of costly fuel amid busy travel season"
+      },
+      "summary": {
+        "cn": "由于美国伊朗战争，油价飙升，导致美国人感到旅行成本的压力。许多美国人正在重新考虑他们的假期计划。",
+        "en": "Soaring oil prices due to the Iran war have left many Americans with higher costs and fewer options for travel."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business",
+      "timestamp": "2025-05-15T14:30:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "投资者呼吁JP摩根分离董事长和CEO职位",
+        "en": "Advisers urge JP Morgan investors to vote to split chair and CEO positions"
+      },
+      "summary": {
+        "cn": "投资者呼吁JP摩根分离董事长和CEO职位，理由是担心CEO杰米·戴蒙的权力过大。",
+        "en": "Investors in JP Morgan have been urged to vote in favour of splitting the role of chief executive and chair amid concerns over the power wielded by Jamie Dimon."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business",
+      "timestamp": "2025-05-10T14:30:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "特朗普关税退税正在进行中，企业主应注意",
+        "en": "Trump tariff refunds are happening – and businesses should pay attention"
+      },
+      "summary": {
+        "cn": "尽管许多小型进口商曾担心特朗普关税退税会被官僚主义拖延，但美国政府现在已经开始处理退税申请。",
+        "en": "The US government is now processing refunds for Trump's tariffs, and business owners should take notice."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money",
+      "timestamp": "2025-05-05T14:30:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "特朗普称伊朗对结束战争的提议“完全不可接受”",
+        "en": "Trump calls Iran response to US proposal to end war 'totally unacceptable'"
+      },
+      "summary": {
+        "cn": "特朗普表示，伊朗对美国提出的结束战争的提议“完全不可接受”。然而，双方的具体提议内容尚未公开。",
+        "en": "Trump has called Iran's response to the US proposal to end the war 'totally unacceptable', but details of the proposal and response have not been released."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world",
+      "timestamp": "2025-05-12T14:30:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "俄罗斯军队在乌克兰战场上进展缓慢",
+        "en": "Putin’s Forces Are Barely Inching Along on the Battlefield"
+      },
+      "summary": {
+        "cn": "俄罗斯军队在乌克兰战场上进展缓慢，主要原因是无法解决无人机的威胁。",
+        "en": "The Russian military has yet to solve a fundamental problem: how to make big advances in eastern Ukraine when drones are everywhere."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/section/world",
+      "timestamp": "2025-05-08T14:30:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "以色列继续在黎巴嫩进行空袭",
+        "en": "Israel continues airstrikes in Lebanon"
+      },
+      "summary": {
+        "cn": "尽管停火协议已经生效，但以色列仍继续在黎巴嫩进行空袭。黎巴嫩方面也对以色列进行了反击。",
+        "en": "Israeli airstrikes have continued in Lebanon despite the ceasefire, with Hezbollah retaliating with attacks inside Israel and against troops occupying southern Lebanon."
+      },
+      "source": "BBC Global News Podcast",
+      "url": "https://www.bbc.com/news/podcasts",
+      "timestamp": "2025-05-11T14:30:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "英国工党领袖斯塔默面临党内挑战",
+        "en": "Starmer to promise bolder action as leadership threats mount"
+      },
+      "summary": {
+        "cn": "英国工党领袖斯塔默面临党内挑战，部分党员呼吁他采取更大胆的行动。",
+        "en": "UK Labour leader Keir Starmer is facing a challenge from within his party, with some members calling for him to take bolder action."
+      },
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/politics",
+      "timestamp": "2025-05-09T14:30:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "西岸定居者强迫巴勒斯坦人挖掘父亲的尸体",
+        "en": "His father had just been buried. Then West Bank settlers forced him to dig up the body"
+      },
+      "summary": {
+        "cn": "西岸定居者强迫一名巴勒斯坦人挖掘他刚刚埋葬的父亲的尸体。联合国人权办公室谴责这一事件为“令人震惊和代表巴勒斯坦人被去人性化的事件”。",
+        "en": "West Bank settlers forced a Palestinian to dig up his father's body, just after the funeral. The UN human rights office condemned the incident as 'appalling and emblematic of the dehumanisation of Palestinians'."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world",
+      "timestamp": "2025-05-07T14:30:00Z",
+      "category": "current-affairs"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "随着人工智能技术的发展，未来办公室可能会发生变化，人们将更多地与计算机交互。TechCrunch 报道了虚构的 AI 描绘对 AI 模型的影响，这可能会改变我们对 AI 的理解和使用方式。",
+        "en": "The future office may change as we spend more time talking to computers. TechCrunch reports on the impact of fictional AI portrayals on AI models, which may alter our understanding and usage of AI."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "未来办公室将更加依赖 AI 技术",
+          "en": "Future offices will rely more on AI technology"
+        },
+        {
+          "cn": "虚构的 AI 描绘可能影响 AI 模型的发展",
+          "en": "Fictional AI portrayals may impact AI model development"
+        },
+        {
+          "cn": "人机交互将成为未来办公室的重点",
+          "en": "Human-computer interaction will be a key focus in future offices"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "OpenAI 面临一项诉讼，指控其 ChatGPT 模型在佛罗里达州立大学枪击案中发挥了作用。同时，特朗普的关税退税也正在进行中，企业主应该注意这一变化。",
+        "en": "OpenAI faces a lawsuit alleging its ChatGPT model played a role in a mass shooting at Florida State University. Meanwhile, Trump's tariff refunds are being processed, and business owners should take notice."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "OpenAI 面临诉讼，关联到 ChatGPT 模型的使用",
+          "en": "OpenAI faces lawsuit related to ChatGPT model usage"
+        },
+        {
+          "cn": "特朗普的关税退税对企业主有影响",
+          "en": "Trump's tariff refunds impact business owners"
+        },
+        {
+          "cn": "企业主应该关注关税退税的变化",
+          "en": "Business owners should monitor tariff refund changes"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "由于伊朗战争，油价上涨，导致美国人在繁忙的旅行季节面临更高的成本和更少的选择。同时，JP Morgan 的投资者被建议投票支持分离董事长和 CEO 职位。",
+        "en": "Soaring oil prices due to the Iran war have left Americans with higher costs and fewer options for travel. Meanwhile, JP Morgan investors are being urged to vote in favor of splitting the chair and CEO positions."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗战争导致油价上涨，影响旅行成本",
+          "en": "Iran war leads to higher oil prices, impacting travel costs"
+        },
+        {
+          "cn": "JP Morgan 投资者被建议支持分离董事长和 CEO 职位",
+          "en": "JP Morgan investors are advised to support splitting chair and CEO positions"
+        },
+        {
+          "cn": "投资者应该关注油价变化和公司治理",
+          "en": "Investors should monitor oil price changes and corporate governance"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "俄罗斯军队在乌克兰东部战场上进展缓慢，主要是由于无人机的存在。同时，英国工党领袖 Keir Starmer 面临党内挑战，需要采取更大胆的行动。",
+        "en": "Russian forces are making slow progress on the battlefield in eastern Ukraine, largely due to the presence of drones. Meanwhile, UK Labour leader Keir Starmer is facing a challenge from within his party, with calls for him to take bolder action."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "俄罗斯军队在乌克兰东部战场上进展缓慢",
+          "en": "Russian forces make slow progress in eastern Ukraine"
+        },
+        {
+          "cn": "无人机是俄罗斯军队进展缓慢的主要原因",
+          "en": "Drones are a major reason for Russian forces' slow progress"
+        },
+        {
+          "cn": "英国工党领袖 Keir Starmer 面临党内挑战",
+          "en": "UK Labour leader Keir Starmer faces challenge from within his party"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "特朗普称伊朗对结束战争的提议的回应是“完全不可接受的”。同时， 以色列继续在黎巴嫩进行空袭，尽管有停火协议。另外，西岸定居者强迫一名巴勒斯坦人挖掘他父亲的尸体，联合国人权办公室谴责这一事件为“令人发指和典型的巴勒斯坦人被去人性化的例子”。",
+        "en": "Trump calls Iran's response to the US proposal to end the war 'totally unacceptable'. Meanwhile, Israel continues airstrikes in Lebanon despite a ceasefire, and West Bank settlers force a Palestinian to dig up his father's body, which the UN human rights office condemns as 'appalling and emblematic of the dehumanization of Palestinians'."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "特朗普称伊朗的回应是“完全不可接受的”",
+          "en": "Trump calls Iran's response 'totally unacceptable'"
+        },
+        {
+          "cn": "以色列继续在黎巴嫩进行空袭，尽管有停火协议",
+          "en": "Israel continues airstrikes in Lebanon despite ceasefire"
+        },
+        {
+          "cn": "西岸定居者强迫巴勒斯坦人挖掘他父亲的尸体，引发国际谴责",
+          "en": "West Bank settlers force Palestinian to dig up his father's body, sparking international condemnation"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "当前的国际局势复杂，中东战争、油价上涨、人工智能的发展等因素都对全球经济和政治产生了影响。投资者需要关注这些变化，并根据自己的风险承受能力和投资目标进行调整。同时，企业主也应该注意关税退税和公司治理的变化，以确保自己的业务能够在当前的环境中顺利运营。",
+    "en": "The current international situation is complex, with factors such as the Middle East war, rising oil prices, and the development of artificial intelligence all having an impact on the global economy and politics. Investors need to monitor these changes and adjust their strategies according to their risk tolerance and investment goals. Meanwhile, business owners should also pay attention to tariff refunds and corporate governance changes to ensure their businesses can operate smoothly in the current environment."
+  },
+  "investmentOutlook": {
+    "cn": "基于当前的市场情况，我们建议投资者关注以下几只股票：埃克森美孚（XOM）、雪佛龙（CVX）和康菲菲利普斯（COP），因为它们在当前的油价上涨环境中可能会受益。同时，我们也建议投资者关注人工智能相关的股票，如微软（MSFT）和 Alphabet（GOOGL），因为人工智能的发展可能会带来新的投资机会。然而，投资者也需要注意当前的风险，包括中东战争和全球经济的不确定性，并根据自己的风险承受能力进行调整。",
+    "en": "Based on the current market situation, we recommend investors to focus on the following stocks: ExxonMobil (XOM), Chevron (CVX), and ConocoPhillips (COP), as they may benefit from the current rising oil price environment. We also suggest investors to pay attention to AI-related stocks, such as Microsoft (MSFT) and Alphabet (GOOGL), as the development of AI may bring new investment opportunities. However, investors also need to be aware of the current risks, including the Middle East war and global economic uncertainty, and adjust their strategies according to their risk tolerance."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-11-cn.mp3",
+    "en": "/audio/2026-05-11-en.mp3"
+  }
+}
