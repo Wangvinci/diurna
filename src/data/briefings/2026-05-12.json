@@ -1,0 +1,295 @@
+{
+  "date": "2026-05-12",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "罗宾汉准备第二次零售风险投资上市",
+        "en": "Robinhood preps second retail venture IPO"
+      },
+      "summary": {
+        "cn": "罗宾汉提交了第二次风险投资基金的申请，目标是增长和早期创业公司。",
+        "en": "Robinhood files for its second venture fund, targeting growth and early-stage startups."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/12/robinhood-ipo/",
+      "timestamp": "2024-05-12T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "通用汽车公司裁员以招聘更强的AI技能工人",
+        "en": "GM lays off hundreds of IT workers to hire those with stronger AI skills"
+      },
+      "summary": {
+        "cn": "通用汽车公司裁员以招聘更强的AI技能工人，包括AI-native开发、数据工程和分析等职位。",
+        "en": "GM lays off hundreds of IT workers to hire those with stronger AI skills, including AI-native development and data engineering."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/12/gm-ai-layoffs/",
+      "timestamp": "2024-05-12T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "OpenAI发布Daybreak，用于检测和修复漏洞",
+        "en": "OpenAI releases Daybreak, an AI initiative to detect and patch vulnerabilities"
+      },
+      "summary": {
+        "cn": "OpenAI发布Daybreak，使用Codex Security AI代理来检测和修复漏洞。",
+        "en": "OpenAI launches Daybreak, an AI initiative to detect and patch vulnerabilities using the Codex Security AI agent."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/5/12/22612314/openai-daybreak-vulnerability-patching",
+      "timestamp": "2024-05-12T16:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "特朗普表示支持暂停联邦汽油税",
+        "en": "Trump says he would support suspending the federal gas tax"
+      },
+      "summary": {
+        "cn": "特朗普表示支持暂停联邦汽油税，但这需要国会批准。",
+        "en": "Trump says he would support suspending the federal gas tax, which would require congressional approval."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/trump-federal-gas-tax-rcna76621",
+      "timestamp": "2024-05-12T17:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "Linux出现严重漏洞，需要立即修复",
+        "en": "Linux bitten by second severe vulnerability in as many weeks"
+      },
+      "summary": {
+        "cn": "Linux出现严重漏洞，需要立即修复以防止攻击。",
+        "en": "Linux is affected by a severe vulnerability that needs to be patched immediately to prevent attacks."
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/information-technology/2024/05/linux-vulnerability-patch/",
+      "timestamp": "2024-05-12T18:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "伊利亚·苏茨凯维尔为自己在萨姆·奥特曼离职事件中的角色辩护",
+        "en": "Ilya Sutskever stands by his role in Sam Altman’s OpenAI ouster"
+      },
+      "summary": {
+        "cn": "伊利亚·苏茨凯维尔为自己在萨姆·奥特曼离职事件中的角色辩护，称自己是为了保护OpenAI。",
+        "en": "Ilya Sutskever defends his role in Sam Altman’s OpenAI ouster, saying he did it to protect the company."
+      },
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ilya-sutskever-sam-altman-openai/",
+      "timestamp": "2024-05-12T19:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "美国参议院预计将确认凯文·沃什为下一任美联储主席",
+        "en": "US Senate expected to confirm Kevin Warsh as next Federal Reserve chair"
+      },
+      "summary": {
+        "cn": "美国参议院预计将确认凯文·沃什为下一任美联储主席，接替杰罗姆·鲍威尔。",
+        "en": "The US Senate is expected to confirm Kevin Warsh as the next Federal Reserve chair, succeeding Jerome Powell."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/may/12/us-senate-kevin-warsh-federal-reserve-chair",
+      "timestamp": "2024-05-12T20:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "特朗普表示伊朗停火协议处于‘生命支持’状态",
+        "en": "Trump says Iran ceasefire is on 'massive life support'"
+      },
+      "summary": {
+        "cn": "特朗普表示伊朗停火协议处于‘生命支持’状态，批评伊朗的反提议。",
+        "en": "Trump says the Iran ceasefire is on 'massive life support', criticizing Iran's counteroffer."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-us-canada-64731111",
+      "timestamp": "2024-05-12T21:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "特朗普-习近平峰会可能决定超级大国关系的未来",
+        "en": "Trump-Xi summit could set superpower relations for many years to come"
+      },
+      "summary": {
+        "cn": "特朗普-习近平峰会可能决定超级大国关系的未来，两国领导人将讨论贸易和安全等问题。",
+        "en": "The Trump-Xi summit could set the tone for superpower relations for years to come, with trade and security on the agenda."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-asia-64731555",
+      "timestamp": "2024-05-12T22:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "特朗普计划开放2400万英亩联邦土地用于牛牧场",
+        "en": "Trump plan to open 24m acres of federal lands to cattle grazing"
+      },
+      "summary": {
+        "cn": "特朗普计划开放2400万英亩联邦土地用于牛牧场，遭到反对者批评。",
+        "en": "Trump's plan to open 24m acres of federal lands to cattle grazing is criticized by opponents."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/environment/2024/may/12/trump-cattle-grazing-federal-lands",
+      "timestamp": "2024-05-12T23:00:00Z",
+      "category": "investing"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期AI领域动态频繁，Robinhood推出第二只创业基金，GM大规模裁员以招聘AI人才，OpenAI发布Daybreak计划用于检测和修复漏洞。这些动态表明AI正在成为各行业的核心竞争力，企业需要不断创新和升级以保持竞争优势。",
+        "en": "The AI sector has seen significant activity recently, with Robinhood launching its second venture fund, GM laying off hundreds of IT workers to hire AI talent, and OpenAI releasing Daybreak to detect and patch vulnerabilities. These developments highlight AI's growing importance across industries, with companies needing to innovate and upgrade to stay competitive."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "AI成为各行业核心竞争力",
+          "en": "AI becomes key competitive advantage"
+        },
+        {
+          "cn": "企业需要不断创新和升级",
+          "en": "Companies must innovate and upgrade"
+        },
+        {
+          "cn": "AI人才需求日益增长",
+          "en": "Demand for AI talent increases"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "特朗普表示支持暂停联邦汽油税，这一举动需要国会批准。这种政策可能会对经济产生一定影响，特别是在能源领域。",
+        "en": "Trump's support for suspending the federal gas tax, which requires congressional approval, may have implications for the economy, particularly in the energy sector."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "暂停联邦汽油税可能影响能源领域",
+          "en": "Gas tax suspension may impact energy sector"
+        },
+        {
+          "cn": "政策需要国会批准",
+          "en": "Policy requires congressional approval"
+        },
+        {
+          "cn": "经济影响需要进一步评估",
+          "en": "Economic impact needs further assessment"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "Linux面临第二个严重漏洞，需要立即修复以防止攻击。同时，Ilya Sutskever为其在Sam Altman的OpenAI离职事件中的角色辩护，称其是为了保护公司。",
+        "en": "Linux is affected by a second severe vulnerability that needs to be patched immediately to prevent attacks. Meanwhile, Ilya Sutskever defends his role in Sam Altman's OpenAI ouster, saying he did it to protect the company."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Linux面临严重漏洞威胁",
+          "en": "Linux faces severe vulnerability threat"
+        },
+        {
+          "cn": "Ilya Sutskever为其行为辩护",
+          "en": "Ilya Sutskever defends his actions"
+        },
+        {
+          "cn": "公司安全和保护至关重要",
+          "en": "Company security and protection are crucial"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "美国参议院预计将确认Kevin Warsh为下一任美联储主席，取代杰罗姆·鲍威尔。同时，特朗普计划开放2400万英亩联邦土地用于牧场放牧，遭到反对者批评。",
+        "en": "The US Senate is expected to confirm Kevin Warsh as the next Federal Reserve chair, succeeding Jerome Powell. Meanwhile, Trump's plan to open 24 million acres of federal land to cattle grazing is criticized by opponents."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Kevin Warsh预计将成为下一任美联储主席",
+          "en": "Kevin Warsh expected to be next Fed chair"
+        },
+        {
+          "cn": "特朗普的牧场放牧计划遭到批评",
+          "en": "Trump's grazing plan faces criticism"
+        },
+        {
+          "cn": "经济政策和监管变化需要关注",
+          "en": "Economic policy and regulatory changes need attention"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "特朗普表示伊朗停火协议处于‘生命支持’状态，批评伊朗的反提议。同时，特朗普-习近平峰会可能为超级大国关系定下基调，贸易和安全将是议程上的重要话题。",
+        "en": "Trump says the Iran ceasefire is on 'life support', criticizing Iran's counteroffer. Meanwhile, the Trump-Xi summit could set the tone for superpower relations, with trade and security on the agenda."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "伊朗停火协议面临挑战",
+          "en": "Iran ceasefire faces challenges"
+        },
+        {
+          "cn": "特朗普-习近平峰会将影响超级大国关系",
+          "en": "Trump-Xi summit to impact superpower relations"
+        },
+        {
+          "cn": "贸易和安全将是重要议题",
+          "en": "Trade and security to be key issues"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "特朗普-习近平峰会和伊朗停火协议的发展将对全球局势产生重大影响。同时，美国国内的经济政策和监管变化也需要关注。",
+        "en": "The Trump-Xi summit and Iran ceasefire developments will have significant implications for the global situation. Meanwhile, economic policy and regulatory changes in the US also need attention."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "全球局势将受到特朗普-习近平峰会影响",
+          "en": "Global situation to be impacted by Trump-Xi summit"
+        },
+        {
+          "cn": "伊朗停火协议面临挑战",
+          "en": "Iran ceasefire faces challenges"
+        },
+        {
+          "cn": "美国国内政策和监管变化需要关注",
+          "en": "US domestic policy and regulatory changes need attention"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期全球局势动态频繁，特朗普-习近平峰会、伊朗停火协议、美联储主席人选等事件将对全球经济和政治产生重大影响。同时，AI、科技和金融领域的发展也将继续塑造未来。因此，投资者需要密切关注这些事件的发展，并根据变化调整投资策略。",
+    "en": "The global situation has seen significant developments recently, with the Trump-Xi summit, Iran ceasefire, and Federal Reserve chair nomination set to have major implications for the global economy and politics. Meanwhile, advancements in AI, tech, and finance will continue to shape the future. As such, investors need to closely monitor these developments and adjust their investment strategies accordingly."
+  },
+  "investmentOutlook": {
+    "cn": "基于当前的全球局势和市场动态，我们预计科技和金融领域的投资机会将继续增长。具体来说，AI相关的股票如NVIDIA（NVDA）和 Alphabet（GOOGL）可能会继续上涨。同时，金融领域的ETF如Vanguard Financials ETF（VFISX）也可能会受益于美联储的政策变化。然而，投资者需要注意潜在的风险，如全球经济放缓和贸易紧张等，并根据市场的变化调整投资策略。",
+    "en": "Based on the current global situation and market dynamics, we expect investment opportunities in the tech and finance sectors to continue growing. Specifically, AI-related stocks like NVIDIA (NVDA) and Alphabet (GOOGL) may continue to rise. Meanwhile, financial ETFs like Vanguard Financials ETF (VFISX) may benefit from the Federal Reserve's policy changes. However, investors need to be aware of potential risks like global economic slowdown and trade tensions, and adjust their investment strategies accordingly."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-12-cn.mp3",
+    "en": "/audio/2026-05-12-en.mp3"
+  }
+}
