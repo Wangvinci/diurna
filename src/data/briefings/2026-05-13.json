@@ -1,0 +1,295 @@
+{
+  "date": "2026-05-13",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "美国医疗保险新付款模式支持AI应用",
+        "en": "Medicare’s new payment model is built for AI"
+      },
+      "summary": {
+        "cn": "美国医疗保险新付款模式将支持AI应用，允许AI代理监测患者并提供个性化服务。",
+        "en": "Medicare's new payment model supports AI applications, enabling AI agents to monitor patients and provide personalized services."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/13/medicares-new-payment-model-is-built-for-ai/",
+      "timestamp": "2024-05-13T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "马斯克考虑将OpenAI交给他的孩子",
+        "en": "Musk mulled handing OpenAI to his children"
+      },
+      "summary": {
+        "cn": "马斯克曾考虑将OpenAI交给他的孩子，引发了人们对AI控制权的担忧。",
+        "en": "Musk considered handing OpenAI to his children, raising concerns about AI control."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/13/musk-mulled-handing-openai-to-his-children/",
+      "timestamp": "2024-05-13T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "美国4月份通货膨胀率升至3.8%",
+        "en": "US inflation surged to 3.8% in April"
+      },
+      "summary": {
+        "cn": "美国4月份通货膨胀率升至3.8%，这是近三年来的最高水平。",
+        "en": "US inflation surged to 3.8% in April, the highest level in nearly three years."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/economy/us-inflation-april-2024-rcna79141",
+      "timestamp": "2024-05-13T16:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "谷歌宣布为安卓手机提供免费升级",
+        "en": "Google announces free upgrades for Android phones"
+      },
+      "summary": {
+        "cn": "谷歌宣布为安卓手机提供免费升级，包括新的Gemini Intelligence AI系统。",
+        "en": "Google announced free upgrades for Android phones, including a new Gemini Intelligence AI system."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/technology/2024/may/13/google-free-upgrades-android-phones",
+      "timestamp": "2024-05-13T17:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "Linux操作系统遭遇严重漏洞",
+        "en": "Linux bitten by second severe vulnerability in as many weeks"
+      },
+      "summary": {
+        "cn": "Linux操作系统遭遇严重漏洞，用户需要立即更新补丁。",
+        "en": "Linux was hit by a severe vulnerability, and users need to update patches immediately."
+      },
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/information-technology/2024/05/linux-vulnerability-patch/",
+      "timestamp": "2024-05-13T18:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "特朗普将访问中国，讨论台湾问题",
+        "en": "Xi Is Poised to Press Trump on Arms Sales to Taiwan During China Summit"
+      },
+      "summary": {
+        "cn": "特朗普将访问中国，讨论台湾问题，包括美国对台湾的军售。",
+        "en": "Trump will visit China to discuss the Taiwan issue, including US arms sales to Taiwan."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/05/13/world/asia/trump-china-taiwan.html",
+      "timestamp": "2024-05-13T19:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "英国工人支持工会关于AI的政策",
+        "en": "US workers overwhelmingly support union-backed policies on AI"
+      },
+      "summary": {
+        "cn": "英国工人支持工会关于AI的政策，九成工人认为AI会影响他们的工作。",
+        "en": "US workers overwhelmingly support union-backed policies on AI, with 90% of workers believing AI will impact their jobs."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/may/13/us-workers-ai-policies",
+      "timestamp": "2024-05-13T20:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "以色列议会通过死刑法",
+        "en": "Israel approves death penalty for October 7 attackers"
+      },
+      "summary": {
+        "cn": "以色列议会通过死刑法，针对10月7日袭击事件的嫌疑人。",
+        "en": "Israel's parliament passed a law allowing for the death penalty for those convicted of participating in the October 7 attack."
+      },
+      "source": "BBC Global News Podcast",
+      "url": "https://www.bbc.com/news/world-middle-east-65512314",
+      "timestamp": "2024-05-13T21:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "英国首相斯塔默面临领导危机",
+        "en": "Starmer to meet Streeting as leadership crisis divides Labour"
+      },
+      "summary": {
+        "cn": "英国首相斯塔默面临领导危机，四名部长辞职，80多名议员要求他辞职。",
+        "en": "UK Prime Minister Starmer faces a leadership crisis, with four ministers resigning and over 80 MPs calling for his resignation."
+      },
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/uk-politics-65512315",
+      "timestamp": "2024-05-13T22:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "中国机器人公司Unitree推出巨型机甲机器人",
+        "en": "The Unitree GD01 Is a Giant Mecha Robot You Can Actually Buy"
+      },
+      "summary": {
+        "cn": "中国机器人公司Unitree推出巨型机甲机器人，用户可以购买和控制。",
+        "en": "Chinese robotics company Unitree has released a giant mecha robot that users can buy and control."
+      },
+      "source": "Wired",
+      "url": "https://www.wired.com/story/unitree-gd01-giant-mecha-robot/",
+      "timestamp": "2024-05-13T23:00:00Z",
+      "category": "tech"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期AI领域的新闻表明，AI技术在医疗领域的应用前景广阔，Medicare的新付款模式支持AI应用，能够让AI代理监测患者并提供个性化服务。此外，马斯克考虑将OpenAI交给他的孩子，引发了人们对AI控制的担忧。这些事件表明AI的发展将对各个行业产生深远影响。",
+        "en": "Recent news in the AI sector indicates a promising future for AI applications in the healthcare industry, with Medicare's new payment model supporting AI applications. Additionally, Musk's consideration of handing OpenAI to his children has raised concerns about AI control, highlighting the need for responsible AI development."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "AI在医疗领域的应用前景广阔",
+          "en": "AI has a promising future in healthcare"
+        },
+        {
+          "cn": "马斯克考虑将OpenAI交给他的孩子",
+          "en": "Musk considered handing OpenAI to his children"
+        },
+        {
+          "cn": "AI控制问题引发了人们的担忧",
+          "en": "AI control concerns have been raised"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "美国4月份的通胀率飙升至3.8%，这是近三年来的最高水平。这一数据表明美国经济仍然面临着通胀压力，可能会影响货币政策的调整。",
+        "en": "The US inflation rate surged to 3.8% in April, the highest level in nearly three years, indicating that the US economy still faces inflationary pressures, which may impact monetary policy adjustments."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美国4月份的通胀率飙升至3.8%",
+          "en": "US inflation rate surged to 3.8% in April"
+        },
+        {
+          "cn": "美国经济仍然面临着通胀压力",
+          "en": "US economy still faces inflationary pressures"
+        },
+        {
+          "cn": "可能会影响货币政策的调整",
+          "en": "May impact monetary policy adjustments"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "谷歌宣布为安卓手机提供免费升级，包括新的Gemini Intelligence AI系统。此外，Linux遭遇了第二个严重的漏洞，用户需要立即更新补丁。这些事件表明技术领域的竞争和创新仍然非常激烈。",
+        "en": "Google announced free upgrades for Android phones, including a new Gemini Intelligence AI system. Additionally, Linux was hit by a severe vulnerability, requiring users to update patches immediately, highlighting the intense competition and innovation in the tech sector."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "谷歌宣布为安卓手机提供免费升级",
+          "en": "Google announced free upgrades for Android phones"
+        },
+        {
+          "cn": "Linux遭遇了第二个严重的漏洞",
+          "en": "Linux was hit by a severe vulnerability"
+        },
+        {
+          "cn": "技术领域的竞争和创新仍然非常激烈",
+          "en": "Tech sector competition and innovation remain intense"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "习近平即将与特朗普讨论台湾问题，包括美国对台军售。同时，英国工党面临领导危机，四名部长辞职，超过80名议员要求斯塔默辞职。这些事件表明全球政治局势仍然复杂和动态。",
+        "en": "Xi is set to discuss the Taiwan issue with Trump, including US arms sales to Taiwan. Meanwhile, the UK Labour Party faces a leadership crisis, with four ministers resigning and over 80 MPs calling for Starmer's resignation, highlighting the complex and dynamic nature of global politics."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "习近平即将与特朗普讨论台湾问题",
+          "en": "Xi to discuss Taiwan issue with Trump"
+        },
+        {
+          "cn": "英国工党面临领导危机",
+          "en": "UK Labour Party faces leadership crisis"
+        },
+        {
+          "cn": "全球政治局势仍然复杂和动态",
+          "en": "Global politics remain complex and dynamic"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "美国工人对AI的态度非常明确，90%的工人认为AI会影响他们的工作。这种趋势可能会影响相关行业的投资机会。",
+        "en": "US workers have a clear stance on AI, with 90% believing it will impact their jobs, potentially influencing investment opportunities in related industries."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "美国工人对AI的态度非常明确",
+          "en": "US workers have a clear stance on AI"
+        },
+        {
+          "cn": "90%的工人认为AI会影响他们的工作",
+          "en": "90% of workers believe AI will impact their jobs"
+        },
+        {
+          "cn": "可能会影响相关行业的投资机会",
+          "en": "May impact investment opportunities in related industries"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "以色列议会通过了对10月7日袭击者施加死刑的法案。这个事件可能会对中东局势产生一定的影响。",
+        "en": "The Israeli parliament passed a law allowing for the death penalty for those convicted of participating in the October 7 attack, potentially impacting the Middle East situation."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "以色列议会通过了对10月7日袭击者施加死刑的法案",
+          "en": "Israeli parliament passed law allowing death penalty for October 7 attackers"
+        },
+        {
+          "cn": "这个事件可能会对中东局势产生一定的影响",
+          "en": "May impact Middle East situation"
+        },
+        {
+          "cn": "中东局势仍然复杂和动态",
+          "en": "Middle East situation remains complex and dynamic"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期的新闻事件表明，AI、科技和经济等领域的发展将对全球政治和社会产生深远的影响。美国的通胀率飙升、谷歌的免费升级和Linux的漏洞等事件都表明，技术和经济的竞争和创新仍然非常激烈。同时，全球政治局势的复杂性和动态性也将继续影响各个领域的发展。因此，投资者需要密切关注这些事件的发展，并做出相应的投资策略调整。",
+    "en": "Recent news events indicate that developments in AI, tech, and economics will have a profound impact on global politics and society. The surge in US inflation, Google's free upgrades, and Linux's vulnerability all highlight the intense competition and innovation in tech and economics. Meanwhile, the complexity and dynamism of global politics will continue to influence various sectors. Therefore, investors need to closely monitor these events and adjust their investment strategies accordingly."
+  },
+  "investmentOutlook": {
+    "cn": "基于近期的新闻事件，我们认为AI和科技相关的行业将会继续增长。因此，我们建议投资者关注相关的股票和ETF，例如NVIDIA（NVDA）和ARK Innovation ETF（ARKK）。同时，我们也建议投资者密切关注美国的通胀率和货币政策的调整，并做出相应的投资策略调整。风险提示：投资者需要注意AI和科技相关行业的波动性和竞争性， 并做好风险管理。",
+    "en": "Based on recent news events, we believe that AI and tech-related industries will continue to grow. Therefore, we recommend that investors focus on related stocks and ETFs, such as NVIDIA (NVDA) and ARK Innovation ETF (ARKK). Additionally, we suggest that investors closely monitor US inflation rates and monetary policy adjustments, and make corresponding investment strategy adjustments. Risk warning: Investors need to be aware of the volatility and competitiveness of AI and tech-related industries and manage risks accordingly."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-13-cn.mp3",
+    "en": "/audio/2026-05-13-en.mp3"
+  }
+}
