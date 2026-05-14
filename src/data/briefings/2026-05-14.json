@@ -1,0 +1,274 @@
+{
+  "date": "2026-05-14",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "Notion 将工作空间转变为 AI 代理中心",
+        "en": "Notion Turns Workspace into AI Agent Hub"
+      },
+      "summary": {
+        "cn": "Notion 推出新的开发者平台，允许团队将 AI 代理、外部数据源和自定义代码直接连接到工作空间中。",
+        "en": "Notion's new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/09/16/notion-ai-agent-hub/",
+      "timestamp": "2024-09-16T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "马斯克的 xAI 公司在密西西比州数据中心运行近 50 台未经检查的燃气涡轮机",
+        "en": "Musk's xAI Runs Nearly 50 Unchecked Gas Turbines at Mississippi Data Center"
+      },
+      "summary": {
+        "cn": "xAI 公司的 Colossus 2 数据中心使用近 50 台燃气涡轮机作为动力，引发了诉讼。",
+        "en": "xAI's Colossus 2 data center uses nearly 50 gas turbines as power plants, sparking a lawsuit."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/09/16/xai-gas-turbines-lawsuit/",
+      "timestamp": "2024-09-16T15:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "微软 Edge 浏览器更新：Copilot AI 聊天机器人可以从所有标签页中提取信息",
+        "en": "Microsoft Edge Update: Copilot AI Chatbot Can Pull Info from All Tabs"
+      },
+      "summary": {
+        "cn": "微软 Edge 浏览器更新了 Copilot AI 聊天机器人，可以从所有标签页中提取信息。",
+        "en": "Microsoft Edge updates Copilot AI chatbot to pull information from all tabs."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/9/16/23520545/microsoft-edge-copilot-ai-chatbot-update",
+      "timestamp": "2024-09-16T16:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "马克·扎克伯格宣布 Meta 的新 AI 聊天机器人：完全私密的加密聊天",
+        "en": "Mark Zuckerberg Announces Meta's New AI Chatbot: Fully Private Encrypted Chat"
+      },
+      "summary": {
+        "cn": "马克·扎克伯格宣布 Meta 的新 AI 聊天机器人 Incognito Chat，是一个完全私密的加密聊天平台。",
+        "en": "Mark Zuckerberg announces Meta's new AI chatbot, Incognito Chat, a fully private encrypted chat platform."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/9/16/23520645/meta-ai-chatbot-encrypted-chat",
+      "timestamp": "2024-09-16T17:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "美国联邦储备委员会确认凯文·沃什为新任主席",
+        "en": "US Senate Confirms Kevin Warsh as New Federal Reserve Chair"
+      },
+      "summary": {
+        "cn": "美国联邦储备委员会确认凯文·沃什为新任主席，取代杰罗姆·鲍威尔。",
+        "en": "The US Senate confirms Kevin Warsh as the new Federal Reserve Chair, replacing Jerome Powell."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/sep/16/us-senate-confirms-kevin-warsh-as-new-federal-reserve-chair",
+      "timestamp": "2024-09-16T18:00:00Z",
+      "category": "investing"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "特朗普抵达中国，开始与习近平的高风险谈判",
+        "en": "Trump Arrives in China for High-Stakes Talks with Xi Jinping"
+      },
+      "summary": {
+        "cn": "特朗普抵达中国，开始与习近平的高风险谈判，讨论贸易、伊朗战争和台湾问题。",
+        "en": "Trump arrives in China for high-stakes talks with Xi Jinping, discussing trade, the Iran war, and Taiwan."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-us-canada-63514515",
+      "timestamp": "2024-09-16T19:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "中国法院判决：工人因被 AI 取代而获得赔偿",
+        "en": "Chinese Court Awards Compensation to Worker Replaced by AI"
+      },
+      "summary": {
+        "cn": "中国法院判决一名工人因被 AI 取代而获得赔偿，这是中国首例 AI 取代工人导致的赔偿案。",
+        "en": "A Chinese court awards compensation to a worker replaced by AI, a first in China."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2024/sep/16/chinese-court-awards-compensation-to-worker-replaced-by-ai",
+      "timestamp": "2024-09-16T20:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "英格兰和威尔士的住房市场因伊朗战争而趋于低迷",
+        "en": "Housing Market in England and Wales Weakens Due to Iran War"
+      },
+      "summary": {
+        "cn": "英格兰和威尔士的住房市场因伊朗战争而趋于低迷，买家变得更加谨慎。",
+        "en": "The housing market in England and Wales weakens due to the Iran war, with buyers becoming more cautious."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2024/sep/16/housing-market-england-wales-iran-war",
+      "timestamp": "2024-09-16T21:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "星مر警告不要举行领导人竞选，以挽救他的工作",
+        "en": "Starmer Warns Against Leadership Contest to Save His Job"
+      },
+      "summary": {
+        "cn": "星默警告不要举行领导人竞选，以挽救他的工作，卫生部长韦斯·斯特里廷可能正在策划一场领导人挑战。",
+        "en": "Starmer warns against a leadership contest to save his job, as Health Secretary Wes Streeting is thought to be plotting a challenge."
+      },
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/uk-politics-63514516",
+      "timestamp": "2024-09-16T22:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "特朗普表示他不关心美国人的经济状况",
+        "en": "Trump Says He Doesn't Think About Americans' Financial Situation"
+      },
+      "summary": {
+        "cn": "特朗普表示他不关心美国人的经济状况，尽管美国的通货膨胀率处于三年的高位。",
+        "en": "Trump says he doesn't think about Americans' financial situation, despite high inflation in the US."
+      },
+      "source": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2024/sep/16/trump-americans-financial-situation",
+      "timestamp": "2024-09-16T23:00:00Z",
+      "category": "politics"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期AI领域发展迅速，不仅Notion推出了AI代理商务平台，微软Edge也更新了Copilot AI聊天机器人。此外，Meta宣布推出新的AI聊天机器人Incognito Chat，提供完全私密的加密聊天服务。这些发展表明AI技术在各个领域的应用日益广泛，未来将会带来更多的创新和变革。",
+        "en": "The AI sector has seen rapid development recently, with Notion launching an AI agent hub and Microsoft Edge updating its Copilot AI chatbot. Additionally, Meta announced a new AI chatbot, Incognito Chat, offering fully private encrypted chat services. These developments indicate the increasing application of AI technology in various fields, which will bring more innovation and change in the future."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "Notion推出AI代理商务平台",
+          "en": "Notion launches AI agent hub"
+        },
+        {
+          "cn": "微软Edge更新Copilot AI聊天机器人",
+          "en": "Microsoft Edge updates Copilot AI chatbot"
+        },
+        {
+          "cn": "Meta宣布推出Incognito Chat",
+          "en": "Meta announces Incognito Chat"
+        }
+      ]
+    },
+    {
+      "category": "investing",
+      "analysis": {
+        "cn": "美国参议院确认凯文·沃什为新任联邦储备局主席，这一任命可能会对美国经济和金融市场产生重大影响。投资者需要密切关注这一变化，并调整投资策略以应对潜在的经济波动。",
+        "en": "The US Senate confirmed Kevin Warsh as the new Federal Reserve Chair, which may have a significant impact on the US economy and financial markets. Investors need to closely monitor this change and adjust their investment strategies to cope with potential economic fluctuations."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "凯文·沃什任命为联邦储备局主席",
+          "en": "Kevin Warsh appointed as Federal Reserve Chair"
+        },
+        {
+          "cn": "可能对美国经济产生重大影响",
+          "en": "May have significant impact on US economy"
+        },
+        {
+          "cn": "投资者需要调整投资策略",
+          "en": "Investors need to adjust investment strategies"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "特朗普抵达中国进行高风险谈判，讨论贸易、伊朗战争和台湾问题等。这一谈判的结果可能会对全球政治和经济格局产生重大影响，投资者需要密切关注这一事件的发展。",
+        "en": "Trump arrived in China for high-stakes talks, discussing trade, the Iran war, and Taiwan. The outcome of this talk may have a significant impact on the global political and economic landscape, and investors need to closely monitor the development of this event."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "特朗普抵达中国进行高风险谈判",
+          "en": "Trump arrives in China for high-stakes talks"
+        },
+        {
+          "cn": "讨论贸易、伊朗战争和台湾问题",
+          "en": "Discusses trade, Iran war, and Taiwan"
+        },
+        {
+          "cn": "可能对全球政治和经济格局产生重大影响",
+          "en": "May have significant impact on global politics and economy"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "中国法院判决一名工人因被AI取代而获得赔偿，这是中国首例。同时，英格兰和威尔士的房地产市场因伊朗战争而趋于疲软，买家变得更加谨慎。",
+        "en": "A Chinese court awarded compensation to a worker replaced by AI, a first in China. Meanwhile, the housing market in England and Wales weakened due to the Iran war, with buyers becoming more cautious."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "中国法院判决工人因被AI取代获得赔偿",
+          "en": "Chinese court awards compensation to worker replaced by AI"
+        },
+        {
+          "cn": "英格兰和威尔士房地产市场趋于疲软",
+          "en": "England and Wales housing market weakens"
+        },
+        {
+          "cn": "买家变得更加谨慎",
+          "en": "Buyers become more cautious"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "斯塔默警告不要举行领导人竞选，以拯救他的工作，而特朗普表示他不考虑美国人的财务状况，尽管美国正在经历高通胀。",
+        "en": "Starmer warned against a leadership contest to save his job, while Trump said he doesn't think about Americans' financial situation, despite high inflation in the US."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "斯塔默警告不要举行领导人竞选",
+          "en": "Starmer warns against leadership contest"
+        },
+        {
+          "cn": "特朗普不考虑美国人的财务状况",
+          "en": "Trump doesn't think about Americans' financial situation"
+        },
+        {
+          "cn": "美国正在经历高通胀",
+          "en": "US is experiencing high inflation"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期的新闻事件表明，AI技术的发展和应用日益广泛，可能会对各个领域产生重大影响。同时，全球政治和经济格局也在发生变化，投资者需要密切关注这些变化，并调整投资策略以应对潜在的风险和机遇。特朗普的中国之行和凯文·沃什的任命等事件可能会对全球经济和金融市场产生重大影响，投资者需要谨慎应对这些变化。",
+    "en": "Recent news events indicate that AI technology is developing and being applied more widely, which may have a significant impact on various fields. Meanwhile, the global political and economic landscape is also changing, and investors need to closely monitor these changes and adjust their investment strategies to cope with potential risks and opportunities. Events such as Trump's China visit and Kevin Warsh's appointment may have a significant impact on the global economy and financial markets, and investors need to be cautious in responding to these changes."
+  },
+  "investmentOutlook": {
+    "cn": "基于近期的新闻事件，我们建议投资者关注以下几只股票：微软（MSFT）、阿里巴巴（BABA）和英伟达（NVDA）。这些公司都在AI技术的发展和应用中占有重要地位，可能会从AI技术的广泛应用中受益。同时，我们也建议投资者谨慎应对全球经济和金融市场的变化，考虑投资于低风险的资产，如美国国债（TLT）和黄金（GLD）。",
+    "en": "Based on recent news events, we recommend that investors focus on the following stocks: Microsoft (MSFT), Alibaba (BABA), and NVIDIA (NVDA). These companies all play important roles in the development and application of AI technology and may benefit from the widespread adoption of AI. At the same time, we also recommend that investors be cautious in responding to changes in the global economy and financial markets, and consider investing in low-risk assets such as US Treasury bonds (TLT) and gold (GLD)."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-14-cn.mp3",
+    "en": "/audio/2026-05-14-en.mp3"
+  }
+}
