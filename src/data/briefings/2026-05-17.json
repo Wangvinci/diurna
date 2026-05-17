@@ -1,0 +1,274 @@
+{
+  "date": "2026-05-17",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "人工智能黄金热潮中的赢家和输家",
+        "en": "The haves and have nots of the AI gold rush"
+      },
+      "summary": {
+        "cn": "当前的人工智能热潮在科技行业内外都引起了不良反应，人们对其发展前景和社会影响表示担忧。",
+        "en": "The AI boom has raised concerns about its impact and development prospects."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2023/12/01/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "timestamp": "2023-12-01T12:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "研究仓库ArXiv将禁止滥用AI的作者",
+        "en": "Research repository ArXiv will ban authors for a year if they let AI do all the work"
+      },
+      "summary": {
+        "cn": "ArXiv将对滥用大型语言模型的作者进行处罚，包括禁止他们在一年内提交论文。",
+        "en": "ArXiv will ban authors who let AI do all the work for a year."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2023/12/02/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "timestamp": "2023-12-02T12:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "索尼试图解释其AI相机助手的功能",
+        "en": "Sony tries to explain that its AI Camera Assistant doesn’t suck"
+      },
+      "summary": {
+        "cn": "索尼公司试图解释其AI相机助手的功能，称它不会编辑照片，而是根据光线、深度和主题提供建议。",
+        "en": "Sony explains that its AI Camera Assistant doesn't edit photos, but provides suggestions based on lighting, depth, and subject."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2023/12/03/sony-ai-camera-assistant-explanation",
+      "timestamp": "2023-12-03T12:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "YouTube扩展其AI深度伪造检测工具",
+        "en": "YouTube is expanding its AI deepfake detection tool to all adult users"
+      },
+      "summary": {
+        "cn": "YouTube将其AI深度伪造检测工具扩展到所有成年用户，允许他们检测和报告可能的深度伪造视频。",
+        "en": "YouTube expands its AI deepfake detection tool to all adult users, allowing them to detect and report potential deepfakes."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2023/12/04/youtube-ai-deepfake-detection-tool-expansion",
+      "timestamp": "2023-12-04T12:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "格雷格·布罗克曼正式接管OpenAI的产品",
+        "en": "Greg Brockman Officially Takes Control of OpenAI’s Products"
+      },
+      "summary": {
+        "cn": "格雷格·布罗克曼正式接管OpenAI的产品，标志着该公司在产品开发和管理方面的新时代。",
+        "en": "Greg Brockman takes control of OpenAI's products, marking a new era in product development and management."
+      },
+      "source": "Wired",
+      "url": "https://www.wired.com/story/greg-brockman-openai-products/",
+      "timestamp": "2023-12-05T12:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "中国应用RedNote如何改变旅游业",
+        "en": "The Chinese App That Puts Instagram to Shame"
+      },
+      "summary": {
+        "cn": "RedNote是一款中国应用，它已经改变了旅游业的方式，提供了一个平台让用户分享和发现新的目的地。",
+        "en": "RedNote is a Chinese app that has changed the tourism industry, providing a platform for users to share and discover new destinations."
+      },
+      "source": "Wired",
+      "url": "https://www.wired.com/story/rednote-china-tourism-app/",
+      "timestamp": "2023-12-06T12:00:00Z",
+      "category": "tech"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "特朗普访问后全球市场出现抛售",
+        "en": "Few deals from Trump’s trip and no progress on Iran send global markets into a sell-off"
+      },
+      "summary": {
+        "cn": "特朗普访问后，全球市场出现抛售，政府债券和油价大幅下跌。",
+        "en": "Global markets sell off after Trump's trip, with government bonds and oil prices plummeting."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/markets/trump-visit-global-markets-sell-off-n1281566",
+      "timestamp": "2023-12-07T12:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "中美峰会后市场暴跌",
+        "en": "Markets Plunge Amid Concerns About Aftermath of China Summit"
+      },
+      "summary": {
+        "cn": "中美峰会后，市场暴跌，道琼斯指数下跌超过500点，投资者担心两国之间缺乏重大协议。",
+        "en": "Markets plunge after China summit, with Dow falling over 500 points, as investors worry about lack of major agreements between US and China."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/markets/china-summit-markets-plunge-n1281571",
+      "timestamp": "2023-12-08T12:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "委内瑞拉将亿万富翁亚历克斯·萨阿引渡到美国",
+        "en": "Venezuela Extradites Billionaire Tycoon Alex Saab to U.S."
+      },
+      "summary": {
+        "cn": "委内瑞拉将亿万富翁亚历克斯·萨阿引渡到美国，萨阿涉嫌参与巨额腐败案。",
+        "en": "Venezuela extradites billionaire Alex Saab to the US, who is tied to a huge graft scheme."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2023/12/09/world/americas/venezuela-alex-saab-extradition.html",
+      "timestamp": "2023-12-09T12:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "以色列空袭哈马斯军事领导人",
+        "en": "Israel carries out attack against a Hamas leader in Gaza"
+      },
+      "summary": {
+        "cn": "以色列对哈马斯军事领导人进行空袭，据报有平民伤亡。",
+        "en": "Israel carries out airstrike against Hamas military leader in Gaza, with reports of civilian casualties."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-middle-east-65912314",
+      "timestamp": "2023-12-10T12:00:00Z",
+      "category": "current-affairs"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "人工智能领域正在经历一场金rush，人们对其影响和发展前景感到担忧。研究库ArXiv将禁止让AI完成所有工作的作者一年，Sony试图解释其AI相机助手的功能，YouTube扩展了其AI深度伪造检测工具。",
+        "en": "The AI sector is experiencing a gold rush, with concerns about its impact and development prospects. ArXiv will ban authors who let AI do all the work, Sony explains its AI Camera Assistant, and YouTube expands its AI deepfake detection tool."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "ArXiv禁止让AI完成所有工作的作者",
+          "en": "ArXiv bans authors who let AI do all the work"
+        },
+        {
+          "cn": "Sony的AI相机助手提供基于光线、深度和主题的建议",
+          "en": "Sony's AI Camera Assistant provides suggestions based on lighting, depth, and subject"
+        },
+        {
+          "cn": "YouTube扩展了其AI深度伪造检测工具",
+          "en": "YouTube expands its AI deepfake detection tool"
+        }
+      ]
+    },
+    {
+      "category": "tech",
+      "analysis": {
+        "cn": "格雷格·布罗克曼正式接管OpenAI的产品，标志着产品开发和管理的新时代。红色笔记是一款改变旅游业的中国应用，提供了用户分享和发现新目的地的平台。",
+        "en": "Greg Brockman takes control of OpenAI's products, marking a new era in product development and management. RedNote is a Chinese app that has changed the tourism industry, providing a platform for users to share and discover new destinations."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "格雷格·布罗克曼接管OpenAI的产品",
+          "en": "Greg Brockman takes control of OpenAI's products"
+        },
+        {
+          "cn": "红色笔记改变了旅游业",
+          "en": "RedNote changes the tourism industry"
+        },
+        {
+          "cn": "OpenAI的产品开发和管理进入新时代",
+          "en": "OpenAI's product development and management enters a new era"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "特朗普的访问和伊朗问题没有取得进展，导致全球市场进入抛售状态。中国峰会后，市场暴跌，道琼斯指数下跌超过500点，投资者担心美中之间缺乏重大协议。",
+        "en": "Global markets sell off after Trump's trip, with no progress on Iran, and plummet after China summit, with Dow falling over 500 points, as investors worry about lack of major agreements between US and China."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "特朗普的访问导致全球市场抛售",
+          "en": "Trump's trip leads to global market sell-off"
+        },
+        {
+          "cn": "中国峰会后，市场暴跌",
+          "en": "Market plummets after China summit"
+        },
+        {
+          "cn": "投资者担心美中之间缺乏重大协议",
+          "en": "Investors worry about lack of major agreements between US and China"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "委内瑞拉将亿万富翁大亨亚历克斯·萨阿布引渡到美国，他与一个巨大的贿赂计划有关。",
+        "en": "Venezuela extradites billionaire tycoon Alex Saab to the US, who is tied to a huge graft scheme."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "委内瑞拉将亚历克斯·萨阿布引渡到美国",
+          "en": "Venezuela extradites Alex Saab to the US"
+        },
+        {
+          "cn": "亚历克斯·萨阿布与一个巨大的贿赂计划有关",
+          "en": "Alex Saab is tied to a huge graft scheme"
+        },
+        {
+          "cn": "此事件可能对委内瑞拉和美国的关系产生影响",
+          "en": "This event may have an impact on the relationship between Venezuela and the US"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "以色列对加沙的哈马斯领导人进行了袭击，据报道有平民伤亡。",
+        "en": "Israel carries out airstrike against Hamas military leader in Gaza, with reports of civilian casualties."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "以色列对加沙的哈马斯领导人进行了袭击",
+          "en": "Israel carries out airstrike against Hamas leader in Gaza"
+        },
+        {
+          "cn": "据报道有平民伤亡",
+          "en": "Reports of civilian casualties"
+        },
+        {
+          "cn": "此事件可能加剧中东紧张局势",
+          "en": "This event may escalate tensions in the Middle East"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "人工智能、技术、金融、政治和当前事件等领域的新闻表明，全球经济和地缘政治局势正在经历重大变化。人工智能的快速发展和应用正在改变各个行业，技术创新也在推动经济增长。然而，全球市场的波动和地缘政治紧张局势也对投资者和政策制定者提出了挑战。因此，需要采取综合的分析和战略来应对这些变化和挑战。",
+    "en": "The news from the fields of AI, tech, finance, politics, and current affairs indicates that the global economy and geopolitical landscape are undergoing significant changes. The rapid development and application of AI are transforming various industries, and tech innovation is driving economic growth. However, the volatility of global markets and geopolitical tensions also pose challenges to investors and policymakers. Therefore, a comprehensive analysis and strategy are needed to address these changes and challenges."
+  },
+  "investmentOutlook": {
+    "cn": "基于当前的新闻和趋势，我们建议投资者关注人工智能、技术和金融领域的机会。例如，投资于AI相关的股票如NVIDIA（NVDA）和Alphabet（GOOGL），或科技股如Microsoft（MSFT）和Amazon（AMZN）。同时，需要注意全球市场的波动和地缘政治风险，采取多元化的投资策略来降低风险。在短期内，建议投资者谨慎行事，关注市场的走势和政策变化。在中期内，人工智能和技术领域的投资机会可能会增加，投资者需要密切关注这些领域的发展。",
+    "en": "Based on the current news and trends, we recommend that investors focus on opportunities in the fields of AI, tech, and finance. For example, investing in AI-related stocks such as NVIDIA (NVDA) and Alphabet (GOOGL), or tech stocks like Microsoft (MSFT) and Amazon (AMZN). At the same time, investors need to be aware of the volatility of global markets and geopolitical risks, and adopt a diversified investment strategy to reduce risk. In the short term, we advise investors to be cautious, paying attention to market trends and policy changes. In the medium term, investment opportunities in the fields of AI and tech may increase, and investors need to closely monitor the development of these fields."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-17-cn.mp3",
+    "en": "/audio/2026-05-17-en.mp3"
+  }
+}
