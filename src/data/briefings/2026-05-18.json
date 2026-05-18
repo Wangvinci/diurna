@@ -1,0 +1,253 @@
+{
+  "date": "2026-05-18",
+  "news": [
+    {
+      "id": 1,
+      "title": {
+        "cn": "苹果Siri升级：将推出自动删除聊天记录功能",
+        "en": "Apple's Siri Revamp to Include Auto-Deleting Chats"
+      },
+      "summary": {
+        "cn": "苹果公司计划升级Siri，推出自动删除聊天记录功能，以加强用户隐私保护。",
+        "en": "Apple is revamping Siri to include auto-deleting chats, enhancing user privacy."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/15/apple-siri-revamp/",
+      "timestamp": "2024-05-15T14:30:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 2,
+      "title": {
+        "cn": "埃尔顿·马斯克-OpenAI审判：信任问题成焦点",
+        "en": "Elon Musk-OpenAI Trial: Trust Issues Take Center Stage"
+      },
+      "summary": {
+        "cn": "埃尔顿·马斯克和OpenAI的审判进入最后阶段，信任问题成焦点。",
+        "en": "The Elon Musk-OpenAI trial is nearing its end, with trust issues taking center stage."
+      },
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2024/05/14/elon-musk-openai-trial/",
+      "timestamp": "2024-05-14T16:00:00Z",
+      "category": "ai"
+    },
+    {
+      "id": 3,
+      "title": {
+        "cn": "全球市场暴跌：中美峰会未达成重大协议",
+        "en": "Global Markets Plunge as US-China Summit Yields No Major Agreements"
+      },
+      "summary": {
+        "cn": "中美峰会未达成重大协议，导致全球市场暴跌，投资者担忧经济前景。",
+        "en": "The US-China summit failed to yield major agreements, causing global markets to plummet as investors worry about the economic outlook."
+      },
+      "source": "NBC Business",
+      "url": "https://www.nbcnews.com/business/markets/global-markets-plunge-us-china-summit-rcna73241",
+      "timestamp": "2024-05-17T20:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 4,
+      "title": {
+        "cn": "英国退休储蓄性别差距：女性储蓄仅为男性一半",
+        "en": "UK Pension Savings Gap: Women Save Half as Much as Men"
+      },
+      "summary": {
+        "cn": "英国退休储蓄性别差距显著，女性平均储蓄仅为男性的一半。",
+        "en": "The UK pension savings gap is significant, with women saving half as much as men on average."
+      },
+      "source": "Guardian Money",
+      "url": "https://www.theguardian.com/money/2024/may/16/uk-pension-savings-gap-women-save-half-as-much-as-men",
+      "timestamp": "2024-05-16T12:00:00Z",
+      "category": "finance"
+    },
+    {
+      "id": 5,
+      "title": {
+        "cn": "世界卫生组织宣布刚果埃博拉疫情为国际公共卫生紧急事件",
+        "en": "WHO Declares Ebola Outbreak in DR Congo an International Public Health Emergency"
+      },
+      "summary": {
+        "cn": "世界卫生组织宣布刚果埃博拉疫情为国际公共卫生紧急事件，疫情已造成246例感染和80人死亡。",
+        "en": "The WHO has declared the Ebola outbreak in the DR Congo an international public health emergency, with 246 cases and 80 deaths reported."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-africa-64444414",
+      "timestamp": "2024-05-18T10:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 6,
+      "title": {
+        "cn": "土耳其总统埃尔多安鼓励生育：但效果不佳",
+        "en": "Turkey's Erdogan Encourages Births, but Efforts Fall Flat"
+      },
+      "summary": {
+        "cn": "土耳其总统埃尔多安鼓励生育，但效果不佳，现行措施未能显著提高出生率。",
+        "en": "Turkey's President Erdogan is encouraging births, but his efforts are falling flat, with current measures failing to significantly boost birth rates."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/05/15/world/europe/turkey-erdogan-birth-rate.html",
+      "timestamp": "2024-05-15T18:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 7,
+      "title": {
+        "cn": "秘鲁总统大选：两位候选人代表着截然不同的国家愿景",
+        "en": "Peru Presidential Election: Two Candidates Offer Starkly Different Visions for the Nation"
+      },
+      "summary": {
+        "cn": "秘鲁总统大选进入决选阶段，两位候选人分别代表着保守和左翼的不同国家愿景。",
+        "en": "The Peru presidential election has entered its runoff stage, with two candidates offering starkly different visions for the nation."
+      },
+      "source": "NYT World",
+      "url": "https://www.nytimes.com/2024/05/14/world/americas/peru-election.html",
+      "timestamp": "2024-05-14T20:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 8,
+      "title": {
+        "cn": "英国HS2高铁项目：技术设计和政治压力导致项目失败",
+        "en": "UK's HS2 High-Speed Rail Project: Technical Design and Political Pressure Blamed for Failings"
+      },
+      "summary": {
+        "cn": "英国HS2高铁项目因技术设计和政治压力导致项目失败，审查报告揭露了项目的“原罪”。",
+        "en": "The UK's HS2 high-speed rail project has been plagued by technical design and political pressure, with a review blaming the project's 'original sins'."
+      },
+      "source": "BBC Politics",
+      "url": "https://www.bbc.com/news/uk-politics-64433311",
+      "timestamp": "2024-05-17T14:00:00Z",
+      "category": "politics"
+    },
+    {
+      "id": 9,
+      "title": {
+        "cn": "特朗普警告伊朗：和平进展停滞，时钟在滴答",
+        "en": "Trump Warns Iran: 'Clock is Ticking' as Peace Progress Stalls"
+      },
+      "summary": {
+        "cn": "特朗普警告伊朗，和平进展停滞，时钟在滴答，美国对伊朗的态度日益强硬。",
+        "en": "Trump has warned Iran that the 'clock is ticking' as peace progress stalls, with the US taking a increasingly tough stance."
+      },
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/world-us-canada-64444415",
+      "timestamp": "2024-05-18T12:00:00Z",
+      "category": "current-affairs"
+    },
+    {
+      "id": 10,
+      "title": {
+        "cn": "埃里克·施密特在亚利桑那大学毕业典礼上的AI演讲遭到嘘声",
+        "en": "Eric Schmidt Booed at University of Arizona Commencement for AI Remarks"
+      },
+      "summary": {
+        "cn": "埃里克·施密特在亚利桑那大学毕业典礼上的AI演讲遭到嘘声，学生们对AI的未来表示担忧。",
+        "en": "Eric Schmidt was booed at the University of Arizona commencement for his AI remarks, with students expressing concerns about the future of AI."
+      },
+      "source": "The Verge",
+      "url": "https://www.theverge.com/2024/5/17/22674314/eric-schmidt-booed-university-arizona-commencement-ai",
+      "timestamp": "2024-05-17T18:00:00Z",
+      "category": "ai"
+    }
+  ],
+  "categoryAnalyses": [
+    {
+      "category": "ai",
+      "analysis": {
+        "cn": "近期，苹果公司宣布将对Siri进行改进，包括自动删除聊天记录，以增强用户隐私。同时，埃隆·马斯克与OpenAI的审判即将结束，信任问题成为焦点。埃里克·施密特在亚利桑那大学毕业典礼上的AI言论也遭到了学生的批评。这些事件表明，AI的发展不仅需要技术进步，也需要考虑用户隐私和社会责任。",
+        "en": "Apple is revamping Siri to include auto-deleting chats, enhancing user privacy. The Elon Musk-OpenAI trial is nearing its end, with trust issues taking center stage. Eric Schmidt was booed at the University of Arizona commencement for his AI remarks, highlighting the need for AI development to consider user privacy and social responsibility."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "苹果Siri改进增强用户隐私",
+          "en": "Apple enhances Siri user privacy"
+        },
+        {
+          "cn": "埃隆·马斯克与OpenAI审判关注信任问题",
+          "en": "Musk-OpenAI trial focuses on trust issues"
+        },
+        {
+          "cn": "AI发展需要考虑用户隐私和社会责任",
+          "en": "AI development must consider user privacy and social responsibility"
+        }
+      ]
+    },
+    {
+      "category": "finance",
+      "analysis": {
+        "cn": "近期，中美峰会未能达成重大协议，导致全球市场下跌，投资者担心经济前景。同时，英国养老金储蓄差距显著，女性平均储蓄仅为男性的半数。这些事件表明，全球经济面临不确定性，投资者需要谨慎行事。",
+        "en": "The US-China summit failed to yield major agreements, causing global markets to plummet as investors worry about the economic outlook. The UK pension savings gap is significant, with women saving half as much as men on average, highlighting the need for investors to be cautious."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "中美峰会未能达成重大协议",
+          "en": "US-China summit yields no major agreements"
+        },
+        {
+          "cn": "全球市场下跌，投资者担心经济前景",
+          "en": "Global markets plummet on economic concerns"
+        },
+        {
+          "cn": "英国养老金储蓄差距显著",
+          "en": "UK pension savings gap is significant"
+        }
+      ]
+    },
+    {
+      "category": "politics",
+      "analysis": {
+        "cn": "近期，土耳其总统埃尔多安鼓励生育，但效果不佳。秘鲁总统大选进入决选阶段，两位候选人提出了截然不同的国家愿景。英国的HS2高铁项目也面临技术设计和政治压力的挑战。这些事件表明，政治领导人面临着复杂的挑战，需要谨慎决策。",
+        "en": "Turkey's President Erdogan is encouraging births, but his efforts are falling flat. The Peru presidential election has entered its runoff stage, with two candidates offering starkly different visions for the nation. The UK's HS2 high-speed rail project is plagued by technical design and political pressure, highlighting the need for careful decision-making."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "土耳其生育鼓励政策效果不佳",
+          "en": "Turkey's birth encouragement policies fall flat"
+        },
+        {
+          "cn": "秘鲁总统大选进入决选阶段",
+          "en": "Peru presidential election enters runoff stage"
+        },
+        {
+          "cn": "英国HS2高铁项目面临技术和政治挑战",
+          "en": "UK's HS2 project faces technical and political challenges"
+        }
+      ]
+    },
+    {
+      "category": "current-affairs",
+      "analysis": {
+        "cn": "近期，世界卫生组织宣布刚果民主共和国的埃博拉疫情为国际公共卫生紧急事件。特朗普警告伊朗，和平进展停滞，美国采取更加强硬的立场。这些事件表明，全球面临着多重挑战，需要国际合作和有效应对。",
+        "en": "The WHO has declared the Ebola outbreak in the DR Congo an international public health emergency. Trump has warned Iran that the 'clock is ticking' as peace progress stalls, with the US taking a increasingly tough stance, highlighting the need for international cooperation and effective response."
+      },
+      "keyTakeaways": [
+        {
+          "cn": "刚果民主共和国埃博拉疫情为国际公共卫生紧急事件",
+          "en": "Ebola outbreak in DR Congo declared international public health emergency"
+        },
+        {
+          "cn": "特朗普警告伊朗，和平进展停滞",
+          "en": "Trump warns Iran as peace progress stalls"
+        },
+        {
+          "cn": "全球面临多重挑战，需要国际合作",
+          "en": "Global challenges require international cooperation"
+        }
+      ]
+    }
+  ],
+  "comprehensiveAnalysis": {
+    "cn": "近期的新闻事件表明，全球面临着多重挑战，包括经济不确定性、政治复杂性和公共卫生危机。这些挑战需要国际合作和有效应对。同时，AI的发展也需要考虑用户隐私和社会责任。投资者需要谨慎行事，考虑多种因素和风险。",
+    "en": "Recent news events highlight the multiple challenges facing the world, including economic uncertainty, political complexity, and public health crises. These challenges require international cooperation and effective response. Meanwhile, AI development must consider user privacy and social responsibility. Investors must be cautious, considering multiple factors and risks."
+  },
+  "investmentOutlook": {
+    "cn": "基于当前的新闻事件，我们建议投资者谨慎行事，考虑多种因素和风险。可以考虑投资于科技股，如苹果公司（AAPL）和微软公司（MSFT），它们在AI和云计算领域有着强大的实力。同时，也可以考虑投资于医疗保健股，如强生公司（JNJ）和辉瑞公司（PFE），它们在公共卫生领域有着重要的作用。短期内，建议投资者关注市场的波动，中期内，可以考虑投资于具有长期增长潜力的公司。",
+    "en": "Based on current news events, we advise investors to be cautious, considering multiple factors and risks. Investors may consider investing in tech stocks like Apple (AAPL) and Microsoft (MSFT), which have strong capabilities in AI and cloud computing. Additionally, investors may consider investing in healthcare stocks like Johnson & Johnson (JNJ) and Pfizer (PFE), which play important roles in public health. In the short term, investors should monitor market fluctuations, and in the medium term, consider investing in companies with long-term growth potential."
+  },
+  "podcast": {
+    "cn": "/audio/2026-05-18-cn.mp3",
+    "en": "/audio/2026-05-18-en.mp3"
+  }
+}
